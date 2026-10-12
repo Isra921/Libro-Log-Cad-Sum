@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2.4 Sistemas de almacenamiento | Logística y cadena de suministro</title>
+  <meta name="description" content="Sistemas de almacenamiento textil: estiba en piso, racks para rollos de tela y bodegas automatizadas con software WMS.">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="../../../assets/css/comun.css">
+  <link rel="stylesheet" href="../../../assets/css/unidades-base.css">
+  <link rel="stylesheet" href="../../../assets/css/tema.css">
+
+  <link rel="icon" type="image/png" href="../../../assets/img/esit.png">
+</head>
+
+<body class="u-body" data-root="../../../" data-unidad="unidad-02" data-tema="2.4">
+
+  <header class="site-nav" data-componente="navegacion"></header>
+
+  <main class="u-page">
+    <div class="t-layout">
+      <aside class="t-index" aria-label="Contenido de la unidad">
+        <div class="t-index__card">
+          <div id="temaIndice">
+            <details class="t-index__details" open>
+              <summary class="t-index__summary">
+                <span>
+                  <span class="t-index__eyebrow">Unidad II</span>
+                  <span class="t-index__unit">Almacenaje, Señalización, Codificación y Tecnología de Empaque</span>
+                </span>
+                <i class="fas fa-chevron-down t-index__chevron" aria-hidden="true"></i>
+              </summary>
+              <ol class="t-index__list" aria-label="Temas de la unidad">
+                <li><a class="t-index__link" href="tema-02-01.html"><span class="t-index__num">2.1</span><span>¿Qué es un almacén y sus funciones?</span></a></li>
+                <li><a class="t-index__link" href="tema-02-02.html"><span class="t-index__num">2.2</span><span>Importancia del almacén en la industria textil</span></a></li>
+                <li><a class="t-index__link" href="tema-02-03.html"><span class="t-index__num">2.3</span><span>Diseño (Layout) de un almacén</span></a></li>
+                <li><a class="t-index__link is-current" aria-current="page" href="tema-02-04.html"><span class="t-index__num">2.4</span><span>Sistemas de almacenamiento</span></a></li>
+                <li><a class="t-index__link" href="tema-02-05.html"><span class="t-index__num">2.5</span><span>Administración de Inventarios (Método ABC)</span></a></li>
+                <li><a class="t-index__link" href="tema-02-06.html"><span class="t-index__num">2.6</span><span>Métodos de rotación de inventarios y Picking</span></a></li>
+                <li><a class="t-index__link" href="tema-02-07.html"><span class="t-index__num">2.7</span><span>Señalización, Codificación y Empaque textil</span></a></li>
+              </ol>
+              <ul class="t-index__list" aria-label="Actividades">
+                <li><a class="t-index__link t-index__link--final" href="../actividades/actividad-final.html"><i class="fas fa-flag-checkered" aria-hidden="true"></i><span>Actividad final</span></a></li>
+              </ul>
+            </details>
+          </div>
+          <div class="t-progress">
+            <p class="t-progress__label" id="progresoEtiqueta">Progreso de lectura <span class="t-progress__value" id="progresoValor">0 %</span></p>
+            <div class="t-progress__track" role="progressbar" aria-labelledby="progresoEtiqueta" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+              <span class="t-progress__bar" id="progresoBarra"></span>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <article class="t-article">
+        <p class="u-eyebrow">Unidad II · Tema 2.4</p>
+        <h1 class="t-title">Sistemas de almacenamiento</h1>
+
+        <p class="t-lead" id="idea-central" data-toc="Idea central">
+          En función de la organización del tipo de producto y del volumen de operación, se pueden utilizar diferentes sistemas de estiba y resguardo físico.
+        </p>
+
+        <div class="t-prose">
+          <section id="almacenamiento-piso" data-toc="Almacenamiento en piso">
+            <h2>Almacenamiento en piso</h2>
+            <p>La mercancía se coloca directamente sobre tarimas apoyadas en el suelo del almacén.</p>
+            <h3>Ventajas</h3>
+            <ul>
+              <li>Bajo costo.</li>
+              <li>Fácil implementación.</li>
+            </ul>
+            <h3>Desventajas</h3>
+            <ul>
+              <li>Poco aprovechamiento del espacio vertical.</li>
+              <li>Mayor riesgo de daños por aplastamiento o humedad.</li>
+            </ul>
+          </section>
+
+          <section id="almacenamiento-racks" data-toc="Almacenamiento en racks">
+            <h2>Almacenamiento en racks</h2>
+            <p>Consiste en utilizar estructuras metálicas para aprovechar la altura del almacén.</p>
+            <h3>Ventajas</h3>
+            <ul>
+              <li>Mayor capacidad de almacenaje.</li>
+              <li>Fácil acceso a cada posición.</li>
+              <li>Mejor organización y control visual.</li>
+            </ul>
+            <aside class="t-callout t-callout--note">
+              <i class="fas fa-boxes-stacked t-callout__icon" aria-hidden="true"></i>
+              <div>
+                <p class="t-callout__label">Aplicación textil</p>
+                <p>Ideal para rollos de tela, cajas de prendas confeccionadas o paquetes de hilo y conos.</p>
+              </div>
+            </aside>
+          </section>
+
+          <section id="almacenes-automatizados" data-toc="Almacenes automatizados y WMS">
+            <h2>Almacenes automatizados</h2>
+            <p>Sistemas robotizados de alta densidad tecnológica que utilizan:</p>
+            <ul>
+              <li>Robots transelevadores.</li>
+              <li>Bandas y rodillos transportadores.</li>
+              <li>Sistemas automáticos de escaneo.</li>
+              <li>Software WMS (Warehouse Management System).</li>
+            </ul>
+            <p><em>Son comunes en grandes centros de distribución y retailers multinacionales de moda.</em></p>
+          </section>
+
+          <section id="comprension" data-toc="Comprueba tu comprensión">
+            <h2>Comprueba tu comprensión</h2>
+            <p>
+              ¿Cuáles son las ventajas y desventajas de migrar de un almacenamiento convencional en piso a racks selectivos y software WMS en una empresa de confección?
+            </p>
+            <a class="u-btn u-btn--primary" href="../actividades/actividad-final.html">Caso de estudio: Empresa "Moda ESIT" <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+          </section>
+        </div>
+
+        <nav class="t-pager" id="temaNavegacion" aria-label="Navegación entre temas">
+          <a class="t-pager__prev" href="tema-02-03.html"><i class="fas fa-arrow-left" aria-hidden="true"></i> Anterior: tema 2.3</a>
+          <a class="u-btn u-btn--primary" href="tema-02-05.html">Siguiente: tema 2.5 <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+        </nav>
+      </article>
+
+      <aside class="t-toc" aria-labelledby="tocTitulo">
+        <p class="t-toc__title" id="tocTitulo">En esta página</p>
+        <ol class="t-toc__list" id="temaTabla"></ol>
+        <div class="t-refs">
+          <p class="t-refs__title">Referencias del tema</p>
+          <a href="../referencias.html" data-enlace-referencias>Ver lista completa <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="u-footer">
+    <div class="u-footer__inner">
+      <p>Logística y cadena de suministro · Polilibro académico · ESIT-IPN</p>
+      <p>Desarrollado con fines educativos · © 2026</p>
+    </div>
+  </footer>
+
+  <script src="../../../assets/js/data-manager.js"></script>
+  <script src="../../../assets/js/componentes.js"></script>
+  <script src="../../../assets/js/unidades-ui.js"></script>
+  <script src="../../../assets/js/paginas/tema-plantilla.js"></script>
+  <script src="../../../assets/js/visor-figuras.js"></script>
+</body>
+
+</html>

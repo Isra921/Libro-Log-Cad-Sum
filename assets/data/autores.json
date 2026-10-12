@@ -1,0 +1,57 @@
+{
+  "titulo": "Autores y Colaboradores",
+  "boton_cerrar": "Cerrar ventana",
+  "etiquetas": {
+    "semblanza": "Semblanza",
+    "areas": "Áreas de especialidad",
+    "sin_foto": "Sin fotografía"
+  },
+  "secciones": [
+    {
+      "id": "docentes",
+      "pestana": "Autores",
+      "titulo": "Autor Académico",
+      "descripcion": "Docente e investigador del Instituto Politécnico Nacional responsable de la autoría académica del polilibro.",
+      "tipo": "docente",
+      "personas": [
+        {
+          "grado": "D. en E.",
+          "nombre": "Israel Salas Ramírez",
+          "correo": "isalasr@ipn.mx",
+          "foto": "assets/img/Israel_Salas_Ramirez.png",
+          "semblanza": [
+            "Doctor y maestro en ciencias de la educación, e ingeniero en comunicaciones y electrónica por la ESIME Zacatenco del IPN. Docente de la Escuela Superior de Cómputo del Instituto Politécnico Nacional con amplia trayectoria en las asignaturas de Sistemas Operativos, Aplicaciones para Comunicaciones en Red y Arquitectura de Computadoras. Ha trabajado como responsable de unidades de Informática y generación de proyectos de Inversión Tecnológica."
+          ],
+          "areas": [
+            "Sistemas Operativos",
+            "Administración de Redes",
+            "Protocolos de Comunicación y Sockets",
+            "Neurociencia en la Educación",
+            "Generación de Simuladores Médicos y Plataformas Virtuales"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "colaboradores",
+      "pestana": "Colaboradores",
+      "titulo": "Equipo de Desarrollo y Maquetación",
+      "descripcion": "Estudiantes y desarrolladores participantes en la maquetación y desarrollo del Polilibro Académico.",
+      "tipo": "colaborador",
+      "personas": [
+        {
+          "nombre": "Aranza Alondra Muñoz Chávez",
+          "correo": "amunozc2002@alumno.ipn.mx"
+        },
+        {
+          "nombre": "Flores Madrigal Diego",
+          "correo": "dfloresm1300@alumno.ipn.mx"
+        },
+        {
+          "nombre": "Israel Soto Peña",
+          "correo": "isotop2000@alumno.ipn.mx"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "titulo": "Programa Académico",
+  "boton_cerrar": "Cerrar ventana",
+  "archivo_pdf": "assets/docs/programa-logistica.pdf",
+  "datos_generales": {
+    "institucion": "Instituto Politécnico Nacional",
+    "secretaria": "Secretaría Académica · Dirección de Educación Superior",
+    "unidad_academica": "Escuela Superior de Ingeniería Textil (ESIT)",
+    "programa_academico": "Ingeniería Textil",
+    "unidad_aprendizaje": "Logística y cadena de suministro",
+    "semestre": "VIII Semestre",
+    "area_formacion": "Profesional",
+    "modalidad": "Escolarizada (Susceptible a implementarse en modalidad No escolarizada)",
+    "tipo": "Teórica / Optativa del Eje: Administración industrial",
+    "vigencia": "A partir de enero de 2022",
+    "creditos_tepic": "8.0",
+    "creditos_satca": "5.20",
+    "horas_teoria_semana": "4.0 h",
+    "horas_practica_semana": "0.0 h",
+    "horas_teoria_semestre": "72.0 h",
+    "horas_practica_semestre": "0.0 h",
+    "horas_autonomo_semestre": "14.0 h",
+    "horas_totales": "72.0 h"
+  },
+  "proposito": "Propone cadenas de suministro en la industria textil y del vestido a partir de la red de distribución, la reingeniería y tecnologías de la información.",
+  "intencion_educativa": "Esta unidad de aprendizaje contribuye al perfil del egresado de la Ingeniería Textil con el desarrollo de habilidades en logística y cadenas de suministro de la industria de la confección, con un alto sentido de responsabilidad social.\n\nLa unidad de aprendizaje Logística y cadena de suministro, tiene como unidades de aprendizaje antecedentes: Proceso productivo de ropa íntima, lencería y corsetería y Proceso productivo de uniformes industriales, escolares, hospitalarios y Sastrería, de manera lateral se relaciona con Proceso productivo de blancos y Tenería y artículos de piel y de manera consecuente con las unidades de Procesos textiles y Administración de proyectos.",
+  "orientacion_didactica": {
+    "metodos_ensenanza": "Inductivo y deductivo, guiado por el docente",
+    "estrategias_aprendizaje": "Método de Casos (técnicas: mapa conceptual, diagrama radial, diagrama de causa efecto, diagrama de Gantt, diagrama de flujo, reporte de caso, reporte de prácticas)"
+  },
+  "unidades_tematicas": [
+    {
+      "numero": "I",
+      "titulo": "Introducción a la logística y cadena de suministro",
+      "competencia": "Distingue los aspectos integrales de una cadena de suministro a partir de sus elementos y clasificación.",
+      "horas_docente": "10.0 h Teoría / 0.0 h Práctica",
+      "horas_autonomo": "1.0 h",
+      "clave_bibliografica": "1B, 2B, 3B, 4B, 5C",
+      "temas": [
+        "1.1 Conceptos y fundamentos históricos",
+        "1.1.1 Logística, cadenas de suministro y administración de la red de distribución de la industria textil y del vestido",
+        "1.2 La importancia y elementos de la logística",
+        "1.3 Clasificación de cadenas de suministros",
+        "1.4 El papel de la reingeniería y la logística en la cadena de suministro en la industria textil y del vestido"
+      ],
+      "estrategias": "Método de Casos, método de enseñanza inductivo y deductivo. Técnicas: elaboración de organizadores gráficos, diagrama radial, diagrama de causa efecto, estudio de caso parte 1.",
+      "evaluacion": "Evaluación diagnóstica. Portafolio de evidencias: Diagrama radial (30%), Diagrama de causa efecto (30%), Reporte de caso parte 1 (40%). Valoración mediante listas de cotejo, guías de observación y rúbricas."
+    },
+    {
+      "numero": "II",
+      "titulo": "Almacenaje, señalización, codificación y tecnología de empaque",
+      "competencia": "Especifica las condiciones de operación de una cadena de suministro a partir del cumplimiento de los requerimientos de almacenaje.",
+      "horas_docente": "20.0 h Teoría / 0.0 h Práctica",
+      "horas_autonomo": "1.0 h",
+      "clave_bibliografica": "1B, 2B, 3B, 4B, 5C",
+      "temas": [
+        "2.1 Condiciones de operación para la organización de los materiales en bodegas de materia prima",
+        "2.2 Condiciones de operación para la organización de los materiales en almacén de producto terminado y producción en proceso",
+        "2.3 Organización y características de las bodegas manuales",
+        "2.4 Organización y características de las bodegas automatizadas",
+        "2.5 Tecnologías de empaque",
+        "2.6 Codificación de productos almacenados (Código de barras)",
+        "2.7 Normatividad de envase, embalaje e información del producto"
+      ],
+      "estrategias": "Método de Casos, método inductivo y deductivo. Técnicas: elaboración de organizadores gráficos: diagrama de causa efecto, diagrama de flujo, estudio de casos parte 2.",
+      "evaluacion": "Portafolio de evidencias: Diagrama de causa efecto (30%), Diagrama de flujo (30%), Reporte de caso 2 (40%). Valoración mediante listas de cotejo, guías de observación y rúbricas."
+    },
+    {
+      "numero": "III",
+      "titulo": "Cadenas de suministro en la industria textil y del vestido",
+      "competencia": "Estructura la cadena de suministro a partir de las técnicas y estrategias de distribución.",
+      "horas_docente": "10.0 h Teoría / 0.0 h Práctica",
+      "horas_autonomo": "1.0 h",
+      "clave_bibliografica": "1B, 2B, 3B, 4B, 5C",
+      "temas": [
+        "3.1 Metodologías para el diseño de cadenas de suministro",
+        "3.2 Requerimientos",
+        "3.3 Técnicas y estrategias de compras",
+        "3.4 Técnicas y estrategias de distribución",
+        "3.5 Evaluación de la cadena de suministro",
+        "3.6 Devoluciones de los clientes, como alarma de la falla en la cadena de suministro"
+      ],
+      "estrategias": "Método de Casos, método inductivo y deductivo. Técnicas: elaboración de organizadores gráficos; mapa conceptual, diagrama de flujo, estudio de casos parte 3.",
+      "evaluacion": "Portafolio de evidencias: Mapa conceptual (30%), Diagrama de flujo (30%), Reporte de caso parte 3 (40%). Valoración mediante listas de cotejo, guías de observación y rúbricas."
+    },
+    {
+      "numero": "IV",
+      "titulo": "Transportación y régimen aduanero",
+      "competencia": "Plantea rutas de distribución a partir de la ley aduanera vigente.",
+      "horas_docente": "15.0 h Teoría / 0.0 h Práctica",
+      "horas_autonomo": "1.0 h",
+      "clave_bibliografica": "1B, 2B, 3B, 4B, 5C",
+      "temas": [
+        "4.1 Tráfico (conceptos y aplicaciones)",
+        "4.2 Transportación Multimodal",
+        "4.3 Programación seguimiento y control de servicios",
+        "4.4 Sistemas para la transportación y distribución física",
+        "4.5 Diseño de rutas y enlaces de transportación",
+        "4.6 Ley Aduanera y su relación con las cadenas de distribución"
+      ],
+      "estrategias": "Método de Casos, método inductivo y deductivo. Técnicas: elaboración de organizadores gráficos: diagrama de Gantt, diagrama de flujo, estudio de caso parte 4.",
+      "evaluacion": "Portafolio de evidencias: Diagrama de Gantt (30%), Diagrama de flujo (30%), Reporte de caso parte 4 (40%). Valoración mediante listas de cotejo, guías de observación y rúbricas."
+    },
+    {
+      "numero": "V",
+      "titulo": "Tecnología de la información y configuración de la red de distribución",
+      "competencia": "Diseña la red de distribución a partir de la innovación en la logística de la empresa.",
+      "horas_docente": "17.0 h Teoría / 0.0 h Práctica",
+      "horas_autonomo": "0.0 h",
+      "clave_bibliografica": "1B, 2B, 3B, 4B, 5C",
+      "temas": [
+        "5.1 Sistemas de información",
+        "5.2 Pros y contras de la tecnología de la información en la logística de distribución",
+        "5.3 Planeación y control de los recursos de la empresa y la logística",
+        "5.4 Tipos de programas y herramientas tecnológicas de información para el diseño y control de una cadena de distribución",
+        "5.5 Configuración de la red de distribución",
+        "5.5.1 Importancia estratégica para el cumplimiento del objetivo de una red de distribución",
+        "5.5.2 Técnicas para el diseño de una red de distribución óptima",
+        "5.5.3 Diseño de la red de distribución",
+        "5.5.4 La reingeniería como herramienta de análisis y visión objetiva de las redes de distribución"
+      ],
+      "estrategias": "Método de Casos, método inductivo y deductivo. Técnicas: elaboración de organizadores gráficos: diagrama de Gantt, diagrama de flujo, estudio de caso parte 5.",
+      "evaluacion": "Portafolio de evidencias: Diagrama de Gantt (30%), Diagrama de flujo (30%), Reporte de caso parte 5 (40%). Valoración mediante listas de cotejo, guías de observación y rúbricas."
+    }
+  ],
+  "evaluacion": [
+    "Período 1: Unidades I y II (100% Evaluación formativa; Unidad I: 10% del total, Unidad II: 10% del total)",
+    "Período 2: Unidad III (100% Evaluación formativa; Unidad III: 20% del total)",
+    "Período 3: Unidades IV y V (100% Evaluación formativa; Unidad IV: 30% del total, Unidad V: 30% del total)",
+    "Momentos de evaluación: Diagnóstica, Formativa (autoevaluación, coevaluación, heteroevaluación) y Sumativa, con la conformación de un portafolio de evidencias.",
+    "Acreditación: La unidad de aprendizaje se puede acreditar mediante saberes previamente adquiridos y bajo los criterios que la academia determine; y puede ser cursada y acreditada en otra Unidad Académica del IPN, nacional o extranjera bajo el programa de movilidad del plan de estudios."
+  ],
+  "bibliografia": [
+    {
+      "tipo": "Básica",
+      "autor": "Álvarez Francisco",
+      "anio": "2015",
+      "titulo": "Soluciones logísticas para optimizar la cadena de suministro",
+      "editorial": "México. Marge Books. ISBN 9788416171897"
+    },
+    {
+      "tipo": "Básica",
+      "autor": "Baca U. G., Cruz V. Cristóbal V.",
+      "anio": "2014",
+      "titulo": "Introducción a la Ingeniería Industrial",
+      "editorial": "México. Editorial Patria. ISBN ebook: 978-607-438-919-7"
+    },
+    {
+      "tipo": "Básica",
+      "autor": "Render B.",
+      "anio": "2017",
+      "titulo": "Principios de administración de operaciones",
+      "editorial": "México. Pearson. ISBN 9786073223362"
+    },
+    {
+      "tipo": "Básica",
+      "autor": "Sabria Federico",
+      "anio": "2017",
+      "titulo": "La cadena de suministro",
+      "editorial": "México. Alfaomega. ISBN 9786076229347"
+    },
+    {
+      "tipo": "Consulta",
+      "autor": "Vallejos H.",
+      "anio": "2017",
+      "titulo": "Costos modalidad órdenes de producción",
+      "editorial": "Ecuador. UTN. ISBN 978-9942-984-46-3"
+    }
+  ],
+  "comision": {
+    "academia": "Academia de Confección",
+    "elaboro": [
+      "Ing. Ana María Lara Morales (Profesora coordinadora)",
+      "Ing. José Omar Valle Beltrán (Profesor colaborador)",
+      "M. en E. María de Jesús Pluma Torres (Profesora colaboradora)"
+    ],
+    "reviso": "M. en E. María de Jesús Pluma Torres (Subdirectora Académica)",
+    "aprobo_consejo": "M. en A.P. Arturo Dionicio Arauzo (Presidente CTCE)",
+    "autorizo": "M. en C. Rosalía María del Consuelo Torres Bezaury (Directora de Educación Superior)"
+  }
+}

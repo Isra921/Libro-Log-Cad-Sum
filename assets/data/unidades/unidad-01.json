@@ -1,0 +1,92 @@
+{
+  "id": "unidad-01",
+  "numero": 1,
+  "titulo": "Introducción a la Logística y Cadena de Suministro",
+  "descripcion": "Distingue los aspectos integrales de una cadena de suministro a partir de sus elementos y clasificación en la industria textil.",
+  "lema": "Comprende la administración de materiales, información, costos y flujos productivos en la industria textil.",
+  "duracion_horas": 10.0,
+  "introduccion": [
+    "La logística tiene como finalidad administrar de manera eficaz la línea de materiales, productos, datos y medios financieros a lo largo de todo el recorrido operativo. Su propósito no radica únicamente en transportar mercancías, sino en coordinar cada una de las actividades indispensables para que el cliente reciba con puntualidad y exactitud lo que necesita.",
+    "En esta unidad inicial se abordan los fundamentos conceptuales, la planificación y el control del almacenamiento y traslado físico de los bienes textiles, analizando su estrecha relación con la eficiencia operativa y la competitividad empresarial a través del estudio de casos reales."
+  ],
+  "recorrido": "Explora los objetivos e importancia de la logística, contrasta las diferencias operativas frente a la cadena de suministro completa, analiza cada uno de sus eslabones (desde proveedores hasta el consumidor final), conoce las tipologías de cadenas y sus principales indicadores KPI, y resuelve el caso de estudio de la empresa 'Textiles del Centro'.",
+  "temas": [
+    {
+      "numero": "1.1",
+      "nombre": "Objetivos de la logística",
+      "sintesis": "Finalidad de la administración de materiales, flujos de información y cumplimiento de requerimientos en el sector textil.",
+      "url": "unidades/unidad-01/temas/tema-01-01.html",
+      "actividad": {
+        "nombre": "Actividad 1.1",
+        "url": ""
+      }
+    },
+    {
+      "numero": "1.2",
+      "nombre": "Importancia de la logística",
+      "sintesis": "Impacto en tiempos de entrega, reducción de inventarios, optimización de costos y tabla de beneficios operativos.",
+      "url": "unidades/unidad-01/temas/tema-01-02.html",
+      "actividad": {
+        "nombre": "Actividad 1.2",
+        "url": ""
+      }
+    },
+    {
+      "numero": "1.3",
+      "nombre": "Diferencia entre Logística y Cadena de Suministro",
+      "sintesis": "Comparación estructural entre la administración de operaciones internas y la integración holística de la red de valor.",
+      "url": "unidades/unidad-01/temas/tema-01-03.html",
+      "actividad": {
+        "nombre": "Actividad 1.3",
+        "url": ""
+      }
+    },
+    {
+      "numero": "1.4",
+      "nombre": "Componentes de la Cadena de Suministro",
+      "sintesis": "Actores clave: proveedores de fibras/insumos, compras, procesos productivos, almacenes, distribución y cliente final.",
+      "url": "unidades/unidad-01/temas/tema-01-04.html",
+      "actividad": {
+        "nombre": "Actividad 1.4",
+        "url": ""
+      }
+    },
+    {
+      "numero": "1.5",
+      "nombre": "Tipos de Cadena de Suministro",
+      "sintesis": "Modelos tradicionales, integrados, sincronizados (Toyota, Zara) y cadenas digitales con IA, IoT, RFID y Blockchain.",
+      "url": "unidades/unidad-01/temas/tema-01-05.html",
+      "actividad": {
+        "nombre": "Actividad 1.5",
+        "url": ""
+      }
+    },
+    {
+      "numero": "1.6",
+      "nombre": "Principales Indicadores Logísticos (KPI)",
+      "sintesis": "Fórmulas y aplicación de métricas: nivel de servicio, rotación de inventarios, tiempo de ciclo y entregas a tiempo.",
+      "url": "unidades/unidad-01/temas/tema-01-06.html",
+      "actividad": {
+        "nombre": "Actividad 1.6",
+        "url": ""
+      }
+    }
+  ],
+  "actividad_final": {
+    "nombre": "Caso de estudio ESIT: Empresa 'Textiles del Centro'",
+    "descripcion": "Análisis y resolución de la problemática operativa de una confeccionadora de playeras deportivas aplicando KPIs y reingeniería.",
+    "url": "unidades/unidad-01/actividades/actividad-final.html"
+  },
+  "objetivo": "Distingue los aspectos integrales de una cadena de suministro a partir de sus elementos y clasificación.",
+  "competencias": [
+    "Identifica los objetivos, funciones e importancia de la logística dentro de las organizaciones productivas textiles.",
+    "Distingue con precisión la logística respecto a la cadena de suministro global y sus componentes esenciales.",
+    "Aplica indicadores clave de desempeño (KPI) para evaluar la eficiencia operativa y proponer soluciones a fallas en la cadena de valor."
+  ],
+  "material_apoyo": [
+    {
+      "nombre": "Referencias oficiales de la Unidad I",
+      "url": "unidades/unidad-01/referencias.html"
+    }
+  ]
+}

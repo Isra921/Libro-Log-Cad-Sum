@@ -1,0 +1,703 @@
+/* ==========================================================================
+   SIMULADOR DE DECISIONES Y LABORATORIO DE CASOS (ESIT - IPN)
+   Complemento para las Actividades Finales de Unidad
+   Paleta institucional: Azul marino, azul cielo, blanco, acentos técnicos.
+   ========================================================================== */
+
+/* ---------- Contenedor Principal del Simulador ---------- */
+.sim-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 10px;
+}
+
+/* ---------- Navegación por Etapas / Stepper ---------- */
+.sim-stepper {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 4px;
+  border-radius: var(--radius-md);
+  background: color-mix(in srgb, var(--primary) 8%, var(--bg-main));
+  border: 1px solid var(--border-color);
+  scrollbar-width: thin;
+}
+
+.sim-step-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 18px;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  font-size: 0.88rem;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.25s ease;
+}
+
+.sim-step-btn i {
+  font-size: 1rem;
+  transition: transform 0.2s ease;
+}
+
+.sim-step-btn:hover {
+  color: var(--text-light);
+  background: color-mix(in srgb, var(--primary) 12%, transparent);
+}
+
+.sim-step-btn.is-active {
+  background: var(--surface);
+  color: var(--primary);
+  box-shadow: 0 2px 8px color-mix(in srgb, var(--shadow-color) 12%, transparent);
+  border: 1px solid color-mix(in srgb, var(--primary) 30%, transparent);
+}
+
+.sim-step-btn.is-completed .sim-step-num {
+  background: #10b981;
+  color: #fff;
+}
+
+.sim-step-num {
+  display: inline-grid;
+  place-items: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--primary) 20%, transparent);
+  color: var(--primary);
+  font-size: 0.76rem;
+  font-weight: 700;
+}
+
+/* ---------- Paneles de Etapa ---------- */
+.sim-panel {
+  display: none;
+  animation: simFadeIn 0.35s ease both;
+}
+
+.sim-panel.is-active {
+  display: block;
+}
+
+@keyframes simFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ---------- Cabecera de Etapa ---------- */
+.sim-stage-header {
+  margin-bottom: 20px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.sim-stage-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+  color: var(--accent);
+  background: var(--accent-soft);
+  padding: 4px 10px;
+  border-radius: var(--radius-pill);
+  margin-bottom: 8px;
+}
+
+.sim-stage-title {
+  margin: 0 0 6px;
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--text-light);
+}
+
+.sim-stage-desc {
+  margin: 0;
+  color: var(--text-soft);
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+
+/* ---------- Cuadrícula de Controles y Parámetros ---------- */
+.sim-grid-2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.sim-grid-3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.sim-grid-4 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 14px;
+}
+
+/* ---------- Tarjetas de Control y KPIs ---------- */
+.sim-control-box {
+  background: var(--surface);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 18px;
+  box-shadow: 0 4px 12px color-mix(in srgb, var(--shadow-color) 6%, transparent);
+}
+
+.sim-control-box__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin: 0 0 14px;
+  color: var(--text-light);
+}
+
+.sim-control-box__title i {
+  color: var(--primary);
+}
+
+/* Controles de Rango (Sliders) */
+.sim-slider-group {
+  margin-bottom: 16px;
+}
+
+.sim-slider-group:last-child {
+  margin-bottom: 0;
+}
+
+.sim-slider-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.84rem;
+  font-weight: 600;
+  color: var(--text-soft);
+  margin-bottom: 6px;
+}
+
+.sim-slider-val {
+  font-family: monospace;
+  font-weight: 700;
+  font-size: 0.92rem;
+  color: var(--primary);
+  background: var(--primary-soft);
+  padding: 2px 8px;
+  border-radius: var(--radius-sm);
+}
+
+.sim-range {
+  width: 100%;
+  height: 6px;
+  border-radius: 4px;
+  background: color-mix(in srgb, var(--primary) 20%, transparent);
+  outline: none;
+  accent-color: var(--primary);
+  cursor: pointer;
+}
+
+/* ---------- Tarjetas de Métricas en Tiempo Real (Live KPIs) ---------- */
+.sim-kpi-card {
+  background: var(--surface);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.sim-kpi-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--primary);
+}
+
+.sim-kpi-card.is-success::before { background: #10b981; }
+.sim-kpi-card.is-warning::before { background: #f59e0b; }
+.sim-kpi-card.is-danger::before { background: #ef4444; }
+
+.sim-kpi-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.sim-kpi-title {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.sim-kpi-icon {
+  font-size: 1rem;
+  color: var(--text-muted);
+}
+
+.sim-kpi-val {
+  font-size: 1.65rem;
+  font-weight: 800;
+  color: var(--text-light);
+  margin: 0 0 4px;
+  line-height: 1.1;
+  font-feature-settings: "tnum";
+}
+
+.sim-kpi-desc {
+  font-size: 0.78rem;
+  color: var(--text-soft);
+  margin: 0;
+  line-height: 1.4;
+}
+
+.sim-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 7px;
+  border-radius: var(--radius-pill);
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+.sim-badge--success { background: #d1fae5; color: #065f46; }
+.sim-badge--warning { background: #fef3c7; color: #92400e; }
+.sim-badge--danger { background: #fee2e2; color: #991b1b; }
+.sim-badge--info { background: #e0f2fe; color: #075985; }
+
+/* ---------- Barras de Proporción / Desglose de Costo ---------- */
+.sim-meter {
+  margin: 14px 0;
+}
+
+.sim-meter__track {
+  height: 14px;
+  background: #e2e8f0;
+  border-radius: var(--radius-pill);
+  display: flex;
+  overflow: hidden;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.sim-meter__seg {
+  height: 100%;
+  transition: width 0.35s ease;
+}
+
+.sim-meter__seg--inv { background: #3b82f6; }
+.sim-meter__seg--trans { background: #f59e0b; }
+.sim-meter__seg--pen { background: #ef4444; }
+
+.sim-meter-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 8px;
+  font-size: 0.78rem;
+  color: var(--text-soft);
+}
+
+.sim-meter-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 4px;
+}
+
+/* ---------- Inyección de Fallas / Botones de Escenario ---------- */
+.sim-stress-panel {
+  background: color-mix(in srgb, var(--accent) 8%, var(--surface));
+  border: 1px dashed color-mix(in srgb, var(--accent) 40%, transparent);
+  border-radius: var(--radius-md);
+  padding: 16px;
+  margin-top: 18px;
+}
+
+.sim-stress-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin: 0 0 10px;
+}
+
+.sim-scenarios-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.sim-scenario-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 12px;
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+  border: 1px solid var(--border-color);
+  color: var(--text-light);
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: left;
+}
+
+.sim-scenario-btn:hover {
+  border-color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+}
+
+.sim-scenario-btn.is-active {
+  border-color: var(--primary);
+  background: var(--primary);
+  color: #fff;
+}
+
+.sim-scenario-btn.is-active i {
+  color: #fff;
+}
+
+/* ---------- Tarjetas de Fórmulas y Verificación ---------- */
+.sim-formula-box {
+  background: color-mix(in srgb, var(--primary) 5%, var(--surface));
+  border: 1px solid color-mix(in srgb, var(--primary) 25%, transparent);
+  border-radius: var(--radius-md);
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.sim-formula-tag {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--primary);
+  margin-bottom: 4px;
+}
+
+.sim-formula-math {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text-light);
+  background: var(--surface);
+  padding: 8px 12px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-color);
+  margin: 6px 0;
+  display: inline-block;
+}
+
+.sim-formula-desc {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+/* ---------- Cajas de Entrada para Cálculos Numéricos ---------- */
+.sim-calc-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: flex-end;
+  margin: 14px 0;
+}
+
+.sim-calc-input {
+  flex: 1;
+  min-width: 140px;
+}
+
+.sim-calc-input label {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-soft);
+  margin-bottom: 4px;
+}
+
+.sim-calc-input input,
+.sim-calc-input select {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-color);
+  background: var(--bg-main);
+  color: var(--text-light);
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.sim-calc-input input:focus,
+.sim-calc-input select:focus {
+  outline: 2px solid var(--primary);
+  border-color: var(--primary);
+}
+
+.sim-feedback-inline {
+  display: none;
+  padding: 10px 14px;
+  border-radius: var(--radius-sm);
+  font-size: 0.86rem;
+  margin-top: 10px;
+  line-height: 1.45;
+}
+
+.sim-feedback-inline.is-correct {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  background: #ecfdf5;
+  border: 1px solid #a7f3d0;
+  color: #065f46;
+}
+
+.sim-feedback-inline.is-wrong {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  color: #991b1b;
+}
+
+/* ---------- Tablas de Auditoría e Incidentes ---------- */
+.sim-table-wrap {
+  overflow-x: auto;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-color);
+  background: var(--surface);
+  margin: 14px 0;
+}
+
+.sim-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+  text-align: left;
+}
+
+.sim-table th {
+  background: color-mix(in srgb, var(--primary) 8%, var(--surface));
+  color: var(--text-light);
+  padding: 10px 14px;
+  font-weight: 700;
+  border-bottom: 1px solid var(--border-color);
+  white-space: nowrap;
+}
+
+.sim-table td {
+  padding: 10px 14px;
+  border-bottom: 1px solid color-mix(in srgb, var(--border-color) 40%, transparent);
+  color: var(--text-soft);
+  vertical-align: middle;
+}
+
+.sim-table tr:last-child td {
+  border-bottom: none;
+}
+
+.sim-table tr:hover td {
+  background: color-mix(in srgb, var(--primary) 4%, transparent);
+}
+
+/* ---------- Opciones de Decisión Táctica (Selector de Intervención) ---------- */
+.sim-decision-grid {
+  display: grid;
+  gap: 12px;
+  margin: 14px 0;
+}
+
+.sim-decision-card {
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 14px 16px;
+  background: var(--surface);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+}
+
+.sim-decision-card:hover {
+  border-color: var(--primary);
+  background: color-mix(in srgb, var(--primary) 4%, var(--surface));
+}
+
+.sim-decision-card.is-selected {
+  border-color: var(--primary);
+  background: color-mix(in srgb, var(--primary) 10%, var(--surface));
+  box-shadow: 0 0 0 1px var(--primary);
+}
+
+.sim-decision-radio {
+  margin-top: 3px;
+  accent-color: var(--primary);
+}
+
+.sim-decision-info h4 {
+  margin: 0 0 4px;
+  font-size: 0.95rem;
+  color: var(--text-light);
+}
+
+.sim-decision-info p {
+  margin: 0;
+  font-size: 0.84rem;
+  color: var(--text-soft);
+  line-height: 1.45;
+}
+
+/* ---------- Dictamen Final y Generador de Portafolio ---------- */
+.sim-summary-card {
+  background: linear-gradient(135deg, color-mix(in srgb, var(--primary) 10%, var(--surface)), var(--surface));
+  border: 1px solid color-mix(in srgb, var(--primary) 25%, transparent);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  margin-top: 20px;
+}
+
+.sim-score-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.sim-score-circle {
+  display: grid;
+  place-items: center;
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  background: var(--primary);
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 800;
+  box-shadow: 0 4px 14px color-mix(in srgb, var(--primary) 40%, transparent);
+}
+
+.sim-score-meta h3 {
+  margin: 0 0 4px;
+  font-size: 1.25rem;
+  color: var(--text-light);
+}
+
+.sim-score-meta p {
+  margin: 0;
+  font-size: 0.88rem;
+  color: var(--text-soft);
+}
+
+.sim-actions-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+/* ---------- Botones del Simulador ---------- */
+.sim-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 18px;
+  border-radius: var(--radius-sm);
+  font-size: 0.88rem;
+  font-weight: 700;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: inherit;
+  text-decoration: none;
+}
+
+.sim-btn--primary {
+  background: var(--primary);
+  color: #fff;
+}
+
+.sim-btn--primary:hover {
+  background: var(--primary-hover);
+  color: #fff;
+}
+
+.sim-btn--secondary {
+  background: var(--surface);
+  border-color: var(--border-color);
+  color: var(--text-light);
+}
+
+.sim-btn--secondary:hover {
+  background: var(--surface-hover);
+}
+
+.sim-btn--success {
+  background: #10b981;
+  color: #fff;
+}
+
+.sim-btn--success:hover {
+  background: #059669;
+}
+
+/* Estilos de Impresión (Exportar Dictamen) */
+@media print {
+  body {
+    background: #fff !important;
+    color: #000 !important;
+  }
+  .site-nav, .a-sidebar, .t-pager, .sim-stepper, .sim-actions-row, .u-footer {
+    display: none !important;
+  }
+  .a-layout {
+    display: block !important;
+  }
+  .sim-panel {
+    display: block !important;
+    page-break-inside: avoid;
+    margin-bottom: 20px;
+  }
+  .sim-control-box, .sim-summary-card, .a-card {
+    box-shadow: none !important;
+    border: 1px solid #ccc !important;
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "version": 1,
+  "modoPrueba": true,
+  "titulo": "Examen diagnóstico",
+  "descripcion": "Evaluación diagnóstica de conocimientos previos para la unidad de aprendizaje Logística y cadena de suministro (Administración Industrial, Procesos de Confección e Ingeniería Textil).",
+  "configuracion": {
+    "mostrarResultado": true,
+    "cantidadPreguntas": 12,
+    "mezclarPreguntas": false,
+    "mezclarOpciones": false,
+    "endpointEnvio": ""
+  },
+  "preguntas": [
+    {
+      "id": "diag-log-01",
+      "numero": 1,
+      "tipo": "opcion-multiple",
+      "enunciado": "¿Cuál es la principal finalidad de la logística en una empresa manufacturera o textil?",
+      "obligatoria": true,
+      "opciones": [
+        { "id": "a", "texto": "Diseñar únicamente las prendas de temporada." },
+        { "id": "b", "texto": "Administrar eficazmente el flujo de materiales, productos e información para satisfacer las necesidades del cliente en tiempo y forma." },
+        { "id": "c", "texto": "Contratar exclusivamente personal para las líneas de costura." },
+        { "id": "d", "texto": "Determinar los aranceles de exportación únicamente." }
+      ],
+      "respuestaCorrecta": "b"
+    },
+    {
+      "id": "diag-log-02",
+      "numero": 2,
+      "tipo": "opcion-multiple",
+      "enunciado": "¿Qué diferencia existe fundamentalmente entre logística y cadena de suministro?",
+      "obligatoria": true,
+      "opciones": [
+        { "id": "a", "texto": "La logística administra operaciones internas y flujos de transporte/inventario, mientras que la cadena de suministro integra a toda la red de proveedores, fabricantes y clientes." },
+        { "id": "b", "texto": "Son sinónimos exactos y no guardan ninguna distinción conceptual." },
+        { "id": "c", "texto": "La cadena de suministro solo abarca el almacén de materias primas." },
+        { "id": "d", "texto": "La logística es exclusiva del comercio marítimo internacional." }
+      ],
+      "respuestaCorrecta": "a"
+    },
+    {
+      "id": "diag-log-03",
+      "numero": 3,
+      "tipo": "opcion-multiple",
+      "enunciado": "¿Cuál es la función principal de un almacén en la cadena textil?",
+      "obligatoria": true,
+      "opciones": [
+        { "id": "a", "texto": "Acumular mercancía sin control temporal." },
+        { "id": "b", "texto": "Punto estratégico para recibir, cuidar, controlar y surtir materiales requeridos oportunamente por producción o el cliente." },
+        { "id": "c", "texto": "Únicamente desechar retazos de tela dañada." },
+        { "id": "d", "texto": "Fabricar hilados sintéticos." }
+      ],
+      "respuestaCorrecta": "b"
+    },
+    {
+      "id": "diag-log-04",
+      "numero": 4,
+      "tipo": "opcion-multiple",
+      "enunciado": "¿En qué consiste el principio de Pareto (80/20) aplicado a la administración de inventarios (Método ABC)?",
+      "obligatoria": true,
+      "opciones": [
+        { "id": "a", "texto": "El 80% de los artículos representan el 80% del valor total." },
+        { "id": "b", "texto": "Aproximadamente el 20% de los artículos (Categoría A) concentran el 80% del valor económico total del inventario." },
+        { "id": "c", "texto": "Todos los artículos del almacén tienen la misma importancia y rotación." },
+        { "id": "d", "texto": "El 80% del espacio debe destinarse a material de desecho." }
+      ],
+      "respuestaCorrecta": "b"
+    },
+    {
+      "id": "diag-log-05",
+      "numero": 5,
+      "tipo": "opcion-multiple",
+      "enunciado": "Para almacenar colorantes textiles y productos químicos con fecha de caducidad, ¿cuál es el método de rotación indicado?",
+      "obligatoria": true,
+      "opciones": [
+        { "id": "a", "texto": "LIFO (Último en entrar, primero en salir)" },
+        { "id": "b", "texto": "Aleatorio según espacio libre" },
+        { "id": "c", "texto": "FEFO (Primero en caducar, primero en salir)" },
+        { "id": "d", "texto": "Almacenamiento permanente en piso" }
+      ],
+      "respuestaCorrecta": "c"
+    },
+    {
+      "id": "diag-log-06",
+      "numero": 6,
+      "tipo": "opcion-multiple",
+      "enunciado": "¿A qué actividad logística de almacén corresponde la preparación y recolección de pedidos solicitados por un cliente?",
+      "obligatoria": true,
+      "opciones": [
+        { "id": "a", "texto": "Cross-docking" },
+        { "id": "b", "texto": "Picking" },
+        { "id": "c", "texto": "Hilatura" },
+        { "id": "d", "texto": "Tintura" }
+      ],
+      "respuestaCorrecta": "b"
+    },
+    {
+      "id": "diag-log-07",
+      "numero": 7,
+      "tipo": "opcion-multiple",
+      "enunciado": "¿Qué ventaja clave ofrece la tecnología RFID frente al código de barras tradicional en centros de distribución?",
+      "obligatoria": true,
+      "opciones": [
+        { "id": "a", "texto": "Requiere lectura óptica individual y directa a corta distancia." },
+        { "id": "b", "texto": "Permite lecturas masivas y automáticas por radiofrecuencia sin necesidad de contacto visual directo ni abrir cajas." },
+        { "id": "c", "texto": "Solo funciona en etiquetas de papel kraft." },
+        { "id": "d", "texto": "No requiere ningún tipo de antena receptora." }
+      ],
+      "respuestaCorrecta": "b"
+    },
+    {
+      "id": "diag-log-08",
+      "numero": 8,
+      "tipo": "opcion-multiple",
+      "enunciado": "¿Cuál es la secuencia lógica principal en la cadena productiva fibra-textil-vestido?",
+      "obligatoria": true,
+      "opciones": [
+        { "id": "a", "texto": "Confección → Cultivo de algodón → Hilatura → Tintorería" },
+        { "id": "b", "texto": "Fibras/Cultivo → Hilatura → Tejeduría → Tintorería y acabados → Confección → Distribución" },
+        { "id": "c", "texto": "Distribución → Tejeduría → Confección → Hilatura" },
+        { "id": "d", "texto": "Acabados → Corte → Cultivo → Hilatura" }
+      ],
+      "respuestaCorrecta": "b"
+    },
+    {
+      "id": "diag-log-09",
+      "numero": 9,
+      "tipo": "opcion-multiple",
+      "enunciado": "¿Qué busca el sistema de producción Justo a Tiempo (JIT) en una planta de confección?",
+      "obligatoria": true,
+      "opciones": [
+        { "id": "a", "texto": "Mantener almacenes al máximo de su capacidad para prevenir cualquier eventualidad." },
+        { "id": "b", "texto": "Fabricar en lotes gigantescos independientemente de la demanda del cliente." },
+        { "id": "c", "texto": "Producir únicamente en la cantidad necesaria y en el momento preciso, reduciendo costos de inventario." },
+        { "id": "d", "texto": "Eliminar el control de calidad en prendas terminadas." }
+      ],
+      "respuestaCorrecta": "c"
+    },
+    {
+      "id": "diag-log-10",
+      "numero": 10,
+      "tipo": "opcion-multiple",
+      "enunciado": "¿Cómo se define el transporte multimodal en el comercio nacional e internacional?",
+      "obligatoria": true,
+      "opciones": [
+        { "id": "a", "texto": "Transporte que utiliza dos o más modos diferentes (ej. camión, tren, buque) habitualmente bajo una misma unidad de carga." },
+        { "id": "b", "texto": "Traslado que utiliza exclusivamente vehículos terrestres de carga ligera." },
+        { "id": "c", "texto": "Transporte que no requiere contratos de flete ni seguros." },
+        { "id": "d", "texto": "Envío postal de muestras textiles." }
+      ],
+      "respuestaCorrecta": "a"
+    },
+    {
+      "id": "diag-log-11",
+      "numero": 11,
+      "tipo": "opcion-multiple",
+      "enunciado": "En los Incoterms® 2020, ¿cuál de los siguientes términos representa la MENOR responsabilidad para el vendedor?",
+      "obligatoria": true,
+      "opciones": [
+        { "id": "a", "texto": "DDP (Delivered Duty Paid)" },
+        { "id": "b", "texto": "CIF (Cost, Insurance and Freight)" },
+        { "id": "c", "texto": "EXW (Ex Works / En Fábrica)" },
+        { "id": "d", "texto": "FOB (Free On Board)" }
+      ],
+      "respuestaCorrecta": "c"
+    },
+    {
+      "id": "diag-log-12",
+      "numero": 12,
+      "tipo": "opcion-multiple",
+      "enunciado": "¿Qué función cumple un sistema ERP (Enterprise Resource Planning) en una corporación textil?",
+      "obligatoria": true,
+      "opciones": [
+        { "id": "a", "texto": "Integra todas las áreas operativas (compras, inventarios, producción, finanzas, ventas) en una sola plataforma informática centralizada." },
+        { "id": "b", "texto": "Controla únicamente la temperatura de las máquinas de costura." },
+        { "id": "c", "texto": "Reemplaza al agente aduanal en el cálculo de impuestos." },
+        { "id": "d", "texto": "Imprime las etiquetas de cartón corrugado." }
+      ],
+      "respuestaCorrecta": "a"
+    }
+  ]
+}

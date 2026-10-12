@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3.4 Lean Manufacturing, JIT y Kanban | Logística y cadena de suministro</title>
+  <meta name="description" content="Manufactura esbelta, eliminación de desperdicios en tintorería y acabados, producción Justo a Tiempo (JIT) y control visual con tarjetas Kanban.">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="../../../assets/css/comun.css">
+  <link rel="stylesheet" href="../../../assets/css/unidades-base.css">
+  <link rel="stylesheet" href="../../../assets/css/tema.css">
+
+  <link rel="icon" type="image/png" href="../../../assets/img/esit.png">
+</head>
+
+<body class="u-body" data-root="../../../" data-unidad="unidad-03" data-tema="3.4">
+
+  <header class="site-nav" data-componente="navegacion"></header>
+
+  <main class="u-page">
+    <div class="t-layout">
+      <aside class="t-index" aria-label="Contenido de la unidad">
+        <div class="t-index__card">
+          <div id="temaIndice">
+            <details class="t-index__details" open>
+              <summary class="t-index__summary">
+                <span>
+                  <span class="t-index__eyebrow">Unidad III</span>
+                  <span class="t-index__unit">Cadenas de Suministro en la Industria Textil</span>
+                </span>
+                <i class="fas fa-chevron-down t-index__chevron" aria-hidden="true"></i>
+              </summary>
+              <ol class="t-index__list" aria-label="Temas de la unidad">
+                <li><a class="t-index__link" href="tema-03-01.html"><span class="t-index__num">3.1</span><span>Cadena de suministro en la empresa textil</span></a></li>
+                <li><a class="t-index__link" href="tema-03-02.html"><span class="t-index__num">3.2</span><span>Planeación de la cadena y Pronóstico de la demanda</span></a></li>
+                <li><a class="t-index__link" href="tema-03-03.html"><span class="t-index__num">3.3</span><span>Gestión de Compras y Sincronización de la Producción</span></a></li>
+                <li><a class="t-index__link is-current" aria-current="page" href="tema-03-04.html"><span class="t-index__num">3.4</span><span>Manufactura Esbelta, Justo a Tiempo (JIT) y Kanban</span></a></li>
+                <li><a class="t-index__link" href="tema-03-05.html"><span class="t-index__num">3.5</span><span>Logística Inversa, Nearshoring y Métricas KPI</span></a></li>
+              </ol>
+              <ul class="t-index__list" aria-label="Actividades">
+                <li><a class="t-index__link t-index__link--final" href="../actividades/actividad-final.html"><i class="fas fa-flag-checkered" aria-hidden="true"></i><span>Actividad final</span></a></li>
+              </ul>
+            </details>
+          </div>
+          <div class="t-progress">
+            <p class="t-progress__label" id="progresoEtiqueta">Progreso de lectura <span class="t-progress__value" id="progresoValor">0 %</span></p>
+            <div class="t-progress__track" role="progressbar" aria-labelledby="progresoEtiqueta" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+              <span class="t-progress__bar" id="progresoBarra"></span>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <article class="t-article">
+        <p class="u-eyebrow">Unidad III · Tema 3.4</p>
+        <h1 class="t-title">Manufactura Esbelta, Justo a Tiempo y Kanban</h1>
+
+        <p class="t-lead" id="idea-central" data-toc="Idea central">
+          La manufactura esbelta está enfocada en eliminar productos dañados y garantizar el valor del producto para el cliente mediante sistemas sincronizados de flujo continuo.
+        </p>
+
+        <div class="t-prose">
+          <section id="lean-manufacturing" data-toc="3.7 Manufactura esbelta (Lean Manufacturing)">
+            <h2>3.7 Manufactura esbelta (Lean Manufacturing)</h2>
+            <p>Los principales desperdicios (muda) que ataca la manufactura esbelta son:</p>
+            <ul>
+              <li><strong>Exceso de productos</strong> (Sobreproducción).</li>
+              <li><strong>Tardanza</strong> (Tiempos de espera).</li>
+              <li><strong>Movilización innecesaria</strong> (Transporte y movimientos ergonómicamente improductivos).</li>
+              <li><strong>Sobreabastecimiento</strong> (Inventarios excesivos).</li>
+              <li><strong>Productos dañados</strong> (Defectos y retrabajos en confección).</li>
+              <li><strong>Esfuerzo duplicado</strong> (Sobreprocesamiento).</li>
+            </ul>
+
+            <aside class="t-callout t-callout--note">
+              <i class="fas fa-stopwatch t-callout__icon" aria-hidden="true"></i>
+              <div>
+                <p class="t-callout__label">Aplicación textil</p>
+                <p>
+                  <strong>Reducir tiempos muertos entre el teñido y el acabado permite incrementar la productividad y disminuir costos.</strong>
+                </p>
+              </div>
+            </aside>
+          </section>
+
+          <section id="justo-a-tiempo" data-toc="3.8 Justo a tiempo (JIT)">
+            <h2>3.8 Justo a tiempo (JIT)</h2>
+            <p>Producción eficiente, cantidad necesaria en el instante preciso.</p>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; margin: 1.5rem 0;">
+              <div style="background: var(--surface); border: 1px solid var(--border-color); border-radius: 8px; padding: 18px;">
+                <h3 style="margin-top: 0; color: #16a34a;"><i class="fas fa-thumbs-up"></i> Ventajas</h3>
+                <ul>
+                  <li>Menor inventario inmovilizado.</li>
+                  <li>Mayor flexibilidad ante cambios de temporada.</li>
+                  <li>Bajo costo / Bajo coste de almacenamiento.</li>
+                  <li>Agilización del movimiento de mercancías.</li>
+                </ul>
+              </div>
+
+              <div style="background: var(--surface); border: 1px solid var(--border-color); border-radius: 8px; padding: 18px;">
+                <h3 style="margin-top: 0; color: #dc2626;"><i class="fas fa-triangle-exclamation"></i> Riesgos</h3>
+                <p>
+                  Si un proveedor incumple una entrega, la producción en las líneas de corte o costura puede detenerse por completo.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section id="kanban" data-toc="3.9 Kanban (Control Visual)">
+            <h2>3.9 Kanban</h2>
+            <p>
+              Sistema de tarjetas visuales. Utiliza tarjetas físicas o digitales que indican cuándo producir o reabastecer los puestos de trabajo.
+            </p>
+            <h3>Beneficios del sistema Kanban</h3>
+            <ul>
+              <li><strong>Evita sobreproducción:</strong> Solo se elabora lo que el siguiente proceso solicita.</li>
+              <li><strong>Facilita el control visual:</strong> Permite identificar inmediatamente desbalances en líneas.</li>
+              <li><strong>Reduce inventarios:</strong> Minimiza el material en proceso (WIP).</li>
+              <li><strong>Mejora la coordinación entre procesos:</strong> Comunicación ágil entre tejeduría, tintorería y confección.</li>
+            </ul>
+          </section>
+
+          <section id="comprension" data-toc="Comprueba tu comprensión">
+            <h2>Comprueba tu comprensión</h2>
+            <p>
+              ¿Cómo ayudan las tarjetas Kanban a prevenir la acumulación excesiva de prendas a medio coser en las líneas de ensamble de un taller de confección?
+            </p>
+            <a class="u-btn u-btn--primary" href="../actividades/actividad-final.html">Caso de estudio: Negocio "Confecciones ESIT" <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+          </section>
+        </div>
+
+        <nav class="t-pager" id="temaNavegacion" aria-label="Navegación entre temas">
+          <a class="t-pager__prev" href="tema-03-03.html"><i class="fas fa-arrow-left" aria-hidden="true"></i> Anterior: tema 3.3</a>
+          <a class="u-btn u-btn--primary" href="tema-03-05.html">Siguiente: tema 3.5 <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+        </nav>
+      </article>
+
+      <aside class="t-toc" aria-labelledby="tocTitulo">
+        <p class="t-toc__title" id="tocTitulo">En esta página</p>
+        <ol class="t-toc__list" id="temaTabla"></ol>
+        <div class="t-refs">
+          <p class="t-refs__title">Referencias del tema</p>
+          <a href="../referencias.html" data-enlace-referencias>Ver lista completa <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="u-footer">
+    <div class="u-footer__inner">
+      <p>Logística y cadena de suministro · Polilibro académico · ESIT-IPN</p>
+      <p>Desarrollado con fines educativos · © 2026</p>
+    </div>
+  </footer>
+
+  <script src="../../../assets/js/data-manager.js"></script>
+  <script src="../../../assets/js/componentes.js"></script>
+  <script src="../../../assets/js/unidades-ui.js"></script>
+  <script src="../../../assets/js/paginas/tema-plantilla.js"></script>
+  <script src="../../../assets/js/visor-figuras.js"></script>
+</body>
+
+</html>

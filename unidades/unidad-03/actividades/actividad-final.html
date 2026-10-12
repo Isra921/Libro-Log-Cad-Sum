@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laboratorio y Caso de Estudio: Confecciones ESIT | Unidad III</title>
+  <meta name="description" content="Simulador de compras y abastecimiento, explosión de materiales BOM, matriz multicriterio de proveedores y acuerdos SLA para Confecciones ESIT.">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="../../../assets/css/comun.css">
+  <link rel="stylesheet" href="../../../assets/css/unidades-base.css">
+  <link rel="stylesheet" href="../../../assets/css/actividad.css">
+  <link rel="stylesheet" href="../../../assets/css/simulador-casos.css">
+
+  <link rel="icon" type="image/png" href="../../../assets/img/esit.png">
+</head>
+
+<body class="u-body" data-root="../../../" data-unidad="unidad-03">
+  <header class="site-nav" data-componente="navegacion"></header>
+
+  <main class="u-page">
+    <header class="a-card a-head" style="margin-bottom: 24px;">
+      <div class="a-head__top">
+        <span class="a-badge"><i class="fas fa-handshake"></i> Simulador y Laboratorio de Adquisiciones</span>
+        <span class="a-head__where">Unidad III · ESIT - IPN</span>
+      </div>
+      <p class="u-eyebrow">Evaluación Integradora Práctica · Cadena Textil y Proveedores</p>
+      <h1 class="a-title">Caso Práctico: Negocio "Confecciones ESIT"</h1>
+      <p class="a-purpose">
+        Conviértete en el director de adquisiciones de una maquiladora de uniformes industriales de alta resistencia: realiza la explosión de materiales (BOM/MRP), calibra una matriz de decisión multicriterio ponderada, negocia acuerdos SLA y diseña un plan de abasto dual (Dual Sourcing).
+      </p>
+      <ul class="a-chips" aria-label="Datos de la actividad">
+        <li class="u-chip u-chip--soft"><i class="fas fa-layer-group" aria-hidden="true"></i> Explosión de Materiales BOM</li>
+        <li class="u-chip u-chip--soft"><i class="fas fa-table-list" aria-hidden="true"></i> Matriz Multicriterio Ponderada</li>
+        <li class="u-chip u-chip--soft"><i class="fas fa-handshake-simple" aria-hidden="true"></i> Negociación SLA</li>
+        <li class="u-chip u-chip--accent"><i class="fas fa-award" aria-hidden="true"></i> Ponderación: 40% portafolio</li>
+      </ul>
+    </header>
+
+    <div class="a-layout">
+      <div class="a-main">
+        <!-- Tarjeta de Contexto Operativo -->
+        <section class="a-card">
+          <h2 class="a-card__title"><i class="fas fa-industry" aria-hidden="true"></i> Crisis de Abastecimiento en Líneas de Ensamble</h2>
+          <p>
+            <strong>Confecciones ESIT</strong> confecciona uniformes industriales de alta resistencia (overoles para Pemex y CFE). La empresa enfrenta cuellos de botella severos debido a fallas en su red de suministro de mezclilla pesada (14 oz) y avíos de seguridad:
+          </p>
+          <div class="sim-grid-2">
+            <div style="background: var(--bg-main); padding: 14px; border-radius: var(--radius-sm); border-left: 4px solid #ef4444;">
+              <strong style="color: #ef4444;"><i class="fas fa-stopwatch-24"></i> Paros de Producción por Desabasto:</strong>
+              <ul style="margin: 6px 0 0; padding-left: 18px; font-size: 0.88rem; line-height: 1.5;">
+                <li>Retrasos de hasta 20 días en entregas de rollos de mezclilla, provocando paros no programados en las 6 líneas de costura.</li>
+                <li>Sobrecompra de avíos innecesarios (cierres ordinarios) que inmovilizan $320,000 MXN de capital de trabajo en bodega.</li>
+              </ul>
+            </div>
+            <div style="background: var(--bg-main); padding: 14px; border-radius: var(--radius-sm); border-left: 4px solid #f59e0b;">
+              <strong style="color: #f59e0b;"><i class="fas fa-shirt"></i> Riesgo de Cancelación de Contratos:</strong>
+              <ul style="margin: 6px 0 0; padding-left: 18px; font-size: 0.88rem; line-height: 1.5;">
+                <li>El cliente corporativo auditó un lote y detectó teñido desigual y desprendimiento de cinta reflejante en lavados industriales.</li>
+                <li>Urgencia inmediata de licitar y seleccionar a un nuevo proveedor con homologación de calidad y entregas Just-in-Time (JIT).</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- Contenedor del Simulador con Stepper -->
+        <section class="a-card sim-container">
+          <nav class="sim-stepper" aria-label="Fases del laboratorio de adquisiciones">
+            <button class="sim-step-btn is-active" id="step-btn-1" data-step="1">
+              <span class="sim-step-num">1</span>
+              <span>Explosión BOM (MRP)</span>
+            </button>
+            <button class="sim-step-btn" id="step-btn-2" data-step="2">
+              <span class="sim-step-num">2</span>
+              <span>Matriz de Proveedores</span>
+            </button>
+            <button class="sim-step-btn" id="step-btn-3" data-step="3">
+              <span class="sim-step-num">3</span>
+              <span>Negociación SLA</span>
+            </button>
+            <button class="sim-step-btn" id="step-btn-4" data-step="4">
+              <span class="sim-step-num">4</span>
+              <span>Dictamen de Abasto</span>
+            </button>
+          </nav>
+
+          <!-- ==============================================
+               FASE 1: BOM Y REQUERIMIENTOS NETOS
+               ============================================== -->
+          <div class="sim-panel is-active" id="panel-step-1">
+            <div class="sim-stage-header">
+              <span class="sim-stage-badge"><i class="fas fa-layer-group"></i> Fase 1 de 4</span>
+              <h3 class="sim-stage-title">Planeación de Requerimientos: Explosión de Materiales (BOM)</h3>
+              <p class="sim-stage-desc">
+                La orden de producción en firme es de <strong>12,000 overoles industriales</strong>. Calcula los requerimientos netos de compra considerando los consumos unitarios, el factor de merma de trazo/corte y las existencias actuales en almacén:
+              </p>
+            </div>
+
+            <div class="sim-grid-2">
+              <div class="sim-formula-box">
+                <div class="sim-formula-tag">Estructura del Producto (BOM) & Inventario</div>
+                <ul style="margin: 6px 0; padding-left: 18px; font-size: 0.84rem; line-height: 1.6; color: var(--text-soft);">
+                  <li><strong>Orden de fabricación:</strong> 12,000 prendas.</li>
+                  <li><strong>Tela Mezclilla 14 oz:</strong> 2.50 metros por prenda + <strong>4% de merma de corte</strong> (factor 1.04). Stock en almacén: 4,200 m.</li>
+                  <li><strong>Cinta Reflejante 3M 2":</strong> 3.0 metros por prenda (sin merma). Stock en almacén: 6,000 m.</li>
+                  <li><strong>Cierres Metálicos 65 cm:</strong> 1 pieza por prenda. Stock en almacén: 2,500 piezas.</li>
+                </ul>
+                <div class="sim-formula-math">Compra Neta = (Demanda Unitaria × Unidades × Factor Merma) - Stock Disponible</div>
+              </div>
+
+              <div class="sim-control-box">
+                <h4 class="sim-control-box__title"><i class="fas fa-pen-ruler"></i> Cálculo de Requerimientos Netos a Adquirir</h4>
+                <div class="sim-calc-group">
+                  <div class="sim-calc-input">
+                    <label for="u3-calc-tela">1. Mezclilla 14 oz (metros netos):</label>
+                    <input type="number" id="u3-calc-tela" placeholder="Ej. 27000">
+                    <small style="color: var(--text-muted); font-size: 0.72rem;">(12,000 × 2.5 × 1.04) - 4,200</small>
+                  </div>
+                  <div class="sim-calc-input">
+                    <label for="u3-calc-cintas">2. Cinta reflejante (metros netos):</label>
+                    <input type="number" id="u3-calc-cintas" placeholder="Ej. 30000">
+                    <small style="color: var(--text-muted); font-size: 0.72rem;">(12,000 × 3.0) - 6,000</small>
+                  </div>
+                  <div class="sim-calc-input">
+                    <label for="u3-calc-cierres">3. Cierres 65 cm (piezas netas):</label>
+                    <input type="number" id="u3-calc-cierres" placeholder="Ej. 9500">
+                    <small style="color: var(--text-muted); font-size: 0.72rem;">12,000 - 2,500</small>
+                  </div>
+                </div>
+
+                <div style="text-align: right; margin-top: 14px;">
+                  <button type="button" class="sim-btn sim-btn--primary" id="btn-check-bom">
+                    <i class="fas fa-calculator"></i> Validar Requerimientos Netos
+                  </button>
+                </div>
+
+                <div id="feedback-u3-bom" class="sim-feedback-inline"></div>
+              </div>
+            </div>
+
+            <div class="sim-actions-row">
+              <button type="button" class="sim-btn sim-btn--primary" data-next-step="2">
+                Avanzar a Matriz de Proveedores <i class="fas fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- ==============================================
+               FASE 2: MATRIZ DE DECISIÓN MULTICRITERIO
+               ============================================== -->
+          <div class="sim-panel" id="panel-step-2">
+            <div class="sim-stage-header">
+              <span class="sim-stage-badge"><i class="fas fa-table-list"></i> Fase 2 de 4</span>
+              <h3 class="sim-stage-title">Matriz Multicriterio de Decisión: Evaluación Ponderada de Proveedores</h3>
+              <p class="sim-stage-desc">
+                Se licitó el abasto de mezclilla entre 3 proveedores candidatos. Ajusta los <strong>pesos porcentuales</strong> (que deben sumar 100%) según las prioridades de calidad técnica y confiabilidad de entrega requeridas por Confecciones ESIT:
+              </p>
+            </div>
+
+            <!-- Tabla Comparativa de Ofertas -->
+            <div class="sim-table-wrap">
+              <table class="sim-table">
+                <thead>
+                  <tr>
+                    <th>Criterio Técnico / Comercial</th>
+                    <th>Proveedor A: Textiles Bajío (Nacional)</th>
+                    <th>Proveedor B: Denim Asia (Importador)</th>
+                    <th>Proveedor C: Mezclillas Norte (JIT Certificado)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>Calidad y Resistencia Textil</strong></td>
+                    <td>8.5 / 10 (Buena resistencia)</td>
+                    <td>6.5 / 10 (Riesgo en teñido)</td>
+                    <td><strong style="color: #10b981;">9.8 / 10 (ISO 9001 / Oeko-Tex)</strong></td>
+                  </tr>
+                  <tr>
+                    <td><strong>Lead Time (Tiempo de Entrega)</strong></td>
+                    <td>12 días hábiles (Puntaje: 7.5)</td>
+                    <td>38 días vía marítima (Puntaje: 4.0)</td>
+                    <td><strong style="color: #10b981;">4 días hábiles JIT (Puntaje: 10.0)</strong></td>
+                  </tr>
+                  <tr>
+                    <td><strong>Precio Unitario por Metro</strong></td>
+                    <td>$78 MXN/m (Puntaje: 8.0)</td>
+                    <td><strong style="color: #10b981;">$58 MXN/m Económico (Puntaje: 10.0)</strong></td>
+                    <td>$86 MXN/m (Puntaje: 6.5)</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Flexibilidad en Lote Mínimo</strong></td>
+                    <td>8.0 / 10 (Lotes medianos)</td>
+                    <td>5.0 / 10 (Obliga contenedores)</td>
+                    <td><strong style="color: #10b981;">9.5 / 10 (Entregas fraccionadas)</strong></td>
+                  </tr>
+                  <tr>
+                    <td><strong>Certificaciones de Fábrica</strong></td>
+                    <td>8.0 / 10 (Laboratorio propio)</td>
+                    <td>6.0 / 10 (Sin auditoría local)</td>
+                    <td><strong style="color: #10b981;">10.0 / 10 (Laboratorio acreditado)</strong></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <!-- Controles de Ponderación Interactiva -->
+            <div class="sim-control-box">
+              <h4 class="sim-control-box__title">
+                <span><i class="fas fa-sliders"></i> Calibra las Ponderaciones de Decisión (Suma obligatoria: 100%)</span>
+                <span>Suma actual: <strong id="u3-val-suma" style="color: var(--primary);">100%</strong></span>
+              </h4>
+
+              <div class="sim-grid-3">
+                <div class="sim-slider-group">
+                  <div class="sim-slider-label">
+                    <span>Calidad de Mezclilla:</span>
+                    <span class="sim-slider-val" id="u3-val-calidad">35%</span>
+                  </div>
+                  <input type="range" class="sim-range" id="u3-w-calidad" min="10" max="60" value="35" step="5">
+                </div>
+
+                <div class="sim-slider-group">
+                  <div class="sim-slider-label">
+                    <span>Tiempo de Entrega (Lead Time):</span>
+                    <span class="sim-slider-val" id="u3-val-lead">25%</span>
+                  </div>
+                  <input type="range" class="sim-range" id="u3-w-lead" min="10" max="50" value="25" step="5">
+                </div>
+
+                <div class="sim-slider-group">
+                  <div class="sim-slider-label">
+                    <span>Precio Unitario:</span>
+                    <span class="sim-slider-val" id="u3-val-precio">20%</span>
+                  </div>
+                  <input type="range" class="sim-range" id="u3-w-precio" min="5" max="40" value="20" step="5">
+                </div>
+
+                <div class="sim-slider-group">
+                  <div class="sim-slider-label">
+                    <span>Flexibilidad de Entrega:</span>
+                    <span class="sim-slider-val" id="u3-val-flex">10%</span>
+                  </div>
+                  <input type="range" class="sim-range" id="u3-w-flex" min="5" max="30" value="10" step="5">
+                </div>
+
+                <div class="sim-slider-group">
+                  <div class="sim-slider-label">
+                    <span>Certificaciones y Ensayos:</span>
+                    <span class="sim-slider-val" id="u3-val-cert">10%</span>
+                  </div>
+                  <input type="range" class="sim-range" id="u3-w-cert" min="5" max="30" value="10" step="5">
+                </div>
+              </div>
+
+              <!-- Puntuaciones Ponderadas Resultantes -->
+              <div class="sim-grid-3" style="margin-top: 18px;">
+                <div class="sim-kpi-card">
+                  <span class="sim-kpi-title">Proveedor A (Nacional)</span>
+                  <div class="sim-kpi-val" id="u3-score-prov-a">7.85</div>
+                  <p class="sim-kpi-desc">Opción intermedia balanceada.</p>
+                </div>
+                <div class="sim-kpi-card is-danger">
+                  <span class="sim-kpi-title">Proveedor B (Importado)</span>
+                  <div class="sim-kpi-val" id="u3-score-prov-b">6.68</div>
+                  <p class="sim-kpi-desc">Barato, pero alto riesgo de paro.</p>
+                </div>
+                <div class="sim-kpi-card is-success">
+                  <span class="sim-kpi-title">Proveedor C (JIT Certificado)</span>
+                  <div class="sim-kpi-val" id="u3-score-prov-c">8.80</div>
+                  <p class="sim-kpi-desc">Líder en confiabilidad y calidad.</p>
+                </div>
+              </div>
+
+              <div style="margin-top: 14px; text-align: center;">
+                <span id="u3-winner-badge" class="sim-badge sim-badge--success" style="font-size: 0.85rem; padding: 8px 14px;">
+                  <i class="fas fa-trophy"></i> Proveedor Seleccionado: Proveedor C (Mezclillas del Norte)
+                </span>
+              </div>
+            </div>
+
+            <div class="sim-actions-row">
+              <button type="button" class="sim-btn sim-btn--secondary" data-next-step="1">
+                <i class="fas fa-arrow-left"></i> Volver a BOM
+              </button>
+              <button type="button" class="sim-btn sim-btn--primary" data-next-step="3">
+                Continuar a Negociación SLA <i class="fas fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- ==============================================
+               FASE 3: NEGOCIACIÓN SLA
+               ============================================== -->
+          <div class="sim-panel" id="panel-step-3">
+            <div class="sim-stage-header">
+              <span class="sim-stage-badge"><i class="fas fa-handshake-angle"></i> Fase 3 de 4</span>
+              <h3 class="sim-stage-title">Mesa de Negociación: Acuerdo de Nivel de Servicio (SLA)</h3>
+              <p class="sim-stage-desc">
+                Un buen contrato no solo fija el precio, sino las garantías operativas. Diseña las cláusulas técnicas que protegerán a Confecciones ESIT frente a retrasos o defectos:
+              </p>
+            </div>
+
+            <div class="sim-control-box">
+              <div class="sim-grid-3">
+                <div class="sim-calc-input">
+                  <label for="u3-sel-aql">1. Límite de Calidad Aceptable (AQL):</label>
+                  <select id="u3-sel-aql">
+                    <option value="4.0">AQL 4.0% (Tolerante - Defectos visibles)</option>
+                    <option value="2.5">AQL 2.5% (Estándar comercial)</option>
+                    <option value="1.0" selected>AQL 1.0% (Estricto - Grado Industrial / CFE)</option>
+                  </select>
+                </div>
+
+                <div class="sim-calc-input">
+                  <label for="u3-sel-penalizacion">2. Penalización por Día de Demora:</label>
+                  <select id="u3-sel-penalizacion">
+                    <option value="0">Sin penalización (Confiabilidad verbal)</option>
+                    <option value="1.5" selected>1.5% del valor de la orden por día de atraso</option>
+                    <option value="3.0">3.0% diario (Riesgo de rechazo del contrato)</option>
+                  </select>
+                </div>
+
+                <div class="sim-calc-input">
+                  <label for="u3-sel-credito">3. Términos de Pago Comercial:</label>
+                  <select id="u3-sel-credito">
+                    <option value="contado">100% Anticipado de Contado</option>
+                    <option value="30" selected>Crédito a 30 días contra factura y entrega conforme</option>
+                    <option value="60">Crédito a 60 días (Difícil aceptación)</option>
+                  </select>
+                </div>
+              </div>
+
+              <div style="text-align: right; margin-top: 14px;">
+                <button type="button" class="sim-btn sim-btn--primary" id="btn-eval-sla">
+                  <i class="fas fa-gavel"></i> Evaluar Viabilidad del Acuerdo SLA
+                </button>
+              </div>
+
+              <div id="feedback-u3-sla" class="sim-feedback-inline"></div>
+            </div>
+
+            <div class="sim-actions-row">
+              <button type="button" class="sim-btn sim-btn--secondary" data-next-step="2">
+                <i class="fas fa-arrow-left"></i> Volver a Matriz
+              </button>
+              <button type="button" class="sim-btn sim-btn--primary" data-next-step="4">
+                Redactar Dictamen de Compras <i class="fas fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- ==============================================
+               FASE 4: DICTAMEN DE ABASTO
+               ============================================== -->
+          <div class="sim-panel" id="panel-step-4">
+            <div class="sim-stage-header">
+              <span class="sim-stage-badge"><i class="fas fa-certificate"></i> Fase 4 de 4</span>
+              <h3 class="sim-stage-title">Dictamen Técnico: Política de Adquisiciones y Dual Sourcing</h3>
+              <p class="sim-stage-desc">
+                Emite las directrices que blindarán la cadena textil contra la dependencia monopólica de proveedores y asegurarán el suministro continuo a Pemex y CFE.
+              </p>
+            </div>
+
+            <h4 style="margin: 0 0 10px; font-size: 0.95rem; color: var(--text-light);">
+              Selecciona la Estrategia de Abastecimiento recomendada:
+            </h4>
+            <div class="sim-decision-grid">
+              <label class="sim-decision-card is-selected">
+                <input type="radio" class="sim-decision-radio" name="u3-strat" value="opt_dual_sourcing" checked>
+                <div class="sim-decision-info">
+                  <h4>Abastecimiento Dual (Dual Sourcing: 70% Proveedor C + 30% Proveedor A) con JIT</h4>
+                  <p>
+                    Contratar el 70% del volumen principal con el Proveedor C (Mezclillas del Norte) para asegurar calidad certificada y entregas Just-in-Time, y homologar al 30% al Proveedor A (Textiles Bajío) como respaldo estratégico ante contingencias de demanda, eliminando la vulnerabilidad de depender de una sola fuente.
+                  </p>
+                </div>
+              </label>
+
+              <label class="sim-decision-card">
+                <input type="radio" class="sim-decision-radio" name="u3-strat" value="opt_single_asia">
+                <div class="sim-decision-info">
+                  <h4>Fuente Única de Bajo Costo (Single Sourcing: 100% Proveedor B Importado)</h4>
+                  <p>
+                    Adquirir todo el volumen al importador asiático por su bajo precio unitario, arriesgando la operación a los tiempos marítimos de 38 días y a rechazos por calidad en pruebas de lavado de Pemex/CFE.
+                  </p>
+                </div>
+              </label>
+            </div>
+
+            <div class="sim-control-box" style="margin-top: 18px;">
+              <label for="u3-dictamen-texto" style="display: block; font-weight: 700; margin-bottom: 8px; color: var(--text-light);">
+                <i class="fas fa-file-pen"></i> Dictamen Técnico de Adquisiciones y Homologación:
+              </label>
+              <textarea id="u3-dictamen-texto" rows="5" style="width: 100%; padding: 12px; border-radius: var(--radius-sm); border: 1px solid var(--border-color); background: var(--bg-main); color: var(--text-light); font-family: inherit; font-size: 0.9rem; line-height: 1.55;" placeholder="Argumenta la justificación matemática del BOM (27,000 m de tela), la ponderación de calidad técnica por encima del precio y las ventajas del abasto dual para garantizar el programa de producción sin paros..."></textarea>
+            </div>
+
+            <div class="sim-summary-card">
+              <div class="sim-score-banner">
+                <div style="display: flex; align-items: center; gap: 16px;">
+                  <div class="sim-score-circle" id="u3-score-circle">100</div>
+                  <div class="sim-score-meta">
+                    <h3 id="u3-score-title">Dictamen Sobresaliente de Abastecimiento</h3>
+                    <p>Evaluación basada en exactitud de BOM, rigor en matriz multicriterio y blindaje contractual SLA.</p>
+                  </div>
+                </div>
+                <div style="text-align: right;">
+                  <span class="sim-badge sim-badge--success" style="font-size: 0.82rem; padding: 6px 12px;">
+                    <i class="fas fa-certificate"></i> Evidencia para Portafolio ESIT
+                  </span>
+                </div>
+              </div>
+
+              <div class="sim-actions-row">
+                <button type="button" class="sim-btn sim-btn--secondary" id="btn-imprimir-u3">
+                  <i class="fas fa-print"></i> Imprimir / Guardar en PDF
+                </button>
+                <button type="button" class="sim-btn sim-btn--primary" id="btn-guardar-dictamen-u3">
+                  <i class="fas fa-floppy-disk"></i> Guardar Dictamen en Portafolio Digital
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Navegación inferior unificada -->
+        <nav class="t-pager" id="actividadNavegacion" aria-label="Navegación de la actividad" style="margin-top: 24px;">
+          <a class="t-pager__prev" href="../temas/tema-03-05.html"><i class="fas fa-arrow-left" aria-hidden="true"></i> Volver al tema 3.5</a>
+          <a class="u-btn u-btn--primary" href="../../unidad-04/index.html">Continuar a la Unidad IV <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+        </nav>
+      </div>
+
+      <!-- Barra lateral -->
+      <aside class="a-sidebar" aria-label="Información de la actividad">
+        <section class="a-side-card a-side-card--dark">
+          <p class="a-side-title">Laboratorio ESIT</p>
+          <p class="a-side-text">La correcta selección de proveedores previene cuellos de botella y asegura el cumplimiento del programa de confección.</p>
+          <a class="a-side-link" href="../index.html"><i class="fas fa-arrow-left" aria-hidden="true"></i> <span>Volver a la Unidad III</span></a>
+        </section>
+
+        <nav class="a-side-card">
+          <p class="a-side-title">Temas Clave de Apoyo</p>
+          <a class="a-side-item" href="../temas/tema-03-01.html"><i class="fas fa-book-open"></i> 3.1 Cadena de suministro textil</a>
+          <a class="a-side-item" href="../temas/tema-03-02.html"><i class="fas fa-book-open"></i> 3.2 Planificación de compras</a>
+          <a class="a-side-item" href="../temas/tema-03-03.html"><i class="fas fa-book-open"></i> 3.3 Selección y evaluación</a>
+          <a class="a-side-item" href="../temas/tema-03-05.html"><i class="fas fa-book-open"></i> 3.5 Matriz multicriterio</a>
+        </nav>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="u-footer">
+    <div class="u-footer__inner">
+      <p>Logística y cadena de suministro · Polilibro académico · ESIT-IPN</p>
+      <p>Desarrollado con fines educativos · © 2026</p>
+    </div>
+  </footer>
+
+  <script src="../../../assets/js/data-manager.js"></script>
+  <script src="../../../assets/js/componentes.js"></script>
+  <script src="../../../assets/js/unidades-ui.js"></script>
+  <script src="../../../assets/js/simuladores/simulador-u3.js"></script>
+</body>
+
+</html>

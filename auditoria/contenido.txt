@@ -1,0 +1,1065 @@
+0: Bienvenida
+1: TextilSupply: innovación y logística inteligente, (polilibro académico), ha sido creado para fomentar la curiosidad, estimular el pensamiento lógico y fortalecer la capacidad de análisis en el fascinante mundo del textil. Este recurso nace como una herramienta educativa dinámica e innovadora en donde los estudiantados desarrollan habilidades fundamentales para comprender la logística y cadenas de suministro con un alto sentido social.
+2: Durante esta experiencia de aprendizaje, descubrirás los fundamentos logísticos y cadenas de suministro, comprenderás la importancia del almacenamiento, la administración de inventarios, los sistemas de codificación y las tecnologías de empaque. Asimismo, visualizarás estrategias distribución, medios de transporte, régimen aduanero y comercio internacional, reconociendo cómo cada elemento contribuye la eficiencia y a la competencia en la industria textil.
+3: Cada apartado ha sido elaborado con un enfoque pedagógico que prioriza la comprensión profunda, la aplicación práctica y la reflexión crítica. A través de recursos interactivos, ejemplos, retos y actividades, este polilibro te invita a explorar, experimentar y construir tu propio conocimiento, fortaleciendo tus competencias en pensamiento analítico, crítico, solución de problemas, adoptar una decisión, innovación tecnológica y aprendizaje autónomo
+4: Más que un simple material de estudio, TextilSupply: innovación y logística inteligent, te invita a participar en este maravilloso mundo de las cadenas de suministro, donde el conocimiento, en donde tu participación y creatividad con el uso de las tecnologías que integren la transformación y los desafíos de la industria textil en oportunidades de innovación.
+5: ¡Bienvenido a TextilSupply, este es tú espacio de aprendizaje donde la tecnología, la creatividad y la innovación te ayudaran a reflexionar, analizar e integran nuevas ideas y transformar el futuro de la industria textil!
+6: 
+7: 
+8: 
+9: 
+10: 
+11: 
+12: 
+13: EXAMEN DIAGNOSTICO
+14: 
+15: 
+16: 
+17: 
+18: 
+19: 
+20: 
+21: 
+22: 
+23: 
+24: 
+25: 
+26: 
+27: 
+28: 
+29: 
+30: 
+31: 
+32: 
+33: 
+34: 
+35: 
+36: 
+37: 
+38: 
+39: Introducción
+40: Conocer los pasos para proporcionar un producto al cliente que visualice el estudiantado de Ingeniería Textil cómo funciona y comprenderán la optimización en la fase de abastecimiento, almacenamiento, transporte y comercialización que integran la cadena fibra-textil-vestido. En un entorno impulsado por la innovación y la transformación digital, TextilSupply: innovación y logística inteligente (polilibro académico) se presenta como un recurso didáctico, innovador que promoverá el aprendizaje activo, pensamiento analítico y resolver problemas mediante su aplicación con sus estrategias logísticas, tecnologías y reingeniería de procesos. A través de este material, el estudiantado desarrollará competencias para proponer soluciones eficientes, sostenibles e innovadoras que fortalezcan su competencia en la industria textil y del vestido, con un alto sentido de responsabilidad social.
+41: Objetivo General
+42: Desarrollar en los estudiantes de Ingeniería Textil conocimientos y habilidades para analizar, diseñar y optimizar la cadena global de valor, mediante estudio de los procesos logísticos, almacenamiento, transporte, redes de distribución y tecnologías de la información, a través de un recurso didáctico digital innovadora que fortalezca aprender haciendo bajo experiencias promoviendo la eficiencia operativa, la competitividad y la responsabilidad social.
+43: Unidad I, se abordan los fundamentos, conceptos, planificación y control, eficiencia en el control del almacenamiento y traslado físico de los bienes, para que el estudiantado comprenda la importancia en la integración de los procesos productivos y distribución, identificando su relación con eficiencia operativa y competitividad empresarial.
+44: Unidad II, se identifican los procesos de almacenamiento, señalización, codificación y tecnologías de empaque, mediante la identificación de los requerimientos operativos de las cadenas de suministro, fortaleciendo las habilidades para organizar materiales, gestionar inventarios y mejorar el manejo y conservación de los productos textiles.
+45: Unidad III, se analiza la red de suministro a partir de técnicas y estrategias de distribución en donde el estudiantado identificar oportunidades de mejora con la coordinación de los procesos logísticos, flujo de materiales y entrega de productos.
+46: Unidad IV, se aborda los sistemas y medios de transporte, planificación de rutas de distribución y fundamentos del régimen aduanero, considerando la legislación vigente y aplicación, para la toma de decisiones, traslado y distribución de mercancías. 
+47: Unidad V, se utiliza herramientas tecnologías para la gestión logística y diseño de redes de distribución, con el análisis, estrategias de innovación y reingeniería de procesos, para desarrollo de soluciones a la eficiencia y competitividad.
+48: 
+49: 
+50: 
+51: 
+52: 
+53: 
+54: 
+55: Metodología
+56: TextilSupply: innovación y logística inteligente (polilibro académico), se diseñó como un recurso didáctico innovador para las y los estudiantes de Ingeniería textil de la Escuela Superior de Ingeniería Textil del Instituto Politécnico Nacional, tiene la intención de ayudar al aprendizaje en la unidad de logística y cadena de suministro desde un enfoque innovador y actual. Este material impulsa el conocimiento sobre las cadenas de suministro en la industria textil y del vestido a partir de la red de distribución, la reingeniería y tecnologías de la Información
+57: Propone.
+58:  
+59: Contexto académico
+60: TextilSupply: innovación y logística inteligente (polilibro académico) forma parte del material académico de apoyo para la unidad de aprendizaje Logística y cadena de suministro, dirigido a las y los estudiantes de Ingeniería Textil del Instituto Politécnico Nacional. Este recurso se integra como una herramienta complementaria dentro de la modalidad presencial, bajo una estrategia de aprendizaje orientada a proyectos, además de reforzar análisis racional y la evaluación objetiva de la información a la cadena de suministros dentro de un almacén, proceso aduanero y comercialización de los productos.
+61: A través del uso de este polilibro académico, las y los estudiantes resolverán problemas reales y aplicarán sus conocimientos en situaciones prácticas relacionadas con la Logística y cadena de suministro, trabajando de manera colaborativa para enfrentar retos y desarrollar soluciones tecnológicas. Esta dinámica favorece el trabajo en equipo, el aprendizaje cooperativo y la evaluación continua, promoviendo un aprendizaje significativo, adaptativo y alineado con las exigencias tecnológicas, red de suministros desde la formación académica en el aula y ejemplificación profesional.
+62: Objetivos específicos
+63: Identificar la logística y la cadena de suministro
+64: Identificar las funciones del almacenamiento, la administración de inventarios, los sistemas de codificación y las tecnologías de empaque. 
+65: Analizar cómo funciona los suministro del sector textil, reconociendo las estrategias que permiten incrementar su eficiencia. 
+66: Distinguir los diferentes medios de transporte, los principales conceptos del régimen aduanero y los elementos básicos del comercio internacional relacionados con productos textiles. 
+67: Reconocer las herramientas tecnológicas su automatización y la Industria 4.0 en la gestión logística. 
+68: Duración y modalidad
+69: Duración total estimada: 72 horas
+70: Distribución sugerida: 4.0 horas de teoría a la semana con el Polilibro Académico. 4.0 horas a la semana presenciales con acompañamiento del docente para análisis de casos, resolución de problemas y retroalimentación.
+71: Modalidad presencial. Se recomienda que el estudiante dedique mínimo 2.0 horas a la semana para la revisión de contenidos del Polilibro Académico previos a la sesión presencial.
+72: Estrategias de aprendizaje
+73: Aprendizaje basado en proyectos. Las y los estudiantes, a través de una serie de etapas, y guiados por el o la docente, colaboran para responder a una problemática o resolver una situación en el ámbito de la Logística y cadena de suministro.
+74: Aprendizaje autónomo. El o la estudiante navega de forma autogestionada por el contenido del Polilibro Académico, apoyándose en recursos interactivos, lecturas clave y ejemplos guiados.
+75: Aprendizaje basado en problemas. Los y las estudiantes resuelven problemas desafiantes y auténticos en el ámbito de los Logística y cadena de suministro, buscan soluciones de manera colaborativa analizando y resolviendo problemas reales en el uso de casos prácticos.
+76: 
+77: 
+78: 
+79: 
+80: 
+81: 
+82: Agenda de actividades
+83: 
+84: 
+85: 
+86: 
+87: 
+88: 
+89: 
+90: 
+91: 
+92: 
+93: 
+94: 
+95: 
+96: 
+97: 
+98: 
+99: 
+100: 
+101: 
+102: 
+103: 
+104: 
+105: 
+106: 
+107: 
+108: 
+109: Glosario
+110: 
+111: 
+112: 
+113: 
+114: 
+115: 
+116: 
+117: 
+118: 
+119: 
+120: 
+121: 
+122: 
+123: 
+124: 
+125: 
+126: 
+127: 
+128: 
+129: 
+130: 
+131: 
+132: 
+133: 
+134: 
+135: Licencia
+136: 
+137: 
+138: 
+139: 
+140: 
+141: 
+142: 
+143: 
+144: 
+145: 
+146: 
+147: 
+148: 
+149: 
+150: 
+151: 
+152: 
+153: 
+154: 
+155: 
+156: 
+157: 
+158: 
+159: 
+160: Creadores
+161: 
+162: 
+163: 
+164: 
+165: 
+166: 
+167: 
+168: 
+169: 
+170: 
+171: 
+172: 
+173: 
+174: 
+175: 
+176: 
+177: 
+178: 
+179: 
+180: 
+181: 
+182: 
+183: 
+184: 
+185: 
+186: Colaboradores
+187: 
+188: 
+189: 
+190: 
+191: 
+192: 
+193: 
+194: 
+195: 
+196: 
+197: 
+198: 
+199: 
+200: 
+201: 
+202: 
+203: 
+204: 
+205: 
+206: 
+207: 
+208: 
+209: 
+210: 
+211: 
+212: UNIDAD I
+213: Introducción a la Logística y Cadena de Suministro
+214: 1.1 Objetivos de la logística
+215: La logística tiene como finalidad administrar eficaz la línea de materiales, productos, datos y medios financieros en todo el recorrido de este proceso. Su propósito principal no solo es el de transportar mercancías, sino en coordinar cada una de las actividades necesarias para que el cliente reciba exactamente lo que necesita.
+216: Los principales objetivos son:
+217: Satisfacer las necesidades del cliente. 
+218: Minimizar costos operativos. 
+219: Utilizar bien los recursos. 
+220: Reducir tiempos de entrega. 
+221: Eficientizar el nivel de servicio. 
+222: Incrementar rentabilidad. 
+223: Reducir desperdicios. 
+224: Favorecer la mejora continua. 
+225: Fig 1. Logística y Cadena de Suministro
+226: 
+227: Nota. Elaboraciones propias basadas en Ballou, R. H. (2004). Logística: Administración de la cadena de suministro (5.ª ed.). Pearson Educación.
+228: 
+229: En la industria textil...
+230: Cuando una empresa entrega un pedido de uniformes escolares completos antes del inicio del ciclo escolar, en la cantidad solicitada y sin defectos, está cumpliendo los objetivos logísticos.
+231: 1.2 Importancia de la logística
+232: La calidad en los productos desarrollados por las empresas debe de ser de muy buena calidad además de tener una variedad de cadenas de suministros lo que permita que el producto se distribuya adecuamiento en la misma.
+233: Por lo que la empresa puede fabricar la mejor tela del mercado; sin embargo, si tarda semanas en entregarla, perderá clientes frente a otra empresa que entregue el mismo producto en pocos días.
+234: La logística permite:
+235: ✔ Reducir inventarios.
+236: ✔ Disminuir costos de transporte.
+237: ✔ Evitar desperdicios.
+238: ✔ Incrementar la productividad.
+239: ✔ Satisfacción del cliente.
+240: ✔ Mayor competitividad entre distribuidores de las mercancías.
+241: Beneficios:
+242: Beneficio
+243: Resultado
+244: Menores inventarios
+245: Menor capital inmovilizado
+246: Mejor transporte
+247: Reducción de costos
+248: Planeación adecuada
+249: Mayor productividad
+250: Mejor servicio
+251: Clientes satisfechos
+252: Información oportuna
+253: Mejor toma de decisiones
+254: 
+255: 1.3 Diferencia entre Logística y Cadena de Suministro
+256: Muchos estudiantes creen que son sinónimos; sin embargo, existe una diferencia importante.
+257: Logística
+258: Cadena de Suministro
+259: Administra operaciones
+260: Administra toda la red
+261: Se enfoca en transporte e inventarios
+262: Integra proveedores, fabricantes y clientes
+263: Es una parte del proceso
+264: Es el proceso completo
+265: Visión interna
+266: Visión integral
+267: 
+268: Ejemplo
+269: Una empresa textil compra algodón.
+270: La cadena de suministro comprende desde el cultivo del algodón hasta que una camisa llega al consumidor.
+271: La logística administra cómo mover ese algodón, almacenarlo, transformarlo y distribuir el producto terminado.
+272: 1.4 Componentes de la Cadena de Suministro
+273: Los diferentes actores que existen son:
+274: 
+275: Cada elemento depende del anterior.
+276: Si un proveedor entrega tarde, toda la producción se retrasa.
+277: 
+278: Descripción de cada componente
+279: Proveedores
+280: Suministran las materias primas.
+281: Ejemplos:
+282: Algodón 
+283: Poliéster 
+284: Colorantes 
+285: Botones 
+286: Cierres 
+287: Hilo 
+288: Compras
+289: Selecciona proveedores considerando:
+290: Costo 
+291: Excelencia en el producto 
+292: Periodo de entrega del producto
+293: Certificaciones 
+294: Capacidad producción 
+295: Producción
+296: Transforma la materia prima.
+297: En una empresa textil incluye:
+298: Hilatura 
+299: Tejeduría 
+300: Tintorería 
+301: Acabados 
+302: Confección 
+303: 
+304: Almacenes
+305: Custodian:
+306: Recurso primario. 
+307: Proceso. 
+308: Finalización del producto. 
+309: La intención principal es que exista disponibilidad a bajo costo.
+310: Distribución
+311: Hace llegar el producto terminado al cliente.
+312: Puede realizarse mediante:
+313: Transporte terrestre. 
+314: Marítimo. 
+315: Aéreo. 
+316: Ferroviario. 
+317: Multimodal. 
+318: Cliente
+319: Representa el último eslabón.
+320: Toda la cadena trabaja para satisfacer sus necesidades.
+321: 1.5 Tipos de Cadena de Suministro
+322: Cadena Tradicional
+323: Cada empresa trabaja de forma independiente.
+324: La comunicación es limitada.
+325: Generalmente existen altos inventarios.
+326: Cadena Integrada
+327: Existe intercambio permanente de información.
+328: Se reducen inventarios.
+329: Mejoran los tiempos de respuesta.
+330: Cadena Sincronizada
+331: Toda la producción se coordina prácticamente en tiempo real.
+332: Es utilizada por empresas como Toyota y Zara.
+333: Cadena Digital
+334: Utiliza tecnologías como:
+335: Inteligencia Artificial. 
+336: Big Data. 
+337: IoT. 
+338: RFID. 
+339: ERP. 
+340: Blockchain. 
+341: 
+342: 1.6 Principales Indicadores Logísticos (KPI)
+343: Los KPI (Indicadores clave de desempeño) permiten cuantificar el desempeño de una operación logística.
+344: Los más utilizados son:
+345: 
+346: 
+347: 
+348: Caso de estudio ESIT
+349: Empresa "Textiles del Centro"
+350: La empresa fabrica playeras deportivas.
+351: Durante el último semestre presentó los siguientes problemas:
+352: Retrasos en la llegada del algodón. 
+353: Inventarios excesivos. 
+354: Falta de espacio en almacén. 
+355: Entregas tardías. 
+356: Aumento del costo de transporte. 
+357: Devoluciones por errores en los pedidos. 
+358: Preguntas de análisis
+359: ¿Qué componente de la cadena de suministro presenta la primera falla? 
+360: ¿Qué KPI utilizarías para evaluar el nivel de servicio? 
+361: ¿Cómo reducirías los inventarios? 
+362: ¿Qué tecnología podría mejorar el control del almacén? 
+363: ¿Qué consecuencias económicas generan las devoluciones?
+364: 
+365: UNIDAD II
+366: Almacenaje, Señalización, Codificación y Tecnología de Empaque
+367: Objetivo de la Unidad
+368: Importancia del almacenamiento dentro de la cadena de abastecimiento, identificando los diferentes tipos de almacenes, aplicar métodos de administración de inventarios, reconocer los sistemas de codificación y señalización, así como seleccionar el empaque y embalaje más adecuado para la protección y distribución de productos textiles. Esta unidad corresponde al segundo bloque temático del programa oficial de la asignatura. 
+369: 
+370: 2.1 ¿Qué es un almacén?
+371: Instalación destinada a recibir, organizar, cuidar, controlar y surtir el producto primario requeridos para el desarrollo de un artículo.
+372: Aunque muchas personas consideran que un almacén únicamente sirve para "guardar mercancía", en realidad  es un lugar estratégico dentro de la distribución de productos, ya que permite tener la disponibilidad de materiales cuando son necesarios por producción o por el cliente.
+373: Funciones principales
+374: Entrada de artículos. 
+375: Revisión de calidad. 
+376: Identificación
+377: Colocación del producto dentro del espacio del almacén
+378: Conservación. 
+379: Preparación de productos (Picking). 
+380: Surtido
+381: Administración de inventarios. 
+382: 
+383: 2.2 Importancia del almacén en la industria textil
+384: En una empresa textil pueden coexistir varios almacenes especializados:
+385: 
+386: Una mala administración puede provocar pérdidas económicas por deterioro, humedad, contaminación o errores en el surtido.
+387: 
+388: 
+389: 2.3 Diseño (Layout) de un almacén
+390: El layout distribución y organización de trabajo dentro del almacén.
+391: Su objetivo es minimizar recorridos, optimizar espacios y facilitar el flujo de materiales.
+392: Distribución básica
+393: 
+394: 
+395: Principios de un buen layout
+396: Recorridos cortos. 
+397: Aprovechamiento del espacio. 
+398: Seguridad del personal. 
+399: Fácil identificación de productos. 
+400: Accesibilidad. 
+401: Posibilidad de crecimiento. 
+402: 
+403: 2.4 Sistemas de almacenamiento
+404: Organización del tipo de producto y del volumen de operación, se pueden utilizar diferentes sistemas.
+405: Almacenamiento en piso
+406: La mercancía se coloca directamente sobre tarimas.
+407: Ventajas
+408: Bajo costo. 
+409: Fácil implementación. 
+410: Desventajas
+411: Poco aprovechamiento del espacio vertical. 
+412: Mayor riesgo de daños. 
+413: 
+414: Almacenamiento en racks
+415: Consiste en utilizar estructuras metálicas para aprovechar la altura del almacén.
+416: Ventajas
+417: Mayor capacidad. 
+418: Fácil acceso. 
+419: Mejor organización. 
+420: Aplicación textil
+421: Ideal para rollos de tela, cajas de prendas o paquetes de hilo.
+422: 
+423: Almacenes automatizados
+424: Utilizan:
+425: Robots. 
+426: Transportadores. 
+427: Sistemas automáticos. 
+428: Software WMS. 
+429: Son comunes en grandes centros de distribución.
+430: 
+431: 2.5 Administración de Inventarios
+432: Un inventario representa el conjunto de materiales o productos almacenados para satisfacer la demanda futura.
+433: Su correcta administración evita tanto el desabasto como el exceso de existencias.
+434: Método de gestión de inventarios que divide los productos de un almacén en tres categorías (A, B y C) 
+435: Su base se establece en el principio de Pareto (80/20).
+436: 
+437: 
+438: 
+439: Ejemplo textil
+440: Categoría A
+441: Colorantes especiales. 
+442: Telas importadas. 
+443: Categoría B
+444: Botones. 
+445: Cierres. 
+446: Categoría C
+447: Bolsas. 
+448: Etiquetas. 
+449: Material de oficina. 
+450: 2.6 Métodos de rotación de inventarios
+451: FIFO (Primero en entrar, primero en salir)
+452: Primeros artículos que entran al depósito serán los que salen primero
+453: Se utiliza para:
+454: Telas. 
+455: Hilos. 
+456: Productos con posibilidad de deterioro. 
+457: 
+458: LIFO (Último en entrar, primero en salir)
+459: Último producto almacenado es el primero en utilizarse.
+460: Actualmente tiene aplicaciones limitadas y no suele recomendarse para materiales textiles con riesgo de envejecimiento.
+461: 
+462: FEFO (First Expired, First Out)
+463: Primero en Caducar, Primero en Salir
+464: Muy utilizado para:
+465: Colorantes. 
+466: Auxiliares químicos. 
+467: Adhesivos. 
+468: Productos con fecha de vencimiento. 
+469: 
+470: Comparación
+471: 
+472: 
+473: 2.7 Picking
+474: El Picking consiste en seleccionar y reunir los productos solicitados por un cliente.
+475: Es una de las actividades con mayor impacto en los costos logísticos.
+476: Tipos de picking:
+477: Manual. 
+478: Por zonas. 
+479: Por lotes. 
+480: Automatizado. 
+481: 
+482: 
+483: 2.8 Señalización en almacenes
+484: La señalización permite identificar áreas, prevenir accidentes y facilitar el movimiento de materiales.
+485: Ejemplos:
+486: 🟢 Ruta de evacuación.
+487: 🟡 Zona de almacenamiento.
+488: 🔴 Equipo contra incendio.
+489: 🔵 Uso obligatorio de equipo de protección personal.
+490: 
+491: 2.9 Sistemas de Codificación
+492: Código de Barras
+493: Es el sistema más utilizado para identificar productos.
+494: Ventajas:
+495: Rapidez. 
+496: Menor error humano. 
+497: Fácil implementación. 
+498: 
+499: Código QR
+500: Puede almacenar mayor cantidad de información.
+501: Aplicaciones:
+502: Fichas técnicas. 
+503: Manuales. 
+504: Información del lote. 
+505: Trazabilidad. 
+506: 
+507: 
+508: RFID
+509: Identificación por Radiofrecuencia.
+510: Permite leer cientos de productos sin contacto visual.
+511: Ventajas
+512: Mayor velocidad. 
+513: Menos errores. 
+514: Inventarios en tiempo real. 
+515: Excelente para centros de distribución. 
+516: 
+517: 2.10 Empaque y Embalaje
+518: Empaque
+519: Envase se encuentra directo con el producto.
+520: Ejemplos:
+521: Bolsa de polietileno para una camisa. 
+522: Caja individual para una prenda premium. 
+523: 
+524: Embalaje
+525: Protege al conjunto de productos durante el transporte.
+526: Ejemplos:
+527: Caja corrugada. 
+528: Tarima. 
+529: Película stretch. 
+530: Flejes. 
+531: 
+532: 
+533: Materiales de empaque más utilizados
+534: Cartón corrugado. 
+535: Plástico. 
+536: Papel kraft. 
+537: Espuma protectora. 
+538: Madera (exportación). 
+539: Materiales reciclables. 
+540: Caso de estudio
+541: Empresa "Moda ESIT"
+542: La empresa produce 8,000 playeras por semana.
+543: Durante el último mes se detectaron:
+544: Rollos de tela dañados por humedad. 
+545: Productos mal identificados. 
+546: Errores frecuentes en los pedidos. 
+547: Inventarios duplicados. 
+548: Pérdidas por uso de colorantes vencidos. 
+549: Actividad
+550: Como responsable de logística:
+551: ¿Qué método de rotación implementarías para los colorantes? 
+552: ¿Qué sistema de codificación recomendarías? 
+553: ¿Qué cambios harías en el layout del almacén? 
+554: ¿Qué tipo de racks utilizarías para almacenar rollos de tela? 
+555: ¿Qué indicadores utilizarías para evaluar las mejoras?
+556: 
+557: UNIDAD III
+558: Cadena de Suministro en la Industria Textil
+559: Objetivo 
+560: Estructura y aplicación de la función de la industria textil identificando los procesos que la integran, reconocerá las estrategias para optimizar su desempeño y analizará las herramientas modernas utilizadas para incrementar la competitividad de las organizaciones. Esta unidad desarrolla el tercer eje temático del programa oficial. 
+561: 
+562: 3.1 ¿Qué es una Cadena de Suministro?
+563: Conjunto de empresas, organizaciones y actividades que participan desde la obtención de la materia prima hasta la entrega del producto terminado al consumidor final.
+564: No se trata únicamente de mover mercancías, sino de coordinar eficientemente todas las operaciones para generar valor.
+565: 
+566: 
+567: 3.2 Cadena de suministro de una empresa textil
+568: Proceso de la industria textil:
+569: 
+570: Cada etapa agrega valor al producto y depende de la correcta ejecución de la anterior.
+571: 
+572: 
+573: 3.3 Planeación de la Cadena de Suministro
+574: La planeación busca garantizar que los recursos estén disponibles en el momento oportuno.
+575: Implica responder preguntas como:
+576: ¿Cuánto producir? 
+577: ¿Cuándo producir? 
+578: ¿Qué materiales comprar? 
+579: ¿Cuánto inventario mantener? 
+580: ¿Qué capacidad instalada se requiere? 
+581: ¿Cuál será la demanda esperada? 
+582: Una mala planeación genera:
+583: Sobreproducción. 
+584: Desabasto. 
+585: Retrasos. 
+586: Costos elevados. 
+587: Pérdida de clientes. 
+588: 3.4 Pronóstico de la demanda
+589: Pronóstico que estimar demanda futura para planificar adecuadamente las operaciones.
+590: Métodos Cualitativos
+591: Juicio de expertos. 
+592: Sondeo. 
+593: Análisis de mercado. 
+594: Métodos Cuantitativos
+595: Media aritmética móvil. 
+596: Tendencias. 
+597: Modelado predictivo. 
+598: Datos longitudinales. 
+599: Ejemplo
+600: Empresa vende 20,000 playeras escolares cada julio durante los últimos cinco años, puede utilizar esa información para planear la producción del siguiente ciclo escolar.
+601: 3.5 Gestión de Compras
+602: Departamento de compras tiene la función de adquirir los materiales necesarios con las mejores condiciones posibles.
+603: Los criterios de selección incluyen:
+604: Precio. 
+605: Calidad. 
+606: Tiempo de ciclo. 
+607: Confiabilidad. 
+608: Capacidad de abastecimiento. 
+609: Certificaciones. 
+610: Cumplimiento ambiental. 
+611: Responsabilidad social. 
+612: 
+613: Evaluación de proveedores
+614: Una herramienta sencilla consiste en asignar puntuaciones:
+615: 
+616: El proveedor con la mayor calificación será el más conveniente, siempre que cumpla con los requisitos técnicos.
+617: 3.6 Producción
+618: Producción y construcción a productos finalizados.
+619: Industria textil normalmente comprende:
+620: Apertura y limpieza de fibras. 
+621: Hilatura. 
+622: Tejeduría. 
+623: Tintorería. 
+624: Acabados. 
+625: Corte. 
+626: Confección. 
+627: Empaque. 
+628: Cada proceso debe sincronizarse para evitar cuellos de botella.
+629: 
+630: 3.7 Manufactura esbelta (Lean Manufacturing)
+631: Manufactura esbelta, esta enfocada en eliminar productos dañados y garantizar el valor del producto para el cliente.
+632: Los principales desperdicios son:
+633: Exceso de productos
+634: Tardanza. 
+635: Movilización innecesaria. 
+636: Sobreabastecimiento. 
+637: Productos dañados. 
+638: Esfuerzo duplicado. 
+639: Aplicación textil
+640: Reducir tiempos muertos entre el teñido y el acabado permite incrementar la productividad y disminuir costos.
+641: 3.8 Justo a tiempo (JIT)
+642: Producción eficiente, cantidad necesaria.
+643: Ventajas
+644: Menor inventario. 
+645: Mayor flexibilidad. 
+646: Bajo costo / Bajo coste. 
+647: Agilización del movimiento de mercancías. 
+648: Riesgos
+649: Si un proveedor incumple una entrega, la producción puede detenerse.
+650: 3.9 Kanban
+651: Sistema de tarjetas visuales.
+652: Utiliza tarjetas físicas o digitales que indican cuándo producir o reabastecer.
+653: Beneficios
+654: Evita sobreproducción. 
+655: Facilita el control visual. 
+656: Reduce inventarios. 
+657: Mejora la coordinación entre procesos. 
+658: 
+659: 
+660: 3.10 Logística Inversa
+661: Ingeniería inversa / Reutilización de productos en donde se recupera el materiales, componentes o artículos al final de su vida útil.
+662: Ejemplos:
+663: Devoluciones. 
+664: Reciclaje de textiles. 
+665: Recuperación de empaques. 
+666: Reutilización de materiales. 
+667: Gestión de residuos textiles. 
+668: La economía circular ha incrementado la importancia de esta actividad.
+669: 
+670: 3.11 Nearshoring
+671: Trasladar operaciones productivas a países cercanos al mercado de compra / adquisición.
+672: ¿Por qué beneficia a México?
+673: Proximidad geográfica con Estados Unidos. 
+674: Optimización de tiempos de tránsito. 
+675: Tratado comercial de América del Norte o Acuerdo comercial noreste (T-MEC). 
+676: Mano de obra calificada. 
+677: Profundo dominio en la fabricación textil. 
+678: Muchas empresas internacionales han incrementado sus inversiones en México gracias a esta estrategia.
+679: 
+680: 3.12 Indicadores de desempeño (KPI)
+681: Métricas de la cadena de suministro.
+682: 
+683: 
+684: Estudio de casos prácticos
+685: Negocio "Confecciones ESIT"
+686: Negocio de uniformes industriales.
+687: Durante el último trimestre presentó:
+688: Retrasos de proveedores. 
+689: Exceso de inventario. 
+690: Baja productividad. 
+691: Pedidos entregados fuera de tiempo. 
+692: Incremento de devoluciones. 
+693: Costos elevados de almacenamiento. 
+694: Actividad
+695: Como responsable de la cadena de suministro:
+696: Identifique los principales problemas. 
+697: Proponga tres acciones de mejora. 
+698: Indique qué KPI utilizaría para medir los resultados. 
+699: ¿Sería conveniente implementar JIT? Justifique su respuesta. 
+700: ¿Cómo ayudaría Kanban en este caso? 
+701: 
+702: ¿Sabías que...?
+703: Zara, es un referente internacional de la moda / Un líder indiscutible del diseño y el comercio textil / Una marca emblemática de alcance globa, donde su sistema de producción reducido (frecuentemente de 2 a 4 semanas) en contraposición a las colecciones estacionales tradicionales de 6 a 12 meses. 
+704: UNIDAD IV
+705: Transportación y Régimen Aduanero
+706: Objetivo de la Unidad
+707: Nexo logístico, columna vertebral del flujo de mercancías o motor de la distribución, conocerá los principales conceptos del régimen aduanero mexicano y aplicará los Incoterms® 2020 en operaciones de comercio nacional e internacional relacionadas con la industria textil. 
+708: 
+709: 4.1 La importancia del transporte
+710: Eslabón logístico fundamental que asegura la movilidad eficiente de materiales y mercancías en todas las etapas del proceso productivo.
+711: Los precios de transporte representan uno de los mayores porcentajes del costo logístico total, por lo que su adecuada gestión impacta directamente en la rentabilidad.
+712: Objetivos del transporte
+713: Garantizar entregas oportunas. 
+714: Reducir costos logísticos. 
+715: Proteger la mercancía durante el traslado. 
+716: Cumplir con los tiempos acordados con el cliente. 
+717: Optimizar rutas de distribución. 
+718: Reducir emisiones contaminantes. 
+719: 
+720: 4.2 Modos de transporte
+721: Transporte terrestre
+722: el transporte de carga más utilizado en México depende de una variedad de factores, pero el terrestre emerge como el líder indiscutible para su distribución.
+723: 
+724: Ventajas
+725: Amplio alcance. 
+726: Versatilidad. 
+727: Envío directo al domicilio. 
+728: Menor tiempo de preparación. 
+729: Desventajas
+730: Tráfico. 
+731: Accidentes. 
+732: Restricciones carreteras. 
+733: Mayor costo en largas distancias. 
+734: Aplicación textil
+735: Distribución de telas y prendas a centros comerciales y distribuidores nacionales.
+736: Transporte ferroviario
+737: Transporte por ferrocarril: destinado principalmente a la movilización de carga masiva.
+738: Ventajas
+739: Eficiencia operativa. 
+740: Rendimiento superior / Alto desempeño. 
+741: Optimización de recursos. 
+742: Desventajas
+743: Falta de flexibilidad. 
+744: Dependencia de terminales ferroviarias. 
+745: Aplicación
+746: Transporte de algodón, fibras sintéticas y grandes lotes de tela.
+747: 
+748: 
+749: Transporte marítimo
+750: Navegación comercial, transporte por agua, tráfico marítimo, fletamento marítimo, transporte en buques y cargueros.
+751: Ventajas
+752: Gran capacidad. 
+753: Bajo costo por unidad. 
+754: Ideal para exportaciones. 
+755: Desventajas
+756: Prolongación del trayecto. 
+757: Sujeción a la infraestructura portuaria. 
+758: Condiciones meteorológicas. 
+759: Aplicación
+760: Exportación de prendas hacia Europa, Asia y América.
+761: 
+762: Transporte aéreo
+763: Usado cuando una carga comercial común recibe prioridad de abordaje debido a su urgencia.
+764: Ventajas
+765: Velocidad.
+766: Resguardo total. 
+767: Desventajas
+768: Costoso. 
+769: Restricción de carga. 
+770: Aplicación
+771: Muestras textiles, prendas de moda rápida y productos premium.
+772: 
+773: 
+774: Transporte multimodal
+775: Sistema que utiliza dos o más medios para mover mercancías (habitualmente en la misma unidad de carga o contenedor), pero se gestiona mediante contratos independientes para cada etapa y transportista 
+776: Ejemplo
+777: Camión (Carretera - Ferrocarril (Tren) - Buque (Marítimo) - Camión (Carretera)
+778: 
+779: Es muy utilizado en operaciones internacionales.
+780: 
+781: Comparación de los medios de transporte
+782: 
+783: 
+784: 4.3 Selección del medio de transporte
+785: La elección depende de diversos factores:
+786: Clasificación del producto. 
+787: Valor económico. 
+788: Duración de entrega. 
+789: Distancia. 
+790: Riesgo. 
+791: Costos. 
+792: Condiciones de conservación. 
+793: Ejemplo
+794: Una colección de moda para una pasarela internacional puede requerir transporte aéreo debido a la urgencia.
+795: En cambio, un embarque de 25 toneladas de mezclilla puede enviarse por vía marítima.
+796: 
+797: 4.4 Rutas de distribución
+798: El diseño de rutas busca minimizar:
+799: Distancia recorrida. 
+800: Tiempo de entrega. 
+801: Consumo de combustible. 
+802: Costos operativos. 
+803: Factores para considerar:
+804: Ubicación de clientes. 
+805: Capacidad del vehículo. 
+806: Ventanas de entrega. 
+807: Condiciones del tránsito. 
+808: Seguridad. 
+809: 
+810: 4.5 Régimen Aduanero
+811: Establece el destino legal que tendrán las mercancías al ingresar o salir de un país.
+812: En México, las operaciones aduaneras están reguladas principalmente por:
+813: Ley Aduanera. 
+814: Ley de Comercio Exterior. 
+815: Reglamento de la Ley Aduanera. 
+816: Reglas Generales de Comercio Exterior. 
+817: 
+818: Tipos de régimen aduanero
+819: Definitivo
+820: La mercancía entra o sale del país de manera permanente.
+821: Ejemplo:
+822: Una empresa de Puebla exporta camisetas de algodón a Estados Unidos.
+823: 
+824: Temporal
+825: Las mercancías ingresan o salen por un tiempo determinado.
+826: Ejemplo:
+827: Importación temporal de maquinaria para una feria industrial.
+828: Depósito Fiscal
+829: Las mercancías permanecen almacenadas bajo control de la autoridad aduanera hasta definir su destino.
+830: 4.6 Documentación de Comercio Exterior
+831: Entre los documentos más comunes se encuentran:
+832: Factura comercial. 
+833: Lista de empaque (Packing List). 
+834: Conocimiento de embarque (Bill of Lading). 
+835: Carta Porte (para transporte nacional). 
+836: Pedimento aduanal. 
+837: Certificado de origen. 
+838: Póliza de seguro. 
+839: Cada documento cumple una función específica para garantizar la legalidad y trazabilidad de la operación.
+840: 
+841: 
+842: 4.7 Agente Aduanal
+843: Profesional autorizado para promover el despacho aduanero de mercancías en representación de importadores y exportadores.
+844: Entre sus funciones destacan:
+845: Elaborar pedimentos. 
+846: Clasificar mercancías. 
+847: Calcular contribuciones. 
+848: Coordinar el despacho aduanero. 
+849: Verificar el cumplimiento de regulaciones. 
+850: 
+851: 
+852: 4.8 Incoterms® 2020
+853: 
+854: Los Incoterms (término abreviado del inglés International Commercial Terms) son los sinónimos directos y de uso universal para los Términos de Comercio Internacional, que establece responsabilidades del vendedor y comprador en los productos que se ofrecen.
+855: Incoterms más utilizados
+856: 
+857: Es importante recordar que:
+858: EXW representa la menor responsabilidad para el vendedor. 
+859: DDP representa la mayor responsabilidad para el vendedor. 
+860: 
+861: 
+862: 4.9 Transporte en la Industria Textil
+863: Algunos ejemplos prácticos:
+864: 
+865: Caso de estudio
+866: Empresa "Exportaciones Textiles ESIT"
+867: Una empresa de la Ciudad de México recibió un pedido de 8,000 chamarras para un cliente en Canadá.
+868: El cliente requiere la entrega en 30 días.
+869: Las prendas serán transportadas desde la planta hasta el puerto de Veracruz y posteriormente por vía marítima.
+870: Actividad
+871: ¿Qué medios de transporte intervendrán en la operación? 
+872: ¿Qué documentos serán necesarios? 
+873: ¿Qué Incoterm recomendarías si el vendedor acepta pagar el transporte hasta el puerto de destino, pero no el despacho de importación? 
+874: ¿Qué riesgos deben asegurarse durante el traslado? 
+875: ¿Qué ventajas ofrece el transporte multimodal en este caso? 
+876: 
+877: ¿Sabías que...?
+878: México es uno de los principales exportadores de productos textiles y de confección hacia Estados Unidos, gracias a su cercanía geográfica, al T-MEC y a la integración de sus cadenas de suministro con Norteamérica.
+879: 
+880: UNIDAD V
+881: Tecnologías de la Información y Redes de Distribución
+882: Objetivo
+883: La importancia y el papel de las Tecnologías de la Información (TI) en la administración de la cadena de suministro, identificará los principales sistemas utilizados para la planeación y control de operaciones logísticas, analizará el funcionamiento de las redes de distribución y reconocerá las tendencias tecnológicas que están transformando la industria textil.
+884: 
+885: 5.1 Tecnologías de Información en la Logística
+886: Actualmente, las empresas ya no administran sus operaciones mediante hojas de cálculo o registros manuales. La mayoría utiliza sistemas informáticos especializados que integran la información de compras, inventarios, producción, transporte y ventas.
+887: Las Tecnologías de la Información permiten:
+888: Automatizar procesos. 
+889: Reducir errores. 
+890: Compartir información en tiempo real. 
+891: Mejorar la toma de decisiones. 
+892: Incrementar la productividad. 
+893: Disminuir costos. 
+894: 
+895: 5.2 Planificación de recursos empresariales (ERP)
+896: Sistema que integra todas las áreas de una empresa en una sola plataforma.
+897: Entre los módulos más comunes se encuentran:
+898: Compras. 
+899: Inventarios. 
+900: Producción. 
+901: Recursos Humanos. 
+902: Finanzas. 
+903: Ventas. 
+904: Distribución. 
+905: Ventajas
+906: Información centralizada. 
+907: Menor duplicidad de datos. 
+908: Mejor control administrativo. 
+909: Mayor productividad. 
+910: Ejemplo
+911: Cuando el almacén registra la salida de un lote de tela, el ERP actualiza automáticamente el inventario, informa a producción y genera información para el área financiera.
+912: 
+913: 5.3 Planificación de requerimientos de materiales (MRP)
+914: Determina qué materiales deben comprarse y cuándo deben estar disponibles para la producción.
+915: Su objetivo principal es evitar:
+916: Desabasto. 
+917: Compras innecesarias. 
+918: Inventarios excesivos. 
+919: Información que utiliza
+920: Pronóstico de ventas. 
+921: Inventarios actuales. 
+922: Lista de materiales (BOM). 
+923: Programa Maestro de Producción. 
+924: 
+925: 5.4 Sistema de gestión de almacenes (WMS)
+926: Administra todas las operaciones de un almacén.
+927: Controla:
+928: Recepción. 
+929: Ubicación. 
+930: Inventario. 
+931: Picking. 
+932: Embarques. 
+933: Conteos cíclicos. 
+934: Beneficios
+935: Mayor exactitud. 
+936: Menor tiempo de búsqueda. 
+937: Optimización del espacio. 
+938: Reducción de errores. 
+939: 
+940: 5.5 Sistema de gestión de transporte (TMS)
+941: Administra el transporte.
+942: Permite:
+943: Diseñar rutas. 
+944: Asignar vehículos. 
+945: Controlar entregas. 
+946: Medir tiempos. 
+947: Calcular costos. 
+948: Es ampliamente utilizado por empresas con redes nacionales de distribución.
+949: 
+950: 
+951: Comparación de Sistemas
+952: 
+953: 5.6 Identificación por Radiofrecuencia (RFID)
+954: Utiliza etiquetas electrónicas que transmiten información mediante ondas de radio.
+955: Ventajas
+956: Lectura sin contacto. 
+957: Inventarios rápidos. 
+958: Mayor trazabilidad. 
+959: Reducción de errores. 
+960: Aplicación textil
+961: Una tienda puede identificar automáticamente todas las prendas que ingresan al almacén sin abrir las cajas.
+962: 5.7 Internet de las Cosas (IoT)
+963: Se Encarga de conectar equipos y sensores para compartir información en tiempo real.
+964: Ejemplos
+965: Sensores de temperatura. 
+966: GPS. 
+967: Contenedores inteligentes. 
+968: Vehículos conectados. 
+969: Máquinas textiles automatizadas. 
+970: En una tintorería industrial, sensores IoT pueden monitorear continuamente la temperatura y el consumo de agua para asegurar la calidad del proceso.
+971: 5.8 Big Data
+972: Consiste en el análisis de grandes volúmenes de información.
+973: Permite:
+974: Pronosticar demanda. 
+975: Detectar tendencias. 
+976: Optimizar inventarios. 
+977: Analizar rutas. 
+978: Mejorar decisiones estratégicas. 
+979: 
+980: 5.9 Inteligencia Artificial
+981: Permite que los sistemas aprendan a partir de los datos.
+982: Aplicaciones:
+983: Pronóstico de ventas. 
+984: Optimización de rutas. 
+985: Planeación automática. 
+986: Detección de anomalías. 
+987: Mantenimiento predictivo. 
+988: Asistentes virtuales. 
+989: Caso práctico
+990: Un sistema de IA puede detectar que una línea de confección disminuirá su productividad debido al desgaste de una máquina y recomendar mantenimiento antes de que ocurra una falla.
+991: 
+992: 5.10 Blockchain
+993: Permite registrar operaciones de manera segura e inalterable.
+994: En logística puede utilizarse para:
+995: Trazabilidad. 
+996: Certificados de origen. 
+997: Seguimiento de exportaciones. 
+998: Autenticidad de productos. 
+999: Cadena de custodia. 
+1000: 
+1001: 5.11 Redes de Distribución
+1002: Estructura mediante la cual los productos llegan al consumidor final.
+1003: Sus principales componentes son:
+1004: 
+1005: 
+1006: Tipos de Redes de Distribución
+1007: Directa
+1008: Fabricante → Cliente
+1009: Ventajas
+1010: Mayor control. 
+1011: Mejor comunicación. 
+1012: Menores intermediarios. 
+1013: 
+1014: Indirecta
+1015: Fabricante → Mayorista → Minorista → Cliente
+1016: Ventajas
+1017: Mayor cobertura. 
+1018: Expansión del mercado. 
+1019: Omnicanal
+1020: Integra:
+1021: Tiendas físicas. 
+1022: Comercio electrónico. 
+1023: Marketplaces. 
+1024: Redes sociales. 
+1025: Aplicaciones móviles. 
+1026: El cliente puede comprar por internet y recoger el producto en tienda.
+1027: 
+1028: 
+1029: 5.12 Industria 4.0
+1030: La Industria 4.0 representa la digitalización de los procesos industriales.
+1031: Incluye:
+1032: Inteligencia Artificial. 
+1033: Robótica. 
+1034: IoT. 
+1035: Big Data. 
+1036: Automatización. 
+1037: Manufactura inteligente. 
+1038: En la industria textil permite:
+1039: Producción flexible. 
+1040: Personalización de prendas. 
+1041: Menores desperdicios. 
+1042: Mejor control de calidad. 
+1043: 
+1044: Caso de estudio
+1045: Empresa "Innovación Textil ESIT"
+1046: La empresa produce ropa deportiva.
+1047: Actualmente presenta:
+1048: Inventarios incorrectos. 
+1049: Retrasos en entregas. 
+1050: Pérdida de mercancía. 
+1051: Mala comunicación entre almacén y producción. 
+1052: Escasa visibilidad de la cadena de suministro. 
+1053: 
+1054: Actividad
+1055: Como consultor:
+1056: ¿Qué sistema ERP recomendarías implementar? 
+1057: ¿Qué ventajas aportaría un WMS? 
+1058: ¿Cómo ayudaría RFID? 
+1059: ¿Qué aplicaciones tendría la IA? 
+1060: ¿Cómo diseñarías una red de distribución más eficiente? 
+1061: 
+1062: ¿Sabías que...?
+1063: Las empresas líderes del sector textil utilizan algoritmos de Inteligencia Artificial para predecir la demanda de prendas por temporada, optimizar inventarios y reducir el desperdicio de materiales, mejorando tanto la rentabilidad como la sostenibilidad.
+1064: 

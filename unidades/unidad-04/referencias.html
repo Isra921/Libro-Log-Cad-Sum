@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Referencias Bibliográficas · Unidad IV | Logística y cadena de suministro</title>
+  <meta name="description" content="Referencias oficiales y acervo de transporte y régimen aduanero de la Unidad IV (ESIT-IPN).">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="../../assets/css/comun.css">
+  <link rel="stylesheet" href="../../assets/css/unidades-base.css">
+  <link rel="stylesheet" href="../../assets/css/referencias.css">
+
+  <link rel="icon" type="image/png" href="../../assets/img/esit.png">
+</head>
+
+<body class="u-body" data-root="../../" data-unidad="unidad-04">
+
+  <header class="site-nav" data-componente="navegacion"></header>
+
+  <main class="u-page">
+    <section class="r-hero">
+      <div class="r-hero__header">
+        <span class="u-eyebrow"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Acervo y Fuentes Académicas</span>
+        <span class="u-chip u-chip--accent"><i class="fas fa-layer-group" aria-hidden="true"></i> Unidad IV</span>
+      </div>
+      <h1 class="r-hero__title">Referencias Bibliográficas y Recursos</h1>
+      <p class="r-hero__lead">
+        Fuentes jurídicas y operativas que fundamentan la <strong>Unidad IV: Transportación y Régimen Aduanero</strong> de la Escuela Superior de Ingeniería Textil (ESIT - IPN).
+      </p>
+    </section>
+
+    <section class="r-toolbar" aria-label="Herramientas de filtrado de referencias">
+      <div class="r-filters" role="group" aria-label="Filtro de recursos">
+        <button type="button" class="r-filter-btn is-active" data-filter="todos">
+          <i class="fas fa-border-all" aria-hidden="true"></i> Todos <span class="r-count">5</span>
+        </button>
+        <button type="button" class="r-filter-btn" data-filter="libro">
+          <i class="fas fa-book" aria-hidden="true"></i> Bibliografía <span class="r-count">3</span>
+        </button>
+        <button type="button" class="r-filter-btn" data-filter="ley">
+          <i class="fas fa-gavel" aria-hidden="true"></i> Leyes y Tratados <span class="r-count">2</span>
+        </button>
+      </div>
+
+      <div class="r-search-box">
+        <i class="fas fa-magnifying-glass" aria-hidden="true"></i>
+        <input type="search" id="searchRef" placeholder="Buscar por tema o estándar..." aria-label="Buscar referencias">
+      </div>
+    </section>
+
+    <div class="r-grid" id="rGrid">
+      <article class="r-card" data-category="libro">
+        <div class="r-card__body">
+          <div class="r-card__tags">
+            <span class="r-chip r-chip--libro"><i class="fas fa-book"></i> Bibliografía Básica IPN</span>
+          </div>
+          <h3 class="r-card__title">Soluciones logísticas para optimizar la cadena de suministro</h3>
+          <p class="r-card__author">Álvarez Francisco (2015)</p>
+          <p class="r-card__meta">México: Marge Books. ISBN 9788416171897.</p>
+        </div>
+      </article>
+
+      <article class="r-card" data-category="libro">
+        <div class="r-card__body">
+          <div class="r-card__tags">
+            <span class="r-chip r-chip--libro"><i class="fas fa-book"></i> Bibliografía Básica IPN</span>
+          </div>
+          <h3 class="r-card__title">La cadena de suministro</h3>
+          <p class="r-card__author">Sabria, Federico (2017)</p>
+          <p class="r-card__meta">México: Alfaomega. ISBN 9786076229347.</p>
+        </div>
+      </article>
+
+      <article class="r-card" data-category="libro">
+        <div class="r-card__body">
+          <div class="r-card__tags">
+            <span class="r-chip r-chip--libro"><i class="fas fa-book"></i> Reglas Internacionales</span>
+          </div>
+          <h3 class="r-card__title">Incoterms® 2020: ICC rules for the use of domestic and international trade terms</h3>
+          <p class="r-card__author">International Chamber of Commerce - ICC (2020)</p>
+          <p class="r-card__meta">París: ICC Publications.</p>
+        </div>
+      </article>
+
+      <article class="r-card" data-category="ley">
+        <div class="r-card__body">
+          <div class="r-card__tags">
+            <span class="r-chip r-chip--rfc"><i class="fas fa-scale-balanced"></i> Legislación Federal</span>
+          </div>
+          <h3 class="r-card__title">Ley Aduanera y su Reglamento</h3>
+          <p class="r-card__author">Congreso de la Unión (México)</p>
+          <p class="r-card__meta">Diario Oficial de la Federación. Regímenes aduaneros y despacho de mercancías.</p>
+        </div>
+      </article>
+
+      <article class="r-card" data-category="ley">
+        <div class="r-card__body">
+          <div class="r-card__tags">
+            <span class="r-chip r-chip--rfc"><i class="fas fa-globe"></i> Tratado Internacional</span>
+          </div>
+          <h3 class="r-card__title">Tratado entre México, Estados Unidos y Canadá (T-MEC)</h3>
+          <p class="r-card__author">Secretaría de Economía (México)</p>
+          <p class="r-card__meta">Capítulo sobre Reglas de Origen y Procedimientos Textiles y del Vestido.</p>
+        </div>
+      </article>
+    </div>
+
+    <div class="r-empty" id="rEmpty" style="display: none; text-align: center; padding: 40px;">
+      <p>No se encontraron referencias que coincidan con la búsqueda.</p>
+    </div>
+  </main>
+
+  <footer class="u-footer">
+    <div class="u-footer__inner">
+      <p>Logística y cadena de suministro · Polilibro académico · ESIT-IPN</p>
+      <p>Desarrollado con fines educativos · © 2026</p>
+    </div>
+  </footer>
+
+  <script src="../../assets/js/data-manager.js"></script>
+  <script src="../../assets/js/componentes.js"></script>
+  <script src="../../assets/js/paginas/referencias.js"></script>
+</body>
+
+</html>

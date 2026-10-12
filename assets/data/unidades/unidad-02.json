@@ -1,0 +1,81 @@
+{
+  "id": "unidad-02",
+  "numero": 2,
+  "titulo": "Almacenaje, Señalización, Codificación y Tecnología de Empaque",
+  "descripcion": "Especifica las condiciones de operación de una cadena de suministro a partir del cumplimiento de los requerimientos de almacenaje.",
+  "lema": "Domina el diseño de almacenes textiles, inventarios ABC, rotación de mercancías y tecnologías de codificación y empaque.",
+  "duracion_horas": 20.0,
+  "introduccion": [
+    "El almacenamiento constituye un eslabón estratégico dentro de la distribución de productos textiles, ya que garantiza la disponibilidad oportuna de materiales requeridos tanto por las líneas de producción como por los clientes finales.",
+    "A lo largo de esta unidad se identifican las condiciones de operación en bodegas manuales y automatizadas, los métodos de administración y rotación de inventarios, las técnicas de preparación de pedidos (picking), la señalización de seguridad, los sistemas de codificación y la selección de envases y embalajes protectores para la industria textil."
+  ],
+  "recorrido": "Revisa los conceptos y funciones de un almacén, analiza los almacenes especializados textiles, diseña layouts funcionales, implementa métodos ABC y técnicas de rotación (FIFO, LIFO, FEFO), optimiza procesos de picking, aplica normatividad de codificación y empaque, y resuelve el caso de la empresa 'Moda ESIT'.",
+  "temas": [
+    {
+      "numero": "2.1",
+      "nombre": "¿Qué es un almacén y sus funciones?",
+      "sintesis": "Instalación estratégica, flujo de recepción, inspección de calidad, conservación, picking y administración de inventarios.",
+      "url": "unidades/unidad-02/temas/tema-02-01.html",
+      "actividad": { "nombre": "Actividad 2.1", "url": "" }
+    },
+    {
+      "numero": "2.2",
+      "nombre": "Importancia del almacén en la industria textil",
+      "sintesis": "Almacenes especializados: materias primas, insumos, productos químicos/colorantes, producto en proceso y refacciones.",
+      "url": "unidades/unidad-02/temas/tema-02-02.html",
+      "actividad": { "nombre": "Actividad 2.2", "url": "" }
+    },
+    {
+      "numero": "2.3",
+      "nombre": "Diseño (Layout) de un almacén",
+      "sintesis": "Distribución física: recepción, control de calidad, almacenamiento en racks, picking, empaque y embarques.",
+      "url": "unidades/unidad-02/temas/tema-02-03.html",
+      "actividad": { "nombre": "Actividad 2.3", "url": "" }
+    },
+    {
+      "numero": "2.4",
+      "nombre": "Sistemas de almacenamiento",
+      "sintesis": "Almacenamiento en piso vs racks metálicos para rollos de tela y bobinas; bodegas automatizadas con software WMS.",
+      "url": "unidades/unidad-02/temas/tema-02-04.html",
+      "actividad": { "nombre": "Actividad 2.4", "url": "" }
+    },
+    {
+      "numero": "2.5",
+      "nombre": "Administración de Inventarios (Método ABC)",
+      "sintesis": "Principio de Pareto (80/20) aplicado a colorantes especiales, telas importadas, avíos textiles y consumibles.",
+      "url": "unidades/unidad-02/temas/tema-02-05.html",
+      "actividad": { "nombre": "Actividad 2.5", "url": "" }
+    },
+    {
+      "numero": "2.6",
+      "nombre": "Métodos de rotación de inventarios y Picking",
+      "sintesis": "Políticas FIFO, LIFO y FEFO para químicos perecederos; tipos de preparación de pedidos: manual, zonas, lotes y automatizado.",
+      "url": "unidades/unidad-02/temas/tema-02-06.html",
+      "actividad": { "nombre": "Actividad 2.6", "url": "" }
+    },
+    {
+      "numero": "2.7",
+      "nombre": "Señalización, Codificación y Empaque textil",
+      "sintesis": "Señalética de seguridad, códigos de barras, códigos QR, etiquetas RFID, tipos de empaque primario y embalajes de exportación.",
+      "url": "unidades/unidad-02/temas/tema-02-07.html",
+      "actividad": { "nombre": "Actividad 2.7", "url": "" }
+    }
+  ],
+  "actividad_final": {
+    "nombre": "Caso de estudio: Empresa 'Moda ESIT'",
+    "descripcion": "Resolución de incidencias operativas: telas dañadas por humedad, colorantes caducos y rediseño de layout en confección masiva.",
+    "url": "unidades/unidad-02/actividades/actividad-final.html"
+  },
+  "objetivo": "Especifica las condiciones de operación de una cadena de suministro a partir del cumplimiento de los requerimientos de almacenaje.",
+  "competencias": [
+    "Organiza la distribución física y flujos de materiales en almacenes textiles manuales y automatizados.",
+    "Aplica modelos de administración ABC y rotación de inventarios adecuados a las características de materias primas y químicos textiles.",
+    "Selecciona tecnologías de codificación, señalización y empaque que optimicen la preservación y trazabilidad de prendas y telas."
+  ],
+  "material_apoyo": [
+    {
+      "nombre": "Referencias oficiales de la Unidad II",
+      "url": "unidades/unidad-02/referencias.html"
+    }
+  ]
+}

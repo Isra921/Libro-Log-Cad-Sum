@@ -1,0 +1,22 @@
+/* ==========================================================================
+   ESTILOS COMUNES · Punto de entrada para componentes globales
+   Polilibro: Aplicaciones para Comunicaciones en Red (ESCOM-IPN)
+   --------------------------------------------------------------------------
+   Importa en orden la paleta global, estilos base y los modales dinámicos.
+   ========================================================================== */
+
+@import url("variables.css");
+@import url("global.css");
+@import url("ventana-modal.css");
+@import url("autores-modal.css");
+@import url("glosario-modal.css");
+@import url("actividades-modal.css");
+@import url("plan-estudios-modal.css");
+
+/* Logo ESIT original, con fondo blanco para preservar su contraste. */
+.brand-logo--esit{width:52px!important;height:52px!important;object-fit:contain;background:#fff;padding:3px;border-radius:8px;opacity:1!important;filter:none!important;flex-shrink:0}
+/* Sin placa de fondo: el PNG de ESIT ya contiene canal alfa. */
+.site-nav .brand .brand-logo--esit{background:transparent!important;padding:0;border-radius:0;filter:drop-shadow(0 0 2px #fff) drop-shadow(0 0 1px #fff)!important}
+
+html{color-scheme:light}.site-nav .brand .brand-logo--esit{filter:none!important;background:transparent!important}.brand-logo--ipn{filter:brightness(0) saturate(100%) invert(17%) sepia(32%) saturate(1852%) hue-rotate(179deg) brightness(94%) contrast(94%)}
+.site-nav .nav-toggle{color:var(--text-light)}
