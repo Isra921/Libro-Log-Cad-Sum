@@ -53,17 +53,7 @@ Estado del proyecto y reparto de tareas del equipo: **Aranza, Diego y Uriblue**.
 
 ---
 
-## 📌 Orden de trabajo recomendado
-1. **Diego** realiza la limpieza de archivos obsoletos (1–2 días) para dejar el árbol limpio.
-2. **Aranza** toma la plantilla de actividad de los otros libros (`Libro-App-Com-Red` / `Libro-Com-Paralelo`) y confirma la estructura base para los temas.
-3. Cada quien trabaja en su rama y envía *Pull Request* a `main`:
-   - `aranza-u1-u5`
-   - `diego-u2-limpieza`
-   - `uriblue-u3-u4`
-
----
-
 ## ❓ Dudas a confirmar con el profesor
 - **Glosario oficial:** Solicitar la lista de términos y definiciones autorizadas para reemplazar el borrador actual.
 - **Figuras faltantes:** Validar si existen diagramas o imágenes adicionales en el material de origen para los temas que aún no cuentan con figura.
-- **Créditos y nomenclatura:** Confirmar créditos oficiales del plan de estudios y nombres exactos de las unidades II y III.
+- **Créditos y nomenclatura:** Confirmar créditos oficiales del plan de estudios y nombres exactos de las unidades II y III, ademas de los profesores que se colocarán en autores.
