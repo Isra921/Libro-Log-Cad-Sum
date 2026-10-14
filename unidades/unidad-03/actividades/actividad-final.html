@@ -48,14 +48,14 @@
           </p>
           <div class="sim-grid-2">
             <div style="background: var(--bg-main); padding: 14px; border-radius: var(--radius-sm); border-left: 4px solid #ef4444;">
-              <strong style="color: #ef4444;"><i class="fas fa-stopwatch-24"></i> Paros de Producción por Desabasto:</strong>
+              <strong style="color: #b91c1c;"><i class="fas fa-stopwatch-24"></i> Paros de Producción por Desabasto:</strong>
               <ul style="margin: 6px 0 0; padding-left: 18px; font-size: 0.88rem; line-height: 1.5;">
                 <li>Retrasos de hasta 20 días en entregas de rollos de mezclilla, provocando paros no programados en las 6 líneas de costura.</li>
                 <li>Sobrecompra de avíos innecesarios (cierres ordinarios) que inmovilizan $320,000 MXN de capital de trabajo en bodega.</li>
               </ul>
             </div>
             <div style="background: var(--bg-main); padding: 14px; border-radius: var(--radius-sm); border-left: 4px solid #f59e0b;">
-              <strong style="color: #f59e0b;"><i class="fas fa-shirt"></i> Riesgo de Cancelación de Contratos:</strong>
+              <strong style="color: #b45309;"><i class="fas fa-shirt"></i> Riesgo de Cancelación de Contratos:</strong>
               <ul style="margin: 6px 0 0; padding-left: 18px; font-size: 0.88rem; line-height: 1.5;">
                 <li>El cliente corporativo auditó un lote y detectó teñido desigual y desprendimiento de cinta reflejante en lavados industriales.</li>
                 <li>Urgencia inmediata de licitar y seleccionar a un nuevo proveedor con homologación de calidad y entregas Just-in-Time (JIT).</li>
@@ -174,31 +174,31 @@
                     <td><strong>Calidad y Resistencia Textil</strong></td>
                     <td>8.5 / 10 (Buena resistencia)</td>
                     <td>6.5 / 10 (Riesgo en teñido)</td>
-                    <td><strong style="color: #10b981;">9.8 / 10 (ISO 9001 / Oeko-Tex)</strong></td>
+                    <td><strong style="color: #047857;">9.8 / 10 (ISO 9001 / Oeko-Tex)</strong></td>
                   </tr>
                   <tr>
                     <td><strong>Lead Time (Tiempo de Entrega)</strong></td>
                     <td>12 días hábiles (Puntaje: 7.5)</td>
                     <td>38 días vía marítima (Puntaje: 4.0)</td>
-                    <td><strong style="color: #10b981;">4 días hábiles JIT (Puntaje: 10.0)</strong></td>
+                    <td><strong style="color: #047857;">4 días hábiles JIT (Puntaje: 10.0)</strong></td>
                   </tr>
                   <tr>
                     <td><strong>Precio Unitario por Metro</strong></td>
                     <td>$78 MXN/m (Puntaje: 8.0)</td>
-                    <td><strong style="color: #10b981;">$58 MXN/m Económico (Puntaje: 10.0)</strong></td>
+                    <td><strong style="color: #047857;">$58 MXN/m Económico (Puntaje: 10.0)</strong></td>
                     <td>$86 MXN/m (Puntaje: 6.5)</td>
                   </tr>
                   <tr>
                     <td><strong>Flexibilidad en Lote Mínimo</strong></td>
                     <td>8.0 / 10 (Lotes medianos)</td>
                     <td>5.0 / 10 (Obliga contenedores)</td>
-                    <td><strong style="color: #10b981;">9.5 / 10 (Entregas fraccionadas)</strong></td>
+                    <td><strong style="color: #047857;">9.5 / 10 (Entregas fraccionadas)</strong></td>
                   </tr>
                   <tr>
                     <td><strong>Certificaciones de Fábrica</strong></td>
                     <td>8.0 / 10 (Laboratorio propio)</td>
                     <td>6.0 / 10 (Sin auditoría local)</td>
-                    <td><strong style="color: #10b981;">10.0 / 10 (Laboratorio acreditado)</strong></td>
+                    <td><strong style="color: #047857;">10.0 / 10 (Laboratorio acreditado)</strong></td>
                   </tr>
                 </tbody>
               </table>
@@ -217,7 +217,7 @@
                     <span>Calidad de Mezclilla:</span>
                     <span class="sim-slider-val" id="u3-val-calidad">35%</span>
                   </div>
-                  <input type="range" class="sim-range" id="u3-w-calidad" min="10" max="60" value="35" step="5">
+                  <input type="range" aria-label="Calidad de Mezclilla" class="sim-range" id="u3-w-calidad" min="10" max="60" value="35" step="5">
                 </div>
 
                 <div class="sim-slider-group">
@@ -225,7 +225,7 @@
                     <span>Tiempo de Entrega (Lead Time):</span>
                     <span class="sim-slider-val" id="u3-val-lead">25%</span>
                   </div>
-                  <input type="range" class="sim-range" id="u3-w-lead" min="10" max="50" value="25" step="5">
+                  <input type="range" aria-label="Tiempo de Entrega (Lead Time)" class="sim-range" id="u3-w-lead" min="10" max="50" value="25" step="5">
                 </div>
 
                 <div class="sim-slider-group">
@@ -233,7 +233,7 @@
                     <span>Precio Unitario:</span>
                     <span class="sim-slider-val" id="u3-val-precio">20%</span>
                   </div>
-                  <input type="range" class="sim-range" id="u3-w-precio" min="5" max="40" value="20" step="5">
+                  <input type="range" aria-label="Precio Unitario" class="sim-range" id="u3-w-precio" min="5" max="40" value="20" step="5">
                 </div>
 
                 <div class="sim-slider-group">
@@ -241,7 +241,7 @@
                     <span>Flexibilidad de Entrega:</span>
                     <span class="sim-slider-val" id="u3-val-flex">10%</span>
                   </div>
-                  <input type="range" class="sim-range" id="u3-w-flex" min="5" max="30" value="10" step="5">
+                  <input type="range" aria-label="Flexibilidad de Entrega" class="sim-range" id="u3-w-flex" min="5" max="30" value="10" step="5">
                 </div>
 
                 <div class="sim-slider-group">
@@ -249,7 +249,7 @@
                     <span>Certificaciones y Ensayos:</span>
                     <span class="sim-slider-val" id="u3-val-cert">10%</span>
                   </div>
-                  <input type="range" class="sim-range" id="u3-w-cert" min="5" max="30" value="10" step="5">
+                  <input type="range" aria-label="Certificaciones y Ensayos" class="sim-range" id="u3-w-cert" min="5" max="30" value="10" step="5">
                 </div>
               </div>
 

@@ -174,8 +174,8 @@
         const disponibles = p.segmentos.map((segmento, i) => r.includes(i) ? '' :
             `<button class="a-segment" type="button" data-segmento="${i}">${UI.esc(segmento)}</button>`).join('');
         return `
-            <div class="a-order__answer" id="ordenRespuesta" data-vacio="${MENSAJES.ordenVacio}" aria-label="Tu oración">${colocados}</div>
-            <div class="a-order__bank" aria-label="Fragmentos disponibles">${disponibles}</div>`;
+            <div class="a-order__answer" id="ordenRespuesta" role="group" data-vacio="${MENSAJES.ordenVacio}" aria-label="Tu oración">${colocados}</div>
+            <div class="a-order__bank" role="group" aria-label="Fragmentos disponibles">${disponibles}</div>`;
     }
 
     function controles(p) {

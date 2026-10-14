@@ -1,7 +1,7 @@
 {
   "id": "unidad-03",
   "numero": 3,
-  "titulo": "Cadenas de Suministro en la Industria Textil",
+  "titulo": "Cadenas de suministro en la industria textil y del vestido",
   "descripcion": "Estructura la cadena de suministro a partir de las técnicas y estrategias de distribución y producción textil.",
   "lema": "Coordina desde el cultivo de fibras hasta la confección y distribución final mediante Lean, JIT, Kanban y Nearshoring.",
   "duracion_horas": 10.0,
@@ -16,35 +16,35 @@
       "nombre": "Cadena de suministro en la empresa textil",
       "sintesis": "Concepto global de cadena de suministro y mapa de procesos: cultivo/fibras sintéticas, hilatura, tejeduría, tintorería, acabados, confección y CEDIS.",
       "url": "unidades/unidad-03/temas/tema-03-01.html",
-      "actividad": { "nombre": "Actividad 3.1", "url": "" }
+      "actividad": { "nombre": "Actividad de aprendizaje 3.1", "url": "unidades/unidad-03/actividades/actividad-3-1.html" }
     },
     {
       "numero": "3.2",
-      "nombre": "Planeación de la cadena y Pronóstico de la demanda",
+      "nombre": "Planeación de la cadena y pronóstico de la demanda",
       "sintesis": "Decisiones estratégicas (qué y cuándo producir, inventarios y capacidad) y métodos cualitativos y cuantitativos de predicción de ventas.",
       "url": "unidades/unidad-03/temas/tema-03-02.html",
-      "actividad": { "nombre": "Actividad 3.2", "url": "" }
+      "actividad": { "nombre": "Actividad de aprendizaje 3.2", "url": "unidades/unidad-03/actividades/actividad-3-2.html" }
     },
     {
       "numero": "3.3",
-      "nombre": "Gestión de Compras y Sincronización de la Producción",
+      "nombre": "Gestión de compras y producción textil",
       "sintesis": "Criterios de selección y tabla de ponderación de proveedores; secuencia de procesos textiles y eliminación de cuellos de botella.",
       "url": "unidades/unidad-03/temas/tema-03-03.html",
-      "actividad": { "nombre": "Actividad 3.3", "url": "" }
+      "actividad": { "nombre": "Actividad de aprendizaje 3.3", "url": "unidades/unidad-03/actividades/actividad-3-3.html" }
     },
     {
       "numero": "3.4",
-      "nombre": "Manufactura Esbelta, Justo a Tiempo (JIT) y Kanban",
+      "nombre": "Manufactura esbelta, justo a tiempo (JIT) y Kanban",
       "sintesis": "Eliminación de desperdicios en teñido y confección, producción pull, sincronización visual con tarjetas y reducción de inventarios.",
       "url": "unidades/unidad-03/temas/tema-03-04.html",
-      "actividad": { "nombre": "Actividad 3.4", "url": "" }
+      "actividad": { "nombre": "Actividad de aprendizaje 3.4", "url": "unidades/unidad-03/actividades/actividad-3-4.html" }
     },
     {
       "numero": "3.5",
-      "nombre": "Logística Inversa, Nearshoring y Métricas KPI",
+      "nombre": "Logística inversa, nearshoring e indicadores (KPI)",
       "sintesis": "Reciclaje textil, economía circular, ventajas del T-MEC para México; métricas Fill Rate, OTIF, Lead Time y el modelo ágil de Zara.",
       "url": "unidades/unidad-03/temas/tema-03-05.html",
-      "actividad": { "nombre": "Actividad 3.5", "url": "" }
+      "actividad": { "nombre": "Actividad de aprendizaje 3.5", "url": "unidades/unidad-03/actividades/actividad-3-5.html" }
     }
   ],
   "actividad_final": {

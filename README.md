@@ -30,7 +30,8 @@ mediante contenidos teóricos, casos de estudio y simuladores interactivos bajo 
 | Dato | Valor |
 |---|---|
 | Unidades temáticas | 5 |
-| Temas y casos | 48 |
+| Temas | 25 |
+| Casos de estudio (actividades finales) | 5 |
 | Horas lectivas | 72 |
 | Semestre | VIII |
 | Modalidad | Presencial con apoyo del polilibro |
@@ -39,11 +40,11 @@ mediante contenidos teóricos, casos de estudio y simuladores interactivos bajo 
 
 | Unidad | Tema |
 |:---:|---|
-| **I** | Introducción a la Logística y Cadena de Suministro |
-| **II** | Almacenaje, Señalización, Codificación y Tecnología de Empaque |
-| **III** | Cadenas de Suministro en la Industria Textil |
-| **IV** | Transportación y Régimen Aduanero |
-| **V** | Tecnologías de la Información y Redes de Distribución |
+| **I** | Introducción a la logística y cadena de suministro |
+| **II** | Almacenaje, señalización, codificación y tecnología de empaque |
+| **III** | Cadenas de suministro en la industria textil y del vestido |
+| **IV** | Transportación y régimen aduanero |
+| **V** | Tecnología de la información y configuración de la red de distribución |
 
 Cada unidad incluye temas, figuras y tablas, referencias bibliográficas y una
 **actividad integradora** con simulador interactivo (EOQ/ROP, PEPS vs UEPS, matrices de

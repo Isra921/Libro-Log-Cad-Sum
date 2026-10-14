@@ -1,0 +1,157 @@
+[
+  {
+    "id": 1,
+    "type": "opcion_multiple",
+    "question": "¿Cuál es el enfoque principal de la manufactura esbelta (Lean Manufacturing)?",
+    "options": [
+      "Eliminar desperdicios y garantizar el valor del producto para el cliente.",
+      "Producir la mayor cantidad posible sin importar la demanda.",
+      "Aumentar los inventarios de seguridad.",
+      "Sustituir a todo el personal por robots."
+    ],
+    "answer": "Eliminar desperdicios y garantizar el valor del producto para el cliente.",
+    "explicacion": "Lean busca eliminar todo lo que no agrega valor para el cliente."
+  },
+  {
+    "id": 2,
+    "type": "opcion_multiple",
+    "question": "Una planta cose 2,000 camisas más de las que pidió el cliente \"por si acaso\". ¿Qué desperdicio es?",
+    "options": [
+      "Sobreproducción (exceso de productos)",
+      "Sobreprocesamiento (esfuerzo duplicado)",
+      "Transporte innecesario",
+      "Tiempo de espera"
+    ],
+    "answer": "Sobreproducción (exceso de productos)",
+    "explicacion": "Producir más de lo que se necesita es sobreproducción: consume material, espacio y dinero sin generar valor."
+  },
+  {
+    "id": 3,
+    "type": "opcion_multiple",
+    "question": "Un lote de tela teñida espera tres días antes de entrar al área de acabados. ¿Qué desperdicio se presenta?",
+    "options": [
+      "Tiempo de espera (tardanza)",
+      "Sobreproducción",
+      "Productos dañados",
+      "Sobreabastecimiento"
+    ],
+    "answer": "Tiempo de espera (tardanza)",
+    "explicacion": "Reducir los tiempos muertos entre el teñido y el acabado aumenta la productividad y disminuye costos."
+  },
+  {
+    "id": 4,
+    "type": "opcion_multiple",
+    "question": "Prendas con costuras defectuosas que deben descoserse y volver a coserse representan el desperdicio de:",
+    "options": [
+      "Productos dañados (defectos y retrabajos)",
+      "Movilización innecesaria",
+      "Sobreabastecimiento",
+      "Tiempo de espera"
+    ],
+    "answer": "Productos dañados (defectos y retrabajos)",
+    "explicacion": "Los defectos obligan a repetir trabajo que no agrega valor."
+  },
+  {
+    "id": 5,
+    "type": "verdadero_falso",
+    "statement": "Reducir los tiempos muertos entre el teñido y el acabado permite incrementar la productividad y disminuir costos.",
+    "answer": true,
+    "explicacion": "Es la aplicación textil de la manufactura esbelta que se presenta en el tema."
+  },
+  {
+    "id": 6,
+    "type": "completar_oracion",
+    "question": "El Justo a tiempo (JIT) busca producir la cantidad _____ en el instante _____.",
+    "wordBank": [
+      "necesaria",
+      "máxima",
+      "preciso",
+      "anterior"
+    ],
+    "answer": [
+      "necesaria",
+      "preciso"
+    ],
+    "explicacion": "JIT: producción eficiente, en la cantidad necesaria y en el instante preciso."
+  },
+  {
+    "id": 7,
+    "type": "opcion_multiple",
+    "question": "¿Cuál es el principal riesgo del sistema Justo a tiempo (JIT)?",
+    "options": [
+      "Si un proveedor incumple una entrega, la producción puede detenerse.",
+      "Se acumulan grandes inventarios en el almacén.",
+      "Se pierde flexibilidad ante los cambios de temporada.",
+      "Aumenta el costo de almacenamiento."
+    ],
+    "answer": "Si un proveedor incumple una entrega, la producción puede detenerse.",
+    "explicacion": "Como JIT trabaja con inventarios mínimos, no hay reserva si falla una entrega."
+  },
+  {
+    "id": 8,
+    "type": "verdadero_falso",
+    "statement": "Una ventaja del JIT es que mantiene inventarios grandes para no detener la producción.",
+    "answer": false,
+    "explicacion": "Ocurre lo contrario: JIT reduce el inventario inmovilizado y el costo de almacenamiento."
+  },
+  {
+    "id": 9,
+    "type": "opcion_multiple",
+    "question": "¿Qué es Kanban?",
+    "options": [
+      "Un sistema de tarjetas visuales, físicas o digitales, que indican cuándo producir o reabastecer.",
+      "Un tipo de máquina de coser industrial.",
+      "Un método cuantitativo de pronóstico de la demanda.",
+      "Un régimen aduanero para importar maquinaria."
+    ],
+    "answer": "Un sistema de tarjetas visuales, físicas o digitales, que indican cuándo producir o reabastecer.",
+    "explicacion": "Las tarjetas Kanban comunican a cada puesto de trabajo cuándo y cuánto producir o reabastecer."
+  },
+  {
+    "id": 10,
+    "type": "opcion_multiple",
+    "question": "¿Cómo ayuda Kanban a evitar que se acumulen prendas a medio coser en una línea de confección?",
+    "options": [
+      "Cada estación produce solo cuando el proceso siguiente lo solicita con una tarjeta.",
+      "Obliga a todas las estaciones a trabajar al máximo de su capacidad.",
+      "Elimina la necesidad de controlar el inventario en proceso.",
+      "Permite que cada estación decida cuánto producir sin coordinarse."
+    ],
+    "answer": "Cada estación produce solo cuando el proceso siguiente lo solicita con una tarjeta.",
+    "explicacion": "Al producir solo lo solicitado, Kanban evita la sobreproducción y reduce el material en proceso (WIP)."
+  },
+  {
+    "id": 11,
+    "type": "completar_oracion",
+    "question": "Kanban reduce el material en proceso, conocido como _____, porque solo se elabora lo que el siguiente _____ solicita.",
+    "wordBank": [
+      "WIP",
+      "OTIF",
+      "proceso",
+      "proveedor"
+    ],
+    "answer": [
+      "WIP",
+      "proceso"
+    ],
+    "explicacion": "WIP (work in process) es el material en proceso; Kanban lo mantiene al mínimo."
+  },
+  {
+    "id": 12,
+    "type": "ordenar_oracion",
+    "question": "Ordena cómo funciona un sistema de producción \"jalar\" con Kanban.",
+    "segments": [
+      "El cliente hace un pedido",
+      "Confección usa prendas cortadas y libera una tarjeta",
+      "La tarjeta autoriza a corte a reponer",
+      "Corte produce solo lo indicado en la tarjeta"
+    ],
+    "answer": [
+      "El cliente hace un pedido",
+      "Confección usa prendas cortadas y libera una tarjeta",
+      "La tarjeta autoriza a corte a reponer",
+      "Corte produce solo lo indicado en la tarjeta"
+    ],
+    "explicacion": "En Kanban la demanda \"jala\" la producción: el proceso siguiente pide y el anterior repone solo lo que se consumió."
+  }
+]

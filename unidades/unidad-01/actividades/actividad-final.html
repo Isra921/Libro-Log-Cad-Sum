@@ -48,7 +48,7 @@
           </p>
           <div class="sim-grid-2">
             <div style="background: var(--bg-main); padding: 14px; border-radius: var(--radius-sm); border-left: 4px solid #ef4444;">
-              <strong style="color: #ef4444;"><i class="fas fa-circle-exclamation"></i> Síntomas Externos:</strong>
+              <strong style="color: #b91c1c;"><i class="fas fa-circle-exclamation"></i> Síntomas Externos:</strong>
               <ul style="margin: 6px 0 0; padding-left: 18px; font-size: 0.88rem; line-height: 1.5;">
                 <li>Retrasos continuos en entregas a tiendas con multas de penalización del 2% diario.</li>
                 <li>Devoluciones del 18% de pedidos por surtido de tallas incorrectas en empaque.</li>
@@ -56,7 +56,7 @@
               </ul>
             </div>
             <div style="background: var(--bg-main); padding: 14px; border-radius: var(--radius-sm); border-left: 4px solid #f59e0b;">
-              <strong style="color: #f59e0b;"><i class="fas fa-boxes-packing"></i> Síntomas Internos:</strong>
+              <strong style="color: #b45309;"><i class="fas fa-boxes-packing"></i> Síntomas Internos:</strong>
               <ul style="margin: 6px 0 0; padding-left: 18px; font-size: 0.88rem; line-height: 1.5;">
                 <li>Retrasos de 12 días en la recepción de hilo de algodón de proveedores.</li>
                 <li>Acumulación de producto en proceso (WIP) bloqueando los pasillos de costura.</li>
@@ -115,7 +115,7 @@
                         <strong>1.</strong> Retraso de 12 días en la llegada del hilo de algodón importado desde el puerto marítimo.
                       </td>
                       <td>
-                        <select id="u1-inc-1" required style="width: 100%; padding: 8px; border-radius: 6px; border: 1px solid var(--border-color); background: var(--bg-main); color: var(--text-light); font-size: 0.85rem;">
+                        <select id="u1-inc-1" aria-label="Clasificación estructural del incidente 1" required style="width: 100%; padding: 8px; border-radius: 6px; border: 1px solid var(--border-color); background: var(--bg-main); color: var(--text-light); font-size: 0.85rem;">
                           <option value="">-- Seleccionar categoría --</option>
                           <option value="log_interna">Logística Interna (Gestión de Planta)</option>
                           <option value="sc_supply">Cadena de Suministro (Abastecimiento y Proveedores)</option>
@@ -129,7 +129,7 @@
                         <strong>2.</strong> 4,500 piezas cortadas estancadas en pasillos entre corte y costura sin control de flujo (WIP excesivo).
                       </td>
                       <td>
-                        <select id="u1-inc-2" required style="width: 100%; padding: 8px; border-radius: 6px; border: 1px solid var(--border-color); background: var(--bg-main); color: var(--text-light); font-size: 0.85rem;">
+                        <select id="u1-inc-2" aria-label="Clasificación estructural del incidente 2" required style="width: 100%; padding: 8px; border-radius: 6px; border: 1px solid var(--border-color); background: var(--bg-main); color: var(--text-light); font-size: 0.85rem;">
                           <option value="">-- Seleccionar categoría --</option>
                           <option value="log_interna">Logística Interna (Almacén y Manejo de Materiales WIP)</option>
                           <option value="sc_supply">Cadena de Suministro (Abastecimiento)</option>
@@ -143,7 +143,7 @@
                         <strong>3.</strong> 18% de pedidos devueltos debido a que el personal confunde playeras talla M con talla L durante el doblado y embolsado.
                       </td>
                       <td>
-                        <select id="u1-inc-3" required style="width: 100%; padding: 8px; border-radius: 6px; border: 1px solid var(--border-color); background: var(--bg-main); color: var(--text-light); font-size: 0.85rem;">
+                        <select id="u1-inc-3" aria-label="Clasificación estructural del incidente 3" required style="width: 100%; padding: 8px; border-radius: 6px; border: 1px solid var(--border-color); background: var(--bg-main); color: var(--text-light); font-size: 0.85rem;">
                           <option value="">-- Seleccionar categoría --</option>
                           <option value="log_interna">Logística Interna (Preparación de Pedidos / Picking & Packing)</option>
                           <option value="sc_supply">Cadena de Suministro (Proveedores)</option>
@@ -157,7 +157,7 @@
                         <strong>4.</strong> Desembolso imprevisto de $85,000 MXN en fletes camioneta urgente para evitar parálisis en tiendas foráneas.
                       </td>
                       <td>
-                        <select id="u1-inc-4" required style="width: 100%; padding: 8px; border-radius: 6px; border: 1px solid var(--border-color); background: var(--bg-main); color: var(--text-light); font-size: 0.85rem;">
+                        <select id="u1-inc-4" aria-label="Clasificación estructural del incidente 4" required style="width: 100%; padding: 8px; border-radius: 6px; border: 1px solid var(--border-color); background: var(--bg-main); color: var(--text-light); font-size: 0.85rem;">
                           <option value="">-- Seleccionar categoría --</option>
                           <option value="log_distrib">Logística de Transporte (Flete Urgente de Emergencia)</option>
                           <option value="log_interna">Logística Interna (Mantenimiento)</option>
@@ -171,7 +171,7 @@
                         <strong>5.</strong> Liverpool y Sears aplican penalizaciones y amenazan con rescindir el convenio de proveedor preferente.
                       </td>
                       <td>
-                        <select id="u1-inc-5" required style="width: 100%; padding: 8px; border-radius: 6px; border: 1px solid var(--border-color); background: var(--bg-main); color: var(--text-light); font-family: inherit; font-size: 0.85rem;">
+                        <select id="u1-inc-5" aria-label="Clasificación estructural del incidente 5" required style="width: 100%; padding: 8px; border-radius: 6px; border: 1px solid var(--border-color); background: var(--bg-main); color: var(--text-light); font-family: inherit; font-size: 0.85rem;">
                           <option value="">-- Seleccionar categoría --</option>
                           <option value="sc_cliente">Cadena de Suministro (Servicio al Cliente y Gestión de la Demanda B2B)</option>
                           <option value="log_interna">Logística Interna (Producción)</option>
@@ -222,7 +222,7 @@
                     <span>Nivel de Servicio Meta al Cliente:</span>
                     <span class="sim-slider-val" id="u1-val-service">92%</span>
                   </div>
-                  <input type="range" class="sim-range" id="u1-slider-service" min="80" max="99" value="92" step="1">
+                  <input type="range" aria-label="Nivel de Servicio Meta al Cliente" class="sim-range" id="u1-slider-service" min="80" max="99" value="92" step="1">
                   <small style="color: var(--text-muted); font-size: 0.76rem;">Compromiso contractual con tiendas departamentales.</small>
                 </div>
 
@@ -231,12 +231,12 @@
                     <span>Días de Stock de Seguridad (Inventario Amortiguador):</span>
                     <span class="sim-slider-val" id="u1-val-stock">14 días</span>
                   </div>
-                  <input type="range" class="sim-range" id="u1-slider-stock" min="4" max="28" value="14" step="2">
+                  <input type="range" aria-label="Días de Stock de Seguridad (Inventario Amortiguador)" class="sim-range" id="u1-slider-stock" min="4" max="28" value="14" step="2">
                   <small style="color: var(--text-muted); font-size: 0.76rem;">Más días protegen contra retrasos del hilo pero saturan el almacén.</small>
                 </div>
 
                 <div class="sim-slider-group">
-                  <label style="display: block; font-size: 0.84rem; font-weight: 600; margin-bottom: 6px; color: var(--text-soft);">
+                  <label for="u1-select-freight" style="display: block; font-size: 0.84rem; font-weight: 600; margin-bottom: 6px; color: var(--text-soft);">
                     Estrategia de Transporte y Despacho:
                   </label>
                   <select id="u1-select-freight" style="width: 100%; padding: 9px; border-radius: var(--radius-sm); border: 1px solid var(--border-color); background: var(--bg-main); color: var(--text-light); font-size: 0.88rem;">
@@ -247,7 +247,7 @@
                 </div>
 
                 <div class="sim-slider-group">
-                  <label style="display: block; font-size: 0.84rem; font-weight: 600; margin-bottom: 6px; color: var(--text-soft);">
+                  <label for="u1-select-picking" style="display: block; font-size: 0.84rem; font-weight: 600; margin-bottom: 6px; color: var(--text-soft);">
                     Sistema de Verificación en Almacén / Empaque:
                   </label>
                   <select id="u1-select-picking" style="width: 100%; padding: 9px; border-radius: var(--radius-sm); border: 1px solid var(--border-color); background: var(--bg-main); color: var(--text-light); font-size: 0.88rem;">

@@ -1,7 +1,7 @@
 {
   "id": "unidad-01",
   "numero": 1,
-  "titulo": "Introducción a la Logística y Cadena de Suministro",
+  "titulo": "Introducción a la logística y cadena de suministro",
   "descripcion": "Distingue los aspectos integrales de una cadena de suministro a partir de sus elementos y clasificación en la industria textil.",
   "lema": "Comprende la administración de materiales, información, costos y flujos productivos en la industria textil.",
   "duracion_horas": 10.0,
@@ -33,7 +33,7 @@
     },
     {
       "numero": "1.3",
-      "nombre": "Diferencia entre Logística y Cadena de Suministro",
+      "nombre": "Diferencia entre logística y cadena de suministro",
       "sintesis": "Comparación estructural entre la administración de operaciones internas y la integración holística de la red de valor.",
       "url": "unidades/unidad-01/temas/tema-01-03.html",
       "actividad": {
@@ -43,7 +43,7 @@
     },
     {
       "numero": "1.4",
-      "nombre": "Componentes de la Cadena de Suministro",
+      "nombre": "Componentes de la cadena de suministro",
       "sintesis": "Actores clave: proveedores de fibras/insumos, compras, procesos productivos, almacenes, distribución y cliente final.",
       "url": "unidades/unidad-01/temas/tema-01-04.html",
       "actividad": {
@@ -53,7 +53,7 @@
     },
     {
       "numero": "1.5",
-      "nombre": "Tipos de Cadena de Suministro",
+      "nombre": "Tipos de cadena de suministro",
       "sintesis": "Modelos tradicionales, integrados, sincronizados (Toyota, Zara) y cadenas digitales con IA, IoT, RFID y Blockchain.",
       "url": "unidades/unidad-01/temas/tema-01-05.html",
       "actividad": {
@@ -63,7 +63,7 @@
     },
     {
       "numero": "1.6",
-      "nombre": "Principales Indicadores Logísticos (KPI)",
+      "nombre": "Principales indicadores logísticos (KPI)",
       "sintesis": "Fórmulas y aplicación de métricas: nivel de servicio, rotación de inventarios, tiempo de ciclo y entregas a tiempo.",
       "url": "unidades/unidad-01/temas/tema-01-06.html",
       "actividad": {

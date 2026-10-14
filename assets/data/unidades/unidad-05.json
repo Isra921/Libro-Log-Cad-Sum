@@ -1,7 +1,7 @@
 {
   "id": "unidad-05",
   "numero": 5,
-  "titulo": "Tecnología de la Información y Redes de Distribución",
+  "titulo": "Tecnología de la información y configuración de la red de distribución",
   "descripcion": "Diseña la red de distribución a partir de la innovación en la logística de la empresa textil y herramientas de la Industria 4.0.",
   "lema": "Integra sistemas ERP, MRP, WMS, TMS, RFID, IoT e Inteligencia Artificial en el diseño de redes omnicanal competitivas.",
   "duracion_horas": 17.0,
@@ -13,21 +13,21 @@
   "temas": [
     {
       "numero": "5.1",
-      "nombre": "Sistemas de Información Logística: ERP, MRP, WMS y TMS",
+      "nombre": "Sistemas de información logística: ERP, MRP, WMS y TMS",
       "sintesis": "Automatización e integración de áreas de la empresa; roles clave de la planeación de materiales, gestión de bodegas y transporte, con tabla comparativa de sistemas.",
       "url": "unidades/unidad-05/temas/tema-05-01.html",
       "actividad": { "nombre": "Actividad 5.1", "url": "" }
     },
     {
       "numero": "5.2",
-      "nombre": "Tecnologías Emergentes: RFID, IoT, Big Data e IA",
+      "nombre": "Tecnologías emergentes: RFID, IoT, Big Data e inteligencia artificial",
       "sintesis": "Captura automática por radiofrecuencia, sensores de tintorería y transporte inteligente, análisis predictivo de ventas y mantenimiento preventivo mediante algoritmos.",
       "url": "unidades/unidad-05/temas/tema-05-02.html",
       "actividad": { "nombre": "Actividad 5.2", "url": "" }
     },
     {
       "numero": "5.3",
-      "nombre": "Blockchain, Redes de Distribución e Industria 4.0",
+      "nombre": "Blockchain, redes de distribución e Industria 4.0",
       "sintesis": "Cadena de custodia y trazabilidad digital; esquemas de red directa, indirecta y omnicanal; producción flexible y manufactura inteligente en el ramo textil.",
       "url": "unidades/unidad-05/temas/tema-05-03.html",
       "actividad": { "nombre": "Actividad 5.3", "url": "" }

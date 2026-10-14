@@ -58,7 +58,7 @@
 }
 
 .sim-step-btn.is-completed .sim-step-num {
-  background: #10b981;
+  background: #047857; /* antes #10b981: texto blanco con contraste 2.5:1 */
   color: #fff;
 }
 
@@ -671,12 +671,12 @@
 }
 
 .sim-btn--success {
-  background: #10b981;
+  background: #047857; /* antes #10b981: texto blanco con contraste 2.5:1 */
   color: #fff;
 }
 
 .sim-btn--success:hover {
-  background: #059669;
+  background: #065f46;
 }
 
 /* Estilos de Impresión (Exportar Dictamen) */

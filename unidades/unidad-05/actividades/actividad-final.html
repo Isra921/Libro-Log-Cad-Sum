@@ -48,14 +48,14 @@
           </p>
           <div class="sim-grid-2">
             <div style="background: var(--bg-main); padding: 14px; border-radius: var(--radius-sm); border-left: 4px solid #ef4444;">
-              <strong style="color: #ef4444;"><i class="fas fa-ghost"></i> Desfases de Inventario y "Stock Fantasma":</strong>
+              <strong style="color: #b91c1c;"><i class="fas fa-ghost"></i> Desfases de Inventario y "Stock Fantasma":</strong>
               <ul style="margin: 6px 0 0; padding-left: 18px; font-size: 0.88rem; line-height: 1.5;">
                 <li>Discrepancia del 14% entre los registros teóricos en hojas de cálculo y las existencias físicas reales en bodega.</li>
                 <li>Clientes en línea compran prendas que ya no existen físicamente en el almacén (roturas no detectadas).</li>
               </ul>
             </div>
             <div style="background: var(--bg-main); padding: 14px; border-radius: var(--radius-sm); border-left: 4px solid #f59e0b;">
-              <strong style="color: #f59e0b;"><i class="fas fa-person-running"></i> Cuellos de Botella en Picking y Despacho:</strong>
+              <strong style="color: #b45309;"><i class="fas fa-person-running"></i> Cuellos de Botella en Picking y Despacho:</strong>
               <ul style="margin: 6px 0 0; padding-left: 18px; font-size: 0.88rem; line-height: 1.5;">
                 <li>Conteo manual lento con código de barras que demora hasta 3 días en recepcionar lotes de maquila.</li>
                 <li>Falta de enlace en tiempo real entre Compras, Planta, CEDIS y las 18 tiendas físicas de la marca.</li>
@@ -113,7 +113,7 @@
                         <strong>1.</strong> Un cliente compra 2 leggins deportivos en la página web: ¿Qué sistema debe <em>reservar inmediatamente la ubicación física en el rack</em> del CEDIS para la ruta de picking?
                       </td>
                       <td>
-                        <select id="u5-rol-1" required style="width: 100%; padding: 8px; border-radius: 6px; border: 1px solid var(--border-color); background: var(--bg-main); color: var(--text-light); font-size: 0.85rem;">
+                        <select id="u5-rol-1" aria-label="Sistema responsable del evento 1" required style="width: 100%; padding: 8px; border-radius: 6px; border: 1px solid var(--border-color); background: var(--bg-main); color: var(--text-light); font-size: 0.85rem;">
                           <option value="">-- Seleccionar sistema --</option>
                           <option value="wms">WMS (Warehouse Management System)</option>
                           <option value="tms">TMS (Transportation Management System)</option>
@@ -127,7 +127,7 @@
                         <strong>2.</strong> Se confirma el pago: ¿Qué sistema centraliza la <em>contabilidad, emite la factura electrónica CFDI y actualiza los balances corporativos</em>?
                       </td>
                       <td>
-                        <select id="u5-rol-2" required style="width: 100%; padding: 8px; border-radius: 6px; border: 1px solid var(--border-color); background: var(--bg-main); color: var(--text-light); font-size: 0.85rem;">
+                        <select id="u5-rol-2" aria-label="Sistema responsable del evento 2" required style="width: 100%; padding: 8px; border-radius: 6px; border: 1px solid var(--border-color); background: var(--bg-main); color: var(--text-light); font-size: 0.85rem;">
                           <option value="">-- Seleccionar sistema --</option>
                           <option value="erp">ERP (Enterprise Resource Planning)</option>
                           <option value="wms">WMS (Almacenes)</option>
@@ -141,7 +141,7 @@
                         <strong>3.</strong> El pedido está empacado: ¿Qué sistema <em>cotiza tarifas de paquetería (FedEx, DHL, Estafeta), consolida rutas y genera la guía de rastreo</em>?
                       </td>
                       <td>
-                        <select id="u5-rol-3" required style="width: 100%; padding: 8px; border-radius: 6px; border: 1px solid var(--border-color); background: var(--bg-main); color: var(--text-light); font-size: 0.85rem;">
+                        <select id="u5-rol-3" aria-label="Sistema responsable del evento 3" required style="width: 100%; padding: 8px; border-radius: 6px; border: 1px solid var(--border-color); background: var(--bg-main); color: var(--text-light); font-size: 0.85rem;">
                           <option value="">-- Seleccionar sistema --</option>
                           <option value="tms">TMS (Transportation Management System)</option>
                           <option value="erp">ERP (Finanzas)</option>
@@ -155,7 +155,7 @@
                         <strong>4.</strong> El inventario de tela licra bajó del punto crítico: ¿Qué módulo <em>calcula la compra neta de tela e hilo elástico</em> con base en el plan maestro de producción?
                       </td>
                       <td>
-                        <select id="u5-rol-4" required style="width: 100%; padding: 8px; border-radius: 6px; border: 1px solid var(--border-color); background: var(--bg-main); color: var(--text-light); font-size: 0.85rem;">
+                        <select id="u5-rol-4" aria-label="Sistema responsable del evento 4" required style="width: 100%; padding: 8px; border-radius: 6px; border: 1px solid var(--border-color); background: var(--bg-main); color: var(--text-light); font-size: 0.85rem;">
                           <option value="">-- Seleccionar sistema --</option>
                           <option value="mrp">MRP (Material Requirements Planning / Integrado a ERP)</option>
                           <option value="tms">TMS (Flotas)</option>
@@ -202,7 +202,7 @@
                     <span>Volumen Mensual de Prendas Procesadas:</span>
                     <span class="sim-slider-val" id="u5-val-prendas">50,000 prendas/mes</span>
                   </div>
-                  <input type="range" class="sim-range" id="u5-slider-prendas" min="15000" max="120000" value="50000" step="5000">
+                  <input type="range" aria-label="Volumen Mensual de Prendas Procesadas" class="sim-range" id="u5-slider-prendas" min="15000" max="120000" value="50000" step="5000">
                   <small style="color: var(--text-muted); font-size: 0.74rem;">Recepción de maquilas, inventarios cíclicos y despacho de pedidos.</small>
                 </div>
 
@@ -211,7 +211,7 @@
                     <span>Inversión Inicial en Infraestructura RFID (Pórticos, Antenas y Software):</span>
                     <span class="sim-slider-val" id="u5-val-inv">$180,000 MXN</span>
                   </div>
-                  <input type="range" class="sim-range" id="u5-slider-inv" min="100000" max="350000" value="180000" step="10000">
+                  <input type="range" aria-label="Inversión Inicial en Infraestructura RFID (Pórticos, Antenas y Software)" class="sim-range" id="u5-slider-inv" min="100000" max="350000" value="180000" step="10000">
                   <small style="color: var(--text-muted); font-size: 0.74rem;">Costo de equipamiento de 2 pórticos de lectura y terminales portátiles.</small>
                 </div>
 

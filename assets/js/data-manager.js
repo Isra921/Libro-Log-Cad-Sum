@@ -93,6 +93,15 @@ const DataManager = {
         return this.ruta(this.PATRON_PAGINA_UNIDAD(idUnidad));
     },
 
+    /**
+     * Ruta (ya ajustada a la página actual) hacia las referencias de una unidad.
+     * La usa tema-plantilla.js ("Ver lista completa"); sin ella el índice lateral
+     * y la navegación de los temas no se generaban desde el JSON.
+     */
+    urlReferencias(idUnidad) {
+        return this.ruta(`unidades/${idUnidad}/referencias.html`);
+    },
+
     /** Respaldo embebido de datos para que la interfaz funcione offline y bajo file:/// */
     DATOS_EMBEBIDOS: {
         'assets/data/unidades-data.json': {
@@ -103,7 +112,7 @@ const DataManager = {
         'assets/data/unidades/unidad-01.json': {
             "id": "unidad-01",
             "numero": 1,
-            "titulo": "Introducción a la Logística y Cadena de Suministro",
+            "titulo": "Introducción a la logística y cadena de suministro",
             "descripcion": "Distingue los aspectos integrales de una cadena de suministro a partir de sus elementos y clasificación en la industria textil.",
             "lema": "Comprende la administración de materiales, información, costos y flujos productivos en la industria textil.",
             "duracion_horas": 10.0,
@@ -114,10 +123,10 @@ const DataManager = {
             "temas": [
                 { "numero": "1.1", "nombre": "Objetivos de la logística", "sintesis": "Finalidad de la administración de materiales, flujos de información y cumplimiento de requerimientos en el sector textil.", "url": "unidades/unidad-01/temas/tema-01-01.html" },
                 { "numero": "1.2", "nombre": "Importancia de la logística", "sintesis": "Impacto en tiempos de entrega, reducción de inventarios, optimización de costos y tabla de beneficios operativos.", "url": "unidades/unidad-01/temas/tema-01-02.html" },
-                { "numero": "1.3", "nombre": "Diferencia entre Logística y Cadena de Suministro", "sintesis": "Comparación estructural entre la administración de operaciones internas y la integración holística de la red de valor.", "url": "unidades/unidad-01/temas/tema-01-03.html" },
-                { "numero": "1.4", "nombre": "Componentes de la Cadena de Suministro", "sintesis": "Actores clave: proveedores de fibras/insumos, compras, procesos productivos, almacenes, distribución y cliente final.", "url": "unidades/unidad-01/temas/tema-01-04.html" },
-                { "numero": "1.5", "nombre": "Tipos de Cadena de Suministro", "sintesis": "Modelos tradicionales, integrados, sincronizados (Toyota, Zara) y cadenas digitales con IA, IoT, RFID y Blockchain.", "url": "unidades/unidad-01/temas/tema-01-05.html" },
-                { "numero": "1.6", "nombre": "Principales Indicadores Logísticos (KPI)", "sintesis": "Fórmulas y aplicación de métricas: nivel de servicio, rotación de inventarios, tiempo de ciclo y entregas a tiempo.", "url": "unidades/unidad-01/temas/tema-01-06.html" }
+                { "numero": "1.3", "nombre": "Diferencia entre logística y cadena de suministro", "sintesis": "Comparación estructural entre la administración de operaciones internas y la integración holística de la red de valor.", "url": "unidades/unidad-01/temas/tema-01-03.html" },
+                { "numero": "1.4", "nombre": "Componentes de la cadena de suministro", "sintesis": "Actores clave: proveedores de fibras/insumos, compras, procesos productivos, almacenes, distribución y cliente final.", "url": "unidades/unidad-01/temas/tema-01-04.html" },
+                { "numero": "1.5", "nombre": "Tipos de cadena de suministro", "sintesis": "Modelos tradicionales, integrados, sincronizados (Toyota, Zara) y cadenas digitales con IA, IoT, RFID y Blockchain.", "url": "unidades/unidad-01/temas/tema-01-05.html" },
+                { "numero": "1.6", "nombre": "Principales indicadores logísticos (KPI)", "sintesis": "Fórmulas y aplicación de métricas: nivel de servicio, rotación de inventarios, tiempo de ciclo y entregas a tiempo.", "url": "unidades/unidad-01/temas/tema-01-06.html" }
             ],
             "actividad_final": {
                 "nombre": "Caso de estudio ESIT: Empresa 'Textiles del Centro'",
@@ -128,7 +137,7 @@ const DataManager = {
         'assets/data/unidades/unidad-02.json': {
             "id": "unidad-02",
             "numero": 2,
-            "titulo": "Almacenaje, Señalización, Codificación y Tecnología de Empaque",
+            "titulo": "Almacenaje, señalización, codificación y tecnología de empaque",
             "descripcion": "Especifica las condiciones de operación de una cadena de suministro a partir del cumplimiento de los requerimientos de almacenaje.",
             "lema": "Domina el diseño de almacenes textiles, inventarios ABC, rotación de mercancías y tecnologías de codificación y empaque.",
             "duracion_horas": 20.0,
@@ -137,13 +146,13 @@ const DataManager = {
                 "A lo largo de esta unidad se identifican las condiciones de operación en bodegas manuales y automatizadas, los métodos de administración y rotación de inventarios, las técnicas de preparación de pedidos (picking), la señalización de seguridad, los sistemas de codificación y la selección de envases y embalajes protectores para la industria textil."
             ],
             "temas": [
-                { "numero": "2.1", "nombre": "¿Qué es un almacén y sus funciones?", "url": "unidades/unidad-02/temas/tema-02-01.html" },
+                { "numero": "2.1", "nombre": "¿Qué es un almacén y cuáles son sus funciones?", "url": "unidades/unidad-02/temas/tema-02-01.html" },
                 { "numero": "2.2", "nombre": "Importancia del almacén en la industria textil", "url": "unidades/unidad-02/temas/tema-02-02.html" },
-                { "numero": "2.3", "nombre": "Diseño (Layout) de un almacén", "url": "unidades/unidad-02/temas/tema-02-03.html" },
+                { "numero": "2.3", "nombre": "Diseño (layout) de un almacén", "url": "unidades/unidad-02/temas/tema-02-03.html" },
                 { "numero": "2.4", "nombre": "Sistemas de almacenamiento", "url": "unidades/unidad-02/temas/tema-02-04.html" },
-                { "numero": "2.5", "nombre": "Administración de Inventarios (Método ABC)", "url": "unidades/unidad-02/temas/tema-02-05.html" },
-                { "numero": "2.6", "nombre": "Métodos de rotación de inventarios y Picking", "url": "unidades/unidad-02/temas/tema-02-06.html" },
-                { "numero": "2.7", "nombre": "Señalización, Codificación y Empaque textil", "url": "unidades/unidad-02/temas/tema-02-07.html" }
+                { "numero": "2.5", "nombre": "Administración de inventarios (método ABC)", "url": "unidades/unidad-02/temas/tema-02-05.html" },
+                { "numero": "2.6", "nombre": "Métodos de rotación de inventarios y picking", "url": "unidades/unidad-02/temas/tema-02-06.html" },
+                { "numero": "2.7", "nombre": "Señalización, codificación, empaque y embalaje", "url": "unidades/unidad-02/temas/tema-02-07.html" }
             ],
             "actividad_final": {
                 "nombre": "Caso de estudio: Empresa 'Moda ESIT'",
@@ -154,7 +163,7 @@ const DataManager = {
         'assets/data/unidades/unidad-03.json': {
             "id": "unidad-03",
             "numero": 3,
-            "titulo": "Cadenas de Suministro en la Industria Textil",
+            "titulo": "Cadenas de suministro en la industria textil y del vestido",
             "descripcion": "Estructura la cadena de suministro a partir de las técnicas y estrategias de distribución y producción textil.",
             "lema": "Coordina desde el cultivo de fibras hasta la confección y distribución final mediante Lean, JIT, Kanban y Nearshoring.",
             "duracion_horas": 10.0,
@@ -164,10 +173,10 @@ const DataManager = {
             ],
             "temas": [
                 { "numero": "3.1", "nombre": "Cadena de suministro en la empresa textil", "url": "unidades/unidad-03/temas/tema-03-01.html" },
-                { "numero": "3.2", "nombre": "Planeación de la cadena y Pronóstico de la demanda", "url": "unidades/unidad-03/temas/tema-03-02.html" },
-                { "numero": "3.3", "nombre": "Gestión de Compras y Sincronización de la Producción", "url": "unidades/unidad-03/temas/tema-03-03.html" },
-                { "numero": "3.4", "nombre": "Manufactura Esbelta, Justo a Tiempo (JIT) y Kanban", "url": "unidades/unidad-03/temas/tema-03-04.html" },
-                { "numero": "3.5", "nombre": "Logística Inversa, Nearshoring y Métricas KPI", "url": "unidades/unidad-03/temas/tema-03-05.html" }
+                { "numero": "3.2", "nombre": "Planeación de la cadena y pronóstico de la demanda", "url": "unidades/unidad-03/temas/tema-03-02.html" },
+                { "numero": "3.3", "nombre": "Gestión de compras y producción textil", "url": "unidades/unidad-03/temas/tema-03-03.html" },
+                { "numero": "3.4", "nombre": "Manufactura esbelta, justo a tiempo (JIT) y Kanban", "url": "unidades/unidad-03/temas/tema-03-04.html" },
+                { "numero": "3.5", "nombre": "Logística inversa, nearshoring e indicadores (KPI)", "url": "unidades/unidad-03/temas/tema-03-05.html" }
             ],
             "actividad_final": {
                 "nombre": "Estudio de caso práctico: Negocio 'Confecciones ESIT'",
@@ -178,7 +187,7 @@ const DataManager = {
         'assets/data/unidades/unidad-04.json': {
             "id": "unidad-04",
             "numero": 4,
-            "titulo": "Transportación y Régimen Aduanero",
+            "titulo": "Transportación y régimen aduanero",
             "descripcion": "Plantea rutas de distribución y esquemas aduanales a partir de la ley vigente y los Incoterms® 2020 para productos textiles.",
             "lema": "Gestiona modos de transporte, diseño de rutas, regímenes aduaneros y términos internacionales de comercio en la exportación textil.",
             "duracion_horas": 15.0,
@@ -187,10 +196,10 @@ const DataManager = {
                 "En esta unidad se profundiza en las características operativas de los medios de transporte (carretero, ferroviario, marítimo, aéreo y multimodal), la planificación de rutas de distribución, el régimen aduanero mexicano y los Incoterms® 2020."
             ],
             "temas": [
-                { "numero": "4.1", "nombre": "Importancia y Modos de Transporte", "url": "unidades/unidad-04/temas/tema-04-01.html" },
-                { "numero": "4.2", "nombre": "Selección del medio y Diseño de Rutas de Distribución", "url": "unidades/unidad-04/temas/tema-04-02.html" },
-                { "numero": "4.3", "nombre": "Régimen Aduanero y Documentación de Comercio Exterior", "url": "unidades/unidad-04/temas/tema-04-03.html" },
-                { "numero": "4.4", "nombre": "Agente Aduanal e Incoterms® 2020 en el Sector Textil", "url": "unidades/unidad-04/temas/tema-04-04.html" }
+                { "numero": "4.1", "nombre": "Importancia y modos de transporte", "url": "unidades/unidad-04/temas/tema-04-01.html" },
+                { "numero": "4.2", "nombre": "Selección del medio de transporte y rutas de distribución", "url": "unidades/unidad-04/temas/tema-04-02.html" },
+                { "numero": "4.3", "nombre": "Régimen aduanero y documentación de comercio exterior", "url": "unidades/unidad-04/temas/tema-04-03.html" },
+                { "numero": "4.4", "nombre": "Agente aduanal, Incoterms® 2020 y transporte textil", "url": "unidades/unidad-04/temas/tema-04-04.html" }
             ],
             "actividad_final": {
                 "nombre": "Caso de estudio: Empresa 'Exportaciones Textiles ESIT'",
@@ -201,7 +210,7 @@ const DataManager = {
         'assets/data/unidades/unidad-05.json': {
             "id": "unidad-05",
             "numero": 5,
-            "titulo": "Tecnología de la Información y Redes de Distribución",
+            "titulo": "Tecnología de la información y configuración de la red de distribución",
             "descripcion": "Diseña la red de distribución a partir de la innovación en la logística de la empresa textil y herramientas de la Industria 4.0.",
             "lema": "Integra sistemas ERP, MRP, WMS, TMS, RFID, IoT e Inteligencia Artificial en el diseño de redes omnicanal competitivas.",
             "duracion_horas": 17.0,
@@ -210,9 +219,9 @@ const DataManager = {
                 "En esta unidad de cierre se estudian los principales sistemas empresariales (ERP, MRP, WMS y TMS), las tecnologías emergentes (RFID, IoT, Big Data, IA y Blockchain), las estructuras de redes de distribución y la Industria 4.0."
             ],
             "temas": [
-                { "numero": "5.1", "nombre": "Sistemas de Información Logística: ERP, MRP, WMS y TMS", "url": "unidades/unidad-05/temas/tema-05-01.html" },
-                { "numero": "5.2", "nombre": "Tecnologías Emergentes: RFID, IoT, Big Data e IA", "url": "unidades/unidad-05/temas/tema-05-02.html" },
-                { "numero": "5.3", "nombre": "Blockchain, Redes de Distribución e Industria 4.0", "url": "unidades/unidad-05/temas/tema-05-03.html" }
+                { "numero": "5.1", "nombre": "Sistemas de información logística: ERP, MRP, WMS y TMS", "url": "unidades/unidad-05/temas/tema-05-01.html" },
+                { "numero": "5.2", "nombre": "Tecnologías emergentes: RFID, IoT, Big Data e inteligencia artificial", "url": "unidades/unidad-05/temas/tema-05-02.html" },
+                { "numero": "5.3", "nombre": "Blockchain, redes de distribución e Industria 4.0", "url": "unidades/unidad-05/temas/tema-05-03.html" }
             ],
             "actividad_final": {
                 "nombre": "Caso de estudio: Empresa 'Innovación Textil ESIT'",

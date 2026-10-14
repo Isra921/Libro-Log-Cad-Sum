@@ -1,0 +1,157 @@
+[
+  {
+    "id": 1,
+    "type": "opcion_multiple",
+    "question": "¿Cuál es el propósito de la planeación de la cadena de suministro?",
+    "options": [
+      "Garantizar que los recursos estén disponibles en el momento oportuno.",
+      "Reducir el número de proveedores a uno solo.",
+      "Aumentar el inventario para no quedarse nunca sin producto.",
+      "Fijar el precio de venta de las prendas."
+    ],
+    "answer": "Garantizar que los recursos estén disponibles en el momento oportuno.",
+    "explicacion": "La planeación busca que los recursos estén disponibles a tiempo, con eficiencia y al menor costo."
+  },
+  {
+    "id": 2,
+    "type": "opcion_multiple",
+    "question": "¿Cuál de las siguientes NO es una pregunta propia de la planeación de la cadena de suministro?",
+    "options": [
+      "¿Qué color tendrá el logotipo de la empresa?",
+      "¿Cuánto producir?",
+      "¿Cuánto inventario mantener?",
+      "¿Qué capacidad instalada se requiere?"
+    ],
+    "answer": "¿Qué color tendrá el logotipo de la empresa?",
+    "explicacion": "La planeación responde cuánto y cuándo producir, qué materiales comprar, cuánto inventario mantener, qué capacidad se requiere y cuál será la demanda."
+  },
+  {
+    "id": 3,
+    "type": "verdadero_falso",
+    "statement": "Una mala planeación puede provocar sobreproducción, desabasto, retrasos, costos elevados y pérdida de clientes.",
+    "answer": true,
+    "explicacion": "Estas son las consecuencias de una planeación deficiente que se mencionan en el tema."
+  },
+  {
+    "id": 4,
+    "type": "opcion_multiple",
+    "question": "¿Cuál de estas consecuencias NO se asocia con una mala planeación?",
+    "options": [
+      "Mayor satisfacción del cliente",
+      "Sobreproducción",
+      "Desabasto",
+      "Pérdida de clientes"
+    ],
+    "answer": "Mayor satisfacción del cliente",
+    "explicacion": "Una planeación deficiente provoca retrasos y faltantes, lo que reduce la satisfacción del cliente."
+  },
+  {
+    "id": 5,
+    "type": "opcion_multiple",
+    "question": "¿A qué tipo de método de pronóstico pertenece el juicio de expertos?",
+    "options": [
+      "Cualitativo",
+      "Cuantitativo",
+      "De inventarios",
+      "De transporte"
+    ],
+    "answer": "Cualitativo",
+    "explicacion": "Los métodos cualitativos se basan en opiniones y análisis: juicio de expertos, sondeo y análisis de mercado."
+  },
+  {
+    "id": 6,
+    "type": "opcion_multiple",
+    "question": "¿Cuál de los siguientes es un método cuantitativo de pronóstico?",
+    "options": [
+      "Media aritmética móvil",
+      "Juicio de expertos",
+      "Sondeo",
+      "Análisis de mercado"
+    ],
+    "answer": "Media aritmética móvil",
+    "explicacion": "Los métodos cuantitativos usan datos numéricos: media aritmética móvil, tendencias, modelado predictivo y datos longitudinales."
+  },
+  {
+    "id": 7,
+    "type": "completar_oracion",
+    "question": "El pronóstico permite estimar la demanda _____ para _____ adecuadamente las operaciones.",
+    "wordBank": [
+      "futura",
+      "pasada",
+      "planificar",
+      "detener"
+    ],
+    "answer": [
+      "futura",
+      "planificar"
+    ],
+    "explicacion": "Con el pronóstico se planifican la compra, la hilatura, el tejido y la confección."
+  },
+  {
+    "id": 8,
+    "type": "verdadero_falso",
+    "statement": "El sondeo y el análisis de mercado son métodos cuantitativos de pronóstico.",
+    "answer": false,
+    "explicacion": "El sondeo y el análisis de mercado son métodos cualitativos."
+  },
+  {
+    "id": 9,
+    "type": "opcion_multiple",
+    "question": "Una empresa ha vendido 20,000 playeras escolares cada julio durante los últimos cinco años. ¿Qué información usa para planear el siguiente ciclo escolar?",
+    "options": [
+      "Datos históricos de ventas.",
+      "La opinión de un solo vendedor.",
+      "El precio internacional del algodón.",
+      "El número de empleados de la planta."
+    ],
+    "answer": "Datos históricos de ventas.",
+    "explicacion": "Las ventas de años anteriores son información histórica que permite planear con meses de anticipación."
+  },
+  {
+    "id": 10,
+    "type": "opcion_multiple",
+    "question": "¿Cómo ayuda un pronóstico de demanda bien calibrado a evitar la sobreproducción?",
+    "options": [
+      "Ajusta la compra de hilo, el tejido y la confección a la cantidad que realmente se espera vender.",
+      "Permite producir el doble de lo necesario por si acaso.",
+      "Elimina la necesidad de tener un almacén.",
+      "Sustituye por completo la planeación de la producción."
+    ],
+    "answer": "Ajusta la compra de hilo, el tejido y la confección a la cantidad que realmente se espera vender.",
+    "explicacion": "Producir lo que se espera vender evita inventarios ociosos y su costo financiero."
+  },
+  {
+    "id": 11,
+    "type": "completar_oracion",
+    "question": "El _____ es un método cualitativo, mientras que las _____ son un método cuantitativo.",
+    "wordBank": [
+      "juicio de expertos",
+      "tendencias",
+      "inventarios",
+      "proveedores"
+    ],
+    "answer": [
+      "juicio de expertos",
+      "tendencias"
+    ],
+    "explicacion": "Cualitativos: juicio de expertos, sondeo, análisis de mercado. Cuantitativos: media móvil, tendencias, modelado predictivo, datos longitudinales."
+  },
+  {
+    "id": 12,
+    "type": "ordenar_oracion",
+    "question": "Ordena la secuencia lógica para preparar la producción de una temporada.",
+    "segments": [
+      "Pronosticar la demanda",
+      "Planear la producción",
+      "Comprar los materiales",
+      "Producir y entregar"
+    ],
+    "answer": [
+      "Pronosticar la demanda",
+      "Planear la producción",
+      "Comprar los materiales",
+      "Producir y entregar"
+    ],
+    "explicacion": "Primero se estima la demanda; con ella se planea la producción, se compran los materiales y, al final, se produce y entrega."
+  }
+]

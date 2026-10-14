@@ -1,7 +1,7 @@
 {
   "id": "unidad-04",
   "numero": 4,
-  "titulo": "Transportación y Régimen Aduanero",
+  "titulo": "Transportación y régimen aduanero",
   "descripcion": "Plantea rutas de distribución y esquemas aduanales a partir de la ley vigente y los Incoterms® 2020 para productos textiles.",
   "lema": "Gestiona modos de transporte, diseño de rutas, regímenes aduaneros y términos internacionales de comercio en la exportación textil.",
   "duracion_horas": 15.0,
@@ -13,31 +13,31 @@
   "temas": [
     {
       "numero": "4.1",
-      "nombre": "Importancia y Modos de Transporte",
+      "nombre": "Importancia y modos de transporte",
       "sintesis": "Objetivos del traslado de mercancías; modos carretero, ferroviario, marítimo, aéreo y transporte multimodal con tabla comparativa.",
       "url": "unidades/unidad-04/temas/tema-04-01.html",
-      "actividad": { "nombre": "Actividad 4.1", "url": "" }
+      "actividad": { "nombre": "Actividad de aprendizaje 4.1", "url": "unidades/unidad-04/actividades/actividad-4-1.html" }
     },
     {
       "numero": "4.2",
-      "nombre": "Selección del medio y Diseño de Rutas de Distribución",
+      "nombre": "Selección del medio de transporte y rutas de distribución",
       "sintesis": "Criterios de elección (tiempo, volumen, costo, conservación de telas) y factores clave para minimizar distancias y consumo de combustible.",
       "url": "unidades/unidad-04/temas/tema-04-02.html",
-      "actividad": { "nombre": "Actividad 4.2", "url": "" }
+      "actividad": { "nombre": "Actividad de aprendizaje 4.2", "url": "unidades/unidad-04/actividades/actividad-4-2.html" }
     },
     {
       "numero": "4.3",
-      "nombre": "Régimen Aduanero y Documentación de Comercio Exterior",
+      "nombre": "Régimen aduanero y documentación de comercio exterior",
       "sintesis": "Leyes aduaneras en México; regímenes definitivo, temporal y depósito fiscal; factura comercial, packing list, bill of lading, carta porte y pedimento.",
       "url": "unidades/unidad-04/temas/tema-04-03.html",
-      "actividad": { "nombre": "Actividad 4.3", "url": "" }
+      "actividad": { "nombre": "Actividad de aprendizaje 4.3", "url": "unidades/unidad-04/actividades/actividad-4-3.html" }
     },
     {
       "numero": "4.4",
-      "nombre": "Agente Aduanal e Incoterms® 2020 en el Sector Textil",
-      "sintesis": "Funciones del despacho aduanero; análisis integral de los 11 Incoterms® 2020 (desde EXW hasta DDP) y tabla de modos recomendados por insumo textil.",
+      "nombre": "Agente aduanal, Incoterms® 2020 y transporte textil",
+      "sintesis": "Funciones del despacho aduanero; los principales Incoterms® 2020 (desde EXW hasta DDP) y tabla de modos recomendados por insumo textil.",
       "url": "unidades/unidad-04/temas/tema-04-04.html",
-      "actividad": { "nombre": "Actividad 4.4", "url": "" }
+      "actividad": { "nombre": "Actividad de aprendizaje 4.4", "url": "unidades/unidad-04/actividades/actividad-4-4.html" }
     }
   ],
   "actividad_final": {

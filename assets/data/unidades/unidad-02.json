@@ -1,7 +1,7 @@
 {
   "id": "unidad-02",
   "numero": 2,
-  "titulo": "Almacenaje, Señalización, Codificación y Tecnología de Empaque",
+  "titulo": "Almacenaje, señalización, codificación y tecnología de empaque",
   "descripcion": "Especifica las condiciones de operación de una cadena de suministro a partir del cumplimiento de los requerimientos de almacenaje.",
   "lema": "Domina el diseño de almacenes textiles, inventarios ABC, rotación de mercancías y tecnologías de codificación y empaque.",
   "duracion_horas": 20.0,
@@ -13,7 +13,7 @@
   "temas": [
     {
       "numero": "2.1",
-      "nombre": "¿Qué es un almacén y sus funciones?",
+      "nombre": "¿Qué es un almacén y cuáles son sus funciones?",
       "sintesis": "Instalación estratégica, flujo de recepción, inspección de calidad, conservación, picking y administración de inventarios.",
       "url": "unidades/unidad-02/temas/tema-02-01.html",
       "actividad": { "nombre": "Actividad 2.1", "url": "" }
@@ -27,7 +27,7 @@
     },
     {
       "numero": "2.3",
-      "nombre": "Diseño (Layout) de un almacén",
+      "nombre": "Diseño (layout) de un almacén",
       "sintesis": "Distribución física: recepción, control de calidad, almacenamiento en racks, picking, empaque y embarques.",
       "url": "unidades/unidad-02/temas/tema-02-03.html",
       "actividad": { "nombre": "Actividad 2.3", "url": "" }
@@ -41,21 +41,21 @@
     },
     {
       "numero": "2.5",
-      "nombre": "Administración de Inventarios (Método ABC)",
+      "nombre": "Administración de inventarios (método ABC)",
       "sintesis": "Principio de Pareto (80/20) aplicado a colorantes especiales, telas importadas, avíos textiles y consumibles.",
       "url": "unidades/unidad-02/temas/tema-02-05.html",
       "actividad": { "nombre": "Actividad 2.5", "url": "" }
     },
     {
       "numero": "2.6",
-      "nombre": "Métodos de rotación de inventarios y Picking",
+      "nombre": "Métodos de rotación de inventarios y picking",
       "sintesis": "Políticas FIFO, LIFO y FEFO para químicos perecederos; tipos de preparación de pedidos: manual, zonas, lotes y automatizado.",
       "url": "unidades/unidad-02/temas/tema-02-06.html",
       "actividad": { "nombre": "Actividad 2.6", "url": "" }
     },
     {
       "numero": "2.7",
-      "nombre": "Señalización, Codificación y Empaque textil",
+      "nombre": "Señalización, codificación, empaque y embalaje",
       "sintesis": "Señalética de seguridad, códigos de barras, códigos QR, etiquetas RFID, tipos de empaque primario y embalajes de exportación.",
       "url": "unidades/unidad-02/temas/tema-02-07.html",
       "actividad": { "nombre": "Actividad 2.7", "url": "" }

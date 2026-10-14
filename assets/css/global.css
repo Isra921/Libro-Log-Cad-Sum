@@ -199,7 +199,8 @@ body.pagina-inicio .site-nav .brand-logo {
 
 .site-nav nav a:hover,
 .site-nav nav a.active {
-  color: #FFFFFF !important;
+  /* Antes #FFFFFF: blanco sobre el fondo claro del menú no se leía (contraste 1.3:1). */
+  color: var(--primary) !important;
 }
 
 .site-nav nav a.active::after {

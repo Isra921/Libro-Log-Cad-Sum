@@ -44,12 +44,12 @@ Estado del proyecto y reparto de tareas del equipo: **Aranza, Diego y Uriblue**.
 - [ ] Verificar enlaces internos y navegación en GitHub Pages.
 
 ### 📝 Uriblue — Unidades III y IV + Contenido y calidad
-- [ ] Crear/poblar las actividades formativas de los temas de la **Unidad III** (3.1 a 3.5) usando la plantilla estándar.
-- [ ] Crear/poblar las actividades formativas de los temas de la **Unidad IV** (4.1 a 4.4) usando la plantilla estándar.
-- [ ] Corregir la ortografía y redacción en la portada (Bienvenida, Introducción, Metodología) y en los temas.
-- [ ] Corregir el contador en portada (cambiar "48 temas" por los 25 temas y 5 casos reales) y unificar nombres oficiales de las unidades.
-- [ ] Cotejar contenidos contra el DOCX oficial del docente y listar figuras faltantes.
-- [ ] Revisar accesibilidad (atributos `alt` en imágenes, contrastes de color).
+- [x] Crear/poblar las actividades formativas de los temas de la **Unidad III** (3.1 a 3.5) usando la plantilla estándar.
+- [x] Crear/poblar las actividades formativas de los temas de la **Unidad IV** (4.1 a 4.4) usando la plantilla estándar.
+- [x] Corregir la ortografía y redacción en la portada (Bienvenida, Introducción, Metodología) y en los temas.
+- [x] Corregir el contador en portada (cambiar "48 temas" por los 25 temas y 5 casos reales) y unificar nombres oficiales de las unidades. *(Se usaron los nombres del programa oficial; falta que el profesor confirme II y III.)*
+- [x] Cotejar contenidos contra el DOCX oficial del docente y listar figuras faltantes. *(Ver `auditoria/REVISION-CONTENIDO-Y-ACCESIBILIDAD.md`.)*
+- [x] Revisar accesibilidad (atributos `alt` en imágenes, contrastes de color).
 
 ---
 

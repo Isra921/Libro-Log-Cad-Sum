@@ -63,16 +63,21 @@ El **contenido** del tema se escribe en el HTML; el **índice lateral** de la un
 
 ## Crear o editar una actividad de aprendizaje
 
-Todas las actividades usan la misma plantilla (ver `unidades/unidad-01/actividades/actividad-1-1.html`,
+Todas las actividades usan la misma plantilla (ver `unidades/unidad-03/actividades/actividad-3-1.html`,
 estilos en `assets/css/actividad.css`). **Las preguntas viven en un JSON**; el ejercicio, "Otras actividades"
 y la navegación se generan solos.
 
-1. Copia una actividad existente con el nombre nuevo (ej. `actividad-1-5.html`).
+1. Copia una actividad existente con el nombre nuevo (ej. `unidades/unidad-01/actividades/actividad-1-5.html`).
 2. En `<body>` cambia:
    - `data-unidad` y `data-tema` (el tema al que pertenece la actividad).
-   - `data-preguntas`: banco de preguntas, escrito desde la raíz (ej. `assets/data/unidad-1/preguntas_1.5.json`).
-   - `data-cantidad`: cuántas preguntas se toman al azar en cada intento.
+   - `data-preguntas`: banco de preguntas, escrito desde la raíz. Los bancos van en
+     `assets/data/preguntas/unidad-XX/` (ej. `assets/data/preguntas/unidad-01/actividad-1-5.json`).
+   - `data-cantidad`: cuántas preguntas se toman al azar en cada intento (las de U3 y U4 usan 8 de un banco de 12).
 3. Cambia las migas de pan, el `<title>`, el `<h1>` y el texto del propósito.
+4. En `assets/data/unidades/unidad-XX.json` llena la `url` de la actividad del tema
+   (ej. `"url": "unidades/unidad-01/actividades/actividad-1-5.html"`); mientras esté vacía aparece con candado.
+5. En el tema, el botón de "Comprueba tu comprensión" debe apuntar a `../actividades/actividad-X-Y.html`.
+6. Opcional: agrega la actividad a la ventana "Actividades" de la portada (`assets/data/actividades.json`).
 
 Formatos de pregunta admitidos en el banco (campo `"type"`; si falta, se toma como opción múltiple):
 

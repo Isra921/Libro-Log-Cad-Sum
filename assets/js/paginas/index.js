@@ -188,6 +188,10 @@ document.querySelectorAll('#modal-container .modal-section').forEach(section => 
 
     const content = document.createElement('div');
     content.className = 'section-modal-scroll';
+    // Accesibilidad: el área con desplazamiento debe poder enfocarse con el teclado (WCAG 2.1.1)
+    content.tabIndex = 0;
+    content.setAttribute('role', 'region');
+    content.setAttribute('aria-label', heading ? heading.textContent.trim() : 'Contenido de la ventana');
 
     [...section.childNodes].forEach(node => {
         if (node !== filters) {
