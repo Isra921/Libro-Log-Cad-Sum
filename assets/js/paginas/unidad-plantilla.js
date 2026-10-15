@@ -91,10 +91,11 @@
             </section>`;
     }
 
-    /** Bloque de video de introducción con créditos (independiente de la introducción para no verse opaco al hacer scroll). */
+    /** Bloque de video de introducción con referencia del material audiovisual publicado. */
     function seccionVideo(unidad) {
         if (!unidad.video || !unidad.video.url) return '';
-        const creditos = unidad.video.creditos || 'Dr. Israel Salas Ramírez · Escuela Superior de Ingeniería Textil (ESIT - IPN)';
+        const refTexto = unidad.video.referencia || `Salas, I. [israel salas]. (2024). ${unidad.video.titulo || 'Video introductorio'} [Video]. YouTube.`;
+        const enlaceVideo = unidad.video.enlace || (unidad.video.url ? unidad.video.url.replace('/embed/', 'https://youtu.be/') : '#');
 
         return `
             <section class="u-intro-video-wrap" id="seccionVideoUnidad" aria-label="Video de introducción">
@@ -114,9 +115,9 @@
                             <iframe data-src="${UI.esc(unidad.video.url)}" title="${UI.esc(unidad.video.titulo || 'Video de la unidad')}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
                         </div>
                         <div class="u-intro-video__footer">
-                            <p class="u-intro-video__credits">
-                                <i class="fas fa-clapperboard" aria-hidden="true"></i>
-                                <span><strong>Créditos:</strong> ${UI.esc(creditos)}</span>
+                            <p class="u-intro-video__reference">
+                                <i class="fas fa-bookmark" aria-hidden="true"></i>
+                                <span><strong>Referencia:</strong> ${UI.esc(refTexto)} <a class="u-intro-video__ref-link" href="${UI.esc(enlaceVideo)}" target="_blank" rel="noopener noreferrer">${UI.esc(enlaceVideo)} <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a></span>
                             </p>
                         </div>
                     </div>

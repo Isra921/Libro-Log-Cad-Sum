@@ -574,22 +574,34 @@ button.u-side-link:hover { background: var(--primary-soft); color: var(--text-li
   padding: 8px 4px 0;
   border-top: 1px solid color-mix(in srgb, var(--u-card-border) 40%, transparent);
 }
-.u-intro-video__credits {
+.u-intro-video__reference {
   margin: 0;
   display: inline-flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 8px;
   font-size: .80rem;
   color: var(--text-soft);
-  line-height: 1.4;
+  line-height: 1.45;
 }
-.u-intro-video__credits strong {
+.u-intro-video__reference strong {
   color: var(--text-light);
   font-weight: 600;
 }
-.u-intro-video__credits i {
+.u-intro-video__reference i {
   color: var(--primary);
   font-size: .85rem;
+}
+.u-intro-video__ref-link {
+  color: var(--primary);
+  text-decoration: underline;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  word-break: break-all;
+}
+.u-intro-video__ref-link:hover {
+  color: var(--primary-hover);
 }
 
 /* ---------- Responsivo ---------- */

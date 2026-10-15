@@ -86,7 +86,8 @@
   "video": {
     "titulo": "Introducción a la Logística y Cadena de Suministro",
     "url": "https://www.youtube.com/embed/E_NW0S4kFBY",
-    "creditos": "Dr. Israel Salas Ramírez · Escuela Superior de Ingeniería Textil (ESIT - IPN)"
+    "enlace": "https://youtu.be/E_NW0S4kFBY",
+    "referencia": "Salas, I. [israel salas]. (2024). Introducción a la Logística y Cadena de Suministro [Video]. YouTube."
   },
   "material_apoyo": [
     {
