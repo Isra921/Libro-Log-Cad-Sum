@@ -265,6 +265,8 @@ a.t-index__link:hover { background: var(--primary-soft); color: var(--text-light
 }
 .t-table tr:last-child td { border-bottom: 0; }
 .t-table td.t-key { font-weight: 600; }
+/* Fórmula escrita en texto (sin motor de fórmulas): (A / B) × 100 */
+.t-formula { font-weight: 500; color: var(--text-heading); white-space: normal; }
 
 /* Colores de texto con significado (celdas, íconos de listas). Contraste AA sobre fondo claro. */
 .t-article .t-ok     { color: #15803d; } /* positivo / verde */

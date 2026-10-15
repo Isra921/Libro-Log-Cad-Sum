@@ -30,7 +30,7 @@ Estado del proyecto y reparto de tareas del equipo: **Aranza, Diego y Uriblue**.
 - [x] Unificar estilos de figuras e imágenes (uso de clase `t-figure`) y limpiar CSS residual. *(Las 12 figuras usan `t-figure` y se numeran solas por unidad (Figura 1.1, 1.2…). Los temas ya no tienen estilos en línea: tablas con `t-table` y tarjetas, listas y colores con clases de `tema.css`.)*
 - [x] *Resuelto:* las 5 variantes de `t-callout` ya están definidas en `tema.css` con su color. Antes: hay **5 variantes de `t-callout` que se usan pero no estaban definidas** en `assets/css/tema.css` (solo existen `--note` y `--example`), así que se ven sin color distintivo: `--alert` (temas 2.2, 3.2, 3.3), `--tip` (1.5, 3.2, 3.5, 4.4), `--info` y `--accent` (5.2, 5.3) e `--important` (4.4).
 - [x] Reemplazar las clases CSS con nombre `escom` por `esit`.
-- [ ] Revisar y ajustar el diseño en dispositivos móviles y tabletas.
+- [x] Revisar y ajustar el diseño en dispositivos móviles y tabletas. *(Se revisaron las 68 páginas a 360, 414 y 768 px: sin desbordes horizontales. Se corrigió la barra de navegación en celular (el botón ☰ bajaba de línea y tapaba el inicio de la página), el tamaño táctil de botones y enlaces, el texto justificado en pantallas angostas y las fórmulas del tema 1.6, que se mostraban como código LaTeX.)*
 
 ### 🧹 Diego — Unidad II + Limpieza técnica
 - [x] 🔴 **Primero (Limpieza):** Eliminar los archivos residuales del libro base anterior:

@@ -236,8 +236,19 @@ body.pagina-inicio .site-nav .brand-logo {
     border-radius: 18px;
     flex-wrap: wrap;
   }
+  /* La marca cede espacio para que el botón ☰ quede en la misma fila (antes bajaba a otra
+     línea y la barra, más alta, tapaba el inicio de la página). */
+  .site-nav .brand {
+    flex: 1 1 0;
+    min-width: 0;
+  }
   .site-nav .nav-toggle {
-    display: block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    min-width: 44px;
+    min-height: 44px;
   }
   .site-nav nav {
     display: none;
@@ -260,4 +271,22 @@ main.container:not(:has(.hero-section)) {
   padding-top: 88px;
 }
 
+/* ==========================================================================
+   AJUSTES PARA CELULAR Y TABLETA
+   ========================================================================== */
+/* Enlaces de navegación con área táctil cómoda (mín. ~40 px de alto). */
+.u-page .t-pager__prev,
+.u-page .a-pager__prev {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+}
+.u-page .u-breadcrumb a { display: inline-block; padding: 8px 0; }
+.u-page .a-side-link { min-height: 40px; }
 
+/* En pantallas angostas el texto justificado abre huecos grandes entre palabras. */
+@media (max-width: 600px) {
+  :is(.u-page, .welcome-content, .modal-body) :is(p, li) {
+    text-align: left !important;
+  }
+}
