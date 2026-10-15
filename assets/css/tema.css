@@ -607,6 +607,24 @@ body:has(.t-viewer[open]) { overflow: hidden; }
   cursor: not-allowed;
 }
 
+/* Sección de comprensión y botón de actividad centrado */
+#comprension {
+  margin-top: 36px;
+  padding-top: 24px;
+  border-top: 1px solid var(--u-card-border);
+}
+.t-activity-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+}
+#comprension .u-btn,
+.t-activity-action .u-btn {
+  margin-inline: auto;
+  text-align: center;
+}
+
 /* Navegación anterior / siguiente */
 .t-pager {
   display: flex;

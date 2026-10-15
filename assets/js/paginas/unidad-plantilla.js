@@ -79,14 +79,48 @@
             </header>`;
     }
 
-    /** Introducción completa. Se desvanece al hacer scroll (ver iniciarDesvanecimientoIntro). */
+    /** Introducción completa de la unidad. */
     function introduccion(unidad) {
         const parrafos = UI.lista(unidad.introduccion);
         if (!parrafos.length) return '';
+
         return `
             <section class="u-intro" id="introduccion" aria-label="Introducción">
                 <p class="u-eyebrow">Introducción</p>
                 ${parrafos.map(p => `<p class="u-intro__text">${UI.esc(p)}</p>`).join('')}
+            </section>`;
+    }
+
+    /** Bloque de video de introducción con créditos (independiente de la introducción para no verse opaco al hacer scroll). */
+    function seccionVideo(unidad) {
+        if (!unidad.video || !unidad.video.url) return '';
+        const creditos = unidad.video.creditos || 'Dr. Israel Salas Ramírez · Escuela Superior de Ingeniería Textil (ESIT - IPN)';
+
+        return `
+            <section class="u-intro-video-wrap" id="seccionVideoUnidad" aria-label="Video de introducción">
+                <details class="u-intro-video" id="introVideoDetails">
+                    <summary class="u-intro-video__summary">
+                        <span class="u-intro-video__badge">
+                            <i class="fas fa-circle-play" aria-hidden="true"></i> Video de introducción
+                        </span>
+                        <span class="u-intro-video__title">${UI.esc(unidad.video.titulo || 'Video de la unidad')}</span>
+                        <span class="u-intro-video__toggle-action">
+                            <span class="u-intro-video__action-text">Ver video</span>
+                            <i class="fas fa-chevron-down u-intro-video__chevron" aria-hidden="true"></i>
+                        </span>
+                    </summary>
+                    <div class="u-intro-video__body">
+                        <div class="u-video__frame">
+                            <iframe data-src="${UI.esc(unidad.video.url)}" title="${UI.esc(unidad.video.titulo || 'Video de la unidad')}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+                        </div>
+                        <div class="u-intro-video__footer">
+                            <p class="u-intro-video__credits">
+                                <i class="fas fa-clapperboard" aria-hidden="true"></i>
+                                <span><strong>Créditos:</strong> ${UI.esc(creditos)}</span>
+                            </p>
+                        </div>
+                    </div>
+                </details>
             </section>`;
     }
 
@@ -272,12 +306,42 @@
     // ---------- Interacción ----------
 
     function iniciarVideo(unidad) {
-        const boton = document.getElementById('btnVideo');
-        if (!boton) return;
-        boton.addEventListener('click', () => UI.abrirVideo({
-            url: unidad.video.url,
-            titulo: unidad.video.titulo || 'Video de la unidad'
-        }));
+        if (!unidad.video || !unidad.video.url) return;
+
+        const botonLateral = document.getElementById('btnVideo');
+        if (botonLateral) {
+            botonLateral.addEventListener('click', () => {
+                const details = document.getElementById('introVideoDetails');
+                if (details) {
+                    details.open = true;
+                    const frame = details.querySelector('iframe');
+                    if (frame && !frame.src) frame.src = frame.dataset.src;
+                    details.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                } else {
+                    UI.abrirVideo({
+                        url: unidad.video.url,
+                        titulo: unidad.video.titulo || 'Video de la unidad'
+                    });
+                }
+            });
+        }
+
+        const details = document.getElementById('introVideoDetails');
+        if (details) {
+            details.addEventListener('toggle', () => {
+                const frame = details.querySelector('iframe');
+                const actionText = details.querySelector('.u-intro-video__action-text');
+                if (frame) {
+                    if (details.open) {
+                        if (!frame.src) frame.src = frame.dataset.src;
+                        if (actionText) actionText.textContent = 'Ocultar video';
+                    } else {
+                        frame.src = '';
+                        if (actionText) actionText.textContent = 'Ver video';
+                    }
+                }
+            });
+        }
     }
 
     /**
@@ -335,6 +399,7 @@
                 <div class="u-layout">
                     <div class="u-main">
                         ${introduccion(unidad)}
+                        ${seccionVideo(unidad)}
                         ${temas(unidad)}
                         ${actividadFinal(unidad)}
                     </div>

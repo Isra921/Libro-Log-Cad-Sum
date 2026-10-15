@@ -637,21 +637,29 @@
         </nav>
       </div>
 
-      <!-- Barra lateral -->
+      <!-- Barra lateral desplegable y compacta -->
       <aside class="a-sidebar" aria-label="Información de la actividad">
-        <section class="a-side-card a-side-card--dark">
-          <p class="a-side-title">Laboratorio ESIT</p>
-          <p class="a-side-text">El Método de Casos con simulador pone a prueba tus criterios de ingeniería frente a problemas de manufactura textil mexicana.</p>
-          <a class="a-side-link" href="../index.html"><i class="fas fa-arrow-left" aria-hidden="true"></i> <span>Volver a la Unidad I</span></a>
-        </section>
+        <details class="a-sidebar-details" open>
+          <summary class="a-sidebar-summary">
+            <span class="a-sidebar-summary-label"><i class="fas fa-layer-group"></i> Panel de apoyo</span>
+            <i class="fas fa-chevron-down a-sidebar-chevron"></i>
+          </summary>
+          <div class="a-sidebar-inner">
+            <section class="a-side-card a-side-card--dark">
+              <p class="a-side-title">Laboratorio ESIT</p>
+              <p class="a-side-text">El Método de Casos con simulador pone a prueba tus criterios de ingeniería frente a problemas de manufactura textil mexicana.</p>
+              <a class="a-side-link" href="../index.html"><i class="fas fa-arrow-left" aria-hidden="true"></i> <span>Volver a la Unidad I</span></a>
+            </section>
 
-        <nav class="a-side-card">
-          <p class="a-side-title">Temas Clave de Apoyo</p>
-          <a class="a-side-item" href="../temas/tema-01-01.html"><i class="fas fa-book-open"></i> 1.1 Objetivos de la logística</a>
-          <a class="a-side-item" href="../temas/tema-01-03.html"><i class="fas fa-book-open"></i> 1.3 Logística vs Cadena</a>
-          <a class="a-side-item" href="../temas/tema-01-05.html"><i class="fas fa-book-open"></i> 1.5 Costos y niveles de servicio</a>
-          <a class="a-side-item" href="../temas/tema-01-06.html"><i class="fas fa-book-open"></i> 1.6 Indicadores KPI y OTIF</a>
-        </nav>
+            <nav class="a-side-card">
+              <p class="a-side-title">Temas Clave de Apoyo</p>
+              <a class="a-side-item" href="../temas/tema-01-01.html"><i class="fas fa-book-open"></i> 1.1 Objetivos de la logística</a>
+              <a class="a-side-item" href="../temas/tema-01-03.html"><i class="fas fa-book-open"></i> 1.3 Logística vs Cadena</a>
+              <a class="a-side-item" href="../temas/tema-01-05.html"><i class="fas fa-book-open"></i> 1.5 Costos y niveles de servicio</a>
+              <a class="a-side-item" href="../temas/tema-01-06.html"><i class="fas fa-book-open"></i> 1.6 Indicadores KPI y OTIF</a>
+            </nav>
+          </div>
+        </details>
       </aside>
     </div>
   </main>

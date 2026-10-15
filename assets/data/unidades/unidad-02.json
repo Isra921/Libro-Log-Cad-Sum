@@ -72,6 +72,11 @@
     "Aplica modelos de administración ABC y rotación de inventarios adecuados a las características de materias primas y químicos textiles.",
     "Selecciona tecnologías de codificación, señalización y empaque que optimicen la preservación y trazabilidad de prendas y telas."
   ],
+  "video": {
+    "titulo": "Almacenaje, señalización, codificación y tecnología de empaque",
+    "url": "https://www.youtube.com/embed/Oo0JV3yHw1c",
+    "creditos": "Dr. Israel Salas Ramírez · Escuela Superior de Ingeniería Textil (ESIT - IPN)"
+  },
   "material_apoyo": [
     {
       "nombre": "Referencias oficiales de la Unidad II",

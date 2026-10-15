@@ -2400,5 +2400,29 @@ a:focus-visible, button:focus-visible, [tabindex]:focus-visible { outline: 3px s
 .hero-title-ipn,.hero-title-escom{white-space:normal;overflow-wrap:break-word}.hero-section{min-width:0}.hero-emblem-esit{background-color:transparent!important;opacity:1!important;filter:none!important}
 
 /* El encabezado conserva su estructura original, sin tarjeta independiente. */
-.hero-emblem-ipn{filter:brightness(0) saturate(100%) invert(17%) sepia(32%) saturate(1852%) hue-rotate(179deg) brightness(94%) contrast(94%)}
 .hero-title-lockup{max-width:100%}.hero-title-ipn,.hero-title-escom{max-width:100%;white-space:normal!important;overflow-wrap:anywhere}.hero-stats{flex-wrap:wrap;min-width:0}
+
+/* Botón chip para videos de unidad dentro del modal de introducción */
+.btn-video-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-left: 8px;
+    padding: 3px 10px;
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--primary) 18%, transparent);
+    color: var(--primary);
+    border: 1px solid color-mix(in srgb, var(--primary) 40%, transparent);
+    font-size: 0.78rem;
+    font-weight: 600;
+    cursor: pointer;
+    vertical-align: middle;
+    transition: all 0.2s ease;
+}
+.btn-video-chip:hover {
+    background: var(--primary);
+    color: #fff;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px color-mix(in srgb, var(--primary) 35%, transparent);
+}
+
