@@ -1,0 +1,161 @@
+[
+  {
+    "id": 1,
+    "type": "opcion_multiple",
+    "question": "¿Qué es el layout de un almacén?",
+    "options": [
+      "La distribución y organización del trabajo dentro del almacén.",
+      "El inventario valorado de todo lo que se resguarda en la bodega.",
+      "El contrato de arrendamiento del inmueble donde opera la bodega.",
+      "El software que registra las entradas y salidas de mercancía."
+    ],
+    "answer": "La distribución y organización del trabajo dentro del almacén.",
+    "explicacion": "El layout es cómo se reparte el espacio y el trabajo dentro de la bodega."
+  },
+  {
+    "id": 2,
+    "type": "completar_oracion",
+    "question": "El objetivo principal del layout es minimizar _____, optimizar espacios y facilitar el flujo continuo de _____.",
+    "wordBank": [
+      "recorridos",
+      "materiales",
+      "proveedores",
+      "impuestos"
+    ],
+    "answer": [
+      "recorridos",
+      "materiales"
+    ],
+    "explicacion": "Menos metros recorridos y un flujo sin interrupciones: esas son las dos metas del diseño."
+  },
+  {
+    "id": 3,
+    "type": "ordenar_oracion",
+    "question": "Ordena las etapas del flujo operativo de un almacén, desde la descarga hasta el embarque.",
+    "segments": [
+      "Recepción",
+      "Inspección y control de calidad",
+      "Área de almacenamiento",
+      "Preparación de pedidos (picking)",
+      "Empaque y embalaje",
+      "Embarques"
+    ],
+    "answer": [
+      "Recepción",
+      "Inspección y control de calidad",
+      "Área de almacenamiento",
+      "Preparación de pedidos (picking)",
+      "Empaque y embalaje",
+      "Embarques"
+    ],
+    "explicacion": "Es el recorrido del diagrama del tema: entra, se revisa, se guarda, se surte, se empaca y sale."
+  },
+  {
+    "id": 4,
+    "type": "opcion_multiple",
+    "question": "El principio de \"aprovechamiento del espacio\" en un layout se refiere a:",
+    "options": [
+      "Usar de forma óptima el volumen cúbico y vertical del inmueble.",
+      "Ocupar cada metro cuadrado del piso sin dejar pasillos libres.",
+      "Reducir el número de productos distintos que se almacenan.",
+      "Rentar el espacio sobrante a otras empresas."
+    ],
+    "answer": "Usar de forma óptima el volumen cúbico y vertical del inmueble.",
+    "explicacion": "Se aprovecha el volumen, no solo el piso: la altura de la nave también almacena."
+  },
+  {
+    "id": 5,
+    "type": "verdadero_falso",
+    "statement": "El principio de accesibilidad implica poder extraer cualquier lote sin tener que desplazar otros innecesariamente.",
+    "answer": true,
+    "explicacion": "Si para sacar un rollo hay que mover otros diez, el layout está mal resuelto."
+  },
+  {
+    "id": 6,
+    "type": "opcion_multiple",
+    "question": "¿Qué principio del layout atiende la delimitación de pasillos peatonales, la señalización y la protección contra incendios?",
+    "options": [
+      "Seguridad del personal",
+      "Recorridos cortos",
+      "Posibilidad de crecimiento",
+      "Fácil identificación de productos"
+    ],
+    "answer": "Seguridad del personal",
+    "explicacion": "Separar al peatón del montacargas y señalizar el equipo contra incendio protege a quien opera."
+  },
+  {
+    "id": 7,
+    "type": "opcion_multiple",
+    "question": "La \"posibilidad de crecimiento\" como principio de layout significa que el almacén debe:",
+    "options": [
+      "Ser modular, para admitir futuras ampliaciones de volumen o de líneas de producto.",
+      "Comprarse siempre con el doble de superficie de la que se necesita.",
+      "Cambiar de ubicación cada vez que aumenta la demanda.",
+      "Mantener los racks vacíos la mitad del año."
+    ],
+    "answer": "Ser modular, para admitir futuras ampliaciones de volumen o de líneas de producto.",
+    "explicacion": "La modularidad permite crecer sin rediseñar toda la bodega."
+  },
+  {
+    "id": 8,
+    "type": "completar_oracion",
+    "question": "El principio de recorridos _____ busca disminuir las distancias que recorren operarios y _____.",
+    "wordBank": [
+      "cortos",
+      "montacargas",
+      "largos",
+      "proveedores"
+    ],
+    "answer": [
+      "cortos",
+      "montacargas"
+    ],
+    "explicacion": "Cada metro que se recorre de más es tiempo y costo en cada pedido del día."
+  },
+  {
+    "id": 9,
+    "type": "opcion_multiple",
+    "question": "En un almacén textil, la codificación visible para rollos, hilados y prendas responde al principio de:",
+    "options": [
+      "Fácil identificación de productos",
+      "Aprovechamiento del espacio",
+      "Seguridad del personal",
+      "Posibilidad de crecimiento"
+    ],
+    "answer": "Fácil identificación de productos",
+    "explicacion": "Si el código se lee a simple vista, el operario no abre bultos para saber qué contienen."
+  },
+  {
+    "id": 10,
+    "type": "opcion_multiple",
+    "question": "Durante la temporada alta, la zona de picking de una bodega se satura y los pedidos se detienen ahí. ¿Qué falla del layout explica mejor el cuello de botella?",
+    "options": [
+      "Los recorridos son largos y la zona no permite el flujo continuo de materiales.",
+      "El almacén tiene demasiada señalización de seguridad.",
+      "Los productos están codificados con etiquetas visibles.",
+      "Los racks aprovechan el espacio vertical del inmueble."
+    ],
+    "answer": "Los recorridos son largos y la zona no permite el flujo continuo de materiales.",
+    "explicacion": "El cuello de botella aparece donde el flujo se interrumpe; acortar recorridos y ordenar la secuencia lo libera."
+  },
+  {
+    "id": 11,
+    "type": "verdadero_falso",
+    "statement": "Un buen layout ordena las etapas de forma secuencial, desde la descarga hasta el embarque final.",
+    "answer": true,
+    "explicacion": "La secuencia evita cruces y retrocesos del material dentro de la bodega."
+  },
+  {
+    "id": 12,
+    "type": "opcion_multiple",
+    "question": "¿Qué etapa del flujo operativo se ubica inmediatamente después del área de almacenamiento?",
+    "options": [
+      "Preparación de pedidos (picking)",
+      "Recepción",
+      "Embarques",
+      "Inspección y control de calidad"
+    ],
+    "answer": "Preparación de pedidos (picking)",
+    "explicacion": "Del rack el material pasa a picking, y de ahí a empaque y embarques."
+  }
+]

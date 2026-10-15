@@ -16,49 +16,49 @@
       "nombre": "¿Qué es un almacén y cuáles son sus funciones?",
       "sintesis": "Instalación estratégica, flujo de recepción, inspección de calidad, conservación, picking y administración de inventarios.",
       "url": "unidades/unidad-02/temas/tema-02-01.html",
-      "actividad": { "nombre": "Actividad 2.1", "url": "" }
+      "actividad": { "nombre": "Actividad de aprendizaje 2.1", "url": "unidades/unidad-02/actividades/actividad-2-1.html" }
     },
     {
       "numero": "2.2",
       "nombre": "Importancia del almacén en la industria textil",
       "sintesis": "Almacenes especializados: materias primas, insumos, productos químicos/colorantes, producto en proceso y refacciones.",
       "url": "unidades/unidad-02/temas/tema-02-02.html",
-      "actividad": { "nombre": "Actividad 2.2", "url": "" }
+      "actividad": { "nombre": "Actividad de aprendizaje 2.2", "url": "unidades/unidad-02/actividades/actividad-2-2.html" }
     },
     {
       "numero": "2.3",
       "nombre": "Diseño (layout) de un almacén",
       "sintesis": "Distribución física: recepción, control de calidad, almacenamiento en racks, picking, empaque y embarques.",
       "url": "unidades/unidad-02/temas/tema-02-03.html",
-      "actividad": { "nombre": "Actividad 2.3", "url": "" }
+      "actividad": { "nombre": "Actividad de aprendizaje 2.3", "url": "unidades/unidad-02/actividades/actividad-2-3.html" }
     },
     {
       "numero": "2.4",
       "nombre": "Sistemas de almacenamiento",
       "sintesis": "Almacenamiento en piso vs racks metálicos para rollos de tela y bobinas; bodegas automatizadas con software WMS.",
       "url": "unidades/unidad-02/temas/tema-02-04.html",
-      "actividad": { "nombre": "Actividad 2.4", "url": "" }
+      "actividad": { "nombre": "Actividad de aprendizaje 2.4", "url": "unidades/unidad-02/actividades/actividad-2-4.html" }
     },
     {
       "numero": "2.5",
       "nombre": "Administración de inventarios (método ABC)",
       "sintesis": "Principio de Pareto (80/20) aplicado a colorantes especiales, telas importadas, avíos textiles y consumibles.",
       "url": "unidades/unidad-02/temas/tema-02-05.html",
-      "actividad": { "nombre": "Actividad 2.5", "url": "" }
+      "actividad": { "nombre": "Actividad de aprendizaje 2.5", "url": "unidades/unidad-02/actividades/actividad-2-5.html" }
     },
     {
       "numero": "2.6",
       "nombre": "Métodos de rotación de inventarios y picking",
       "sintesis": "Políticas FIFO, LIFO y FEFO para químicos perecederos; tipos de preparación de pedidos: manual, zonas, lotes y automatizado.",
       "url": "unidades/unidad-02/temas/tema-02-06.html",
-      "actividad": { "nombre": "Actividad 2.6", "url": "" }
+      "actividad": { "nombre": "Actividad de aprendizaje 2.6", "url": "unidades/unidad-02/actividades/actividad-2-6.html" }
     },
     {
       "numero": "2.7",
       "nombre": "Señalización, codificación, empaque y embalaje",
       "sintesis": "Señalética de seguridad, códigos de barras, códigos QR, etiquetas RFID, tipos de empaque primario y embalajes de exportación.",
       "url": "unidades/unidad-02/temas/tema-02-07.html",
-      "actividad": { "nombre": "Actividad 2.7", "url": "" }
+      "actividad": { "nombre": "Actividad de aprendizaje 2.7", "url": "unidades/unidad-02/actividades/actividad-2-7.html" }
     }
   ],
   "actividad_final": {

@@ -1,0 +1,161 @@
+[
+  {
+    "id": 1,
+    "type": "opcion_multiple",
+    "question": "¿Cuál es la definición de almacén que plantea el tema 2.1?",
+    "options": [
+      "Instalación destinada a recibir, organizar, cuidar, controlar y surtir los productos primarios requeridos para el desarrollo de un artículo.",
+      "Local cerrado cuya única finalidad es guardar mercancía hasta que alguien la solicite.",
+      "Área de la planta donde se realiza el corte y la confección de las prendas.",
+      "Oficina encargada de negociar los precios de compra con los proveedores de tela."
+    ],
+    "answer": "Instalación destinada a recibir, organizar, cuidar, controlar y surtir los productos primarios requeridos para el desarrollo de un artículo.",
+    "explicacion": "El almacén no solo guarda: recibe, organiza, cuida, controla y surte los materiales que necesita la producción."
+  },
+  {
+    "id": 2,
+    "type": "verdadero_falso",
+    "statement": "El almacén es únicamente un lugar para guardar mercancía, sin valor estratégico dentro de la distribución.",
+    "answer": false,
+    "explicacion": "Es un lugar estratégico dentro de la distribución de productos: permite disponer de los materiales cuando los necesitan producción o el cliente."
+  },
+  {
+    "id": 3,
+    "type": "ordenar_oracion",
+    "question": "Ordena las funciones del almacén según el recorrido que sigue un material desde que llega hasta que se entrega.",
+    "segments": [
+      "Entrada de artículos",
+      "Revisión de calidad",
+      "Identificación",
+      "Colocación del producto en el almacén",
+      "Preparación de productos (picking)",
+      "Surtido"
+    ],
+    "answer": [
+      "Entrada de artículos",
+      "Revisión de calidad",
+      "Identificación",
+      "Colocación del producto en el almacén",
+      "Preparación de productos (picking)",
+      "Surtido"
+    ],
+    "explicacion": "Primero entra y se inspecciona el material, luego se identifica y se ubica; cuando hay un pedido se prepara (picking) y se surte."
+  },
+  {
+    "id": 4,
+    "type": "opcion_multiple",
+    "question": "La inspección de especificaciones y la detección de defectos antes de que el material ingrese corresponde a la función de:",
+    "options": [
+      "Revisión de calidad",
+      "Surtido",
+      "Administración de inventarios",
+      "Conservación"
+    ],
+    "answer": "Revisión de calidad",
+    "explicacion": "La revisión de calidad filtra los defectos antes del ingreso, de modo que no lleguen a corte ni a confección."
+  },
+  {
+    "id": 5,
+    "type": "opcion_multiple",
+    "question": "El registro de lotes, tipos de fibra y codificación corresponde a la función de:",
+    "options": [
+      "Identificación",
+      "Entrada de artículos",
+      "Picking",
+      "Conservación"
+    ],
+    "answer": "Identificación",
+    "explicacion": "Identificar es registrar lote, tipo de fibra y código para poder localizar y rastrear el material después."
+  },
+  {
+    "id": 6,
+    "type": "completar_oracion",
+    "question": "La función de _____ protege el material frente a humedad, polvo, plagas y variaciones _____.",
+    "wordBank": [
+      "conservación",
+      "surtido",
+      "térmicas",
+      "contables"
+    ],
+    "answer": [
+      "conservación",
+      "térmicas"
+    ],
+    "explicacion": "Conservación es proteger la mercancía de humedad, polvo, plagas y cambios de temperatura."
+  },
+  {
+    "id": 7,
+    "type": "opcion_multiple",
+    "question": "¿En qué consiste la función de picking dentro del almacén?",
+    "options": [
+      "Seleccionar y extraer las unidades necesarias para surtir un pedido.",
+      "Verificar que la factura del proveedor coincida con el precio pactado.",
+      "Asignar una ubicación fija a cada rack del almacén.",
+      "Destruir el material que no superó la inspección de calidad."
+    ],
+    "answer": "Seleccionar y extraer las unidades necesarias para surtir un pedido.",
+    "explicacion": "El picking es la preparación del pedido: se seleccionan y extraen las unidades solicitadas."
+  },
+  {
+    "id": 8,
+    "type": "verdadero_falso",
+    "statement": "La administración de inventarios implica vigilar de manera constante tanto las existencias físicas como las teóricas.",
+    "answer": true,
+    "explicacion": "Se monitorean ambas: la diferencia entre lo que hay en piso y lo que dice el sistema revela mermas o errores de registro."
+  },
+  {
+    "id": 9,
+    "type": "opcion_multiple",
+    "question": "La consolidación y entrega del material a las líneas de corte y costura o a las áreas de expedición es la función de:",
+    "options": [
+      "Surtido",
+      "Identificación",
+      "Revisión de calidad",
+      "Entrada de artículos"
+    ],
+    "answer": "Surtido",
+    "explicacion": "El surtido entrega lo ya preparado a producción o a la zona de embarque."
+  },
+  {
+    "id": 10,
+    "type": "opcion_multiple",
+    "question": "Si el almacén no realiza la inspección de calidad en la recepción, ¿qué ocurre con mayor probabilidad en corte y confección?",
+    "options": [
+      "Se generan mermas, porque la tela defectuosa se detecta hasta que ya fue cortada.",
+      "No hay efecto alguno: la calidad solo importa al final del proceso.",
+      "Se reduce el costo total, porque se ahorra el tiempo de inspección.",
+      "Se acelera la producción sin ninguna consecuencia."
+    ],
+    "answer": "Se generan mermas, porque la tela defectuosa se detecta hasta que ya fue cortada.",
+    "explicacion": "Detectar el defecto tarde cuesta más: al material perdido se suma la mano de obra ya invertida en cortarlo."
+  },
+  {
+    "id": 11,
+    "type": "completar_oracion",
+    "question": "El almacén permite disponer de los materiales cuando los necesitan la _____ o el _____.",
+    "wordBank": [
+      "producción",
+      "cliente",
+      "competencia",
+      "auditoría"
+    ],
+    "answer": [
+      "producción",
+      "cliente"
+    ],
+    "explicacion": "Esa disponibilidad oportuna es lo que convierte al almacén en un punto estratégico de la distribución."
+  },
+  {
+    "id": 12,
+    "type": "opcion_multiple",
+    "question": "La asignación estratégica de una ubicación en estanterías o zonas designadas corresponde a:",
+    "options": [
+      "Colocación del producto dentro del espacio del almacén",
+      "Entrada de artículos",
+      "Surtido",
+      "Revisión de calidad"
+    ],
+    "answer": "Colocación del producto dentro del espacio del almacén",
+    "explicacion": "Ubicar bien el material desde el inicio acorta después los recorridos de picking."
+  }
+]

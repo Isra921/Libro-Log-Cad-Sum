@@ -1,0 +1,157 @@
+[
+  {
+    "id": 1,
+    "type": "opcion_multiple",
+    "question": "¿Qué material se resguarda en el almacén de materias primas de una planta textil?",
+    "options": [
+      "Algodón, poliéster, lana y fibras sintéticas",
+      "Hilos, botones, cierres y etiquetas",
+      "Prendas listas para su distribución",
+      "Componentes de maquinaria textil"
+    ],
+    "answer": "Algodón, poliéster, lana y fibras sintéticas",
+    "explicacion": "La materia prima textil es la fibra con la que arranca el proceso: algodón, poliéster, lana y sintéticas."
+  },
+  {
+    "id": 2,
+    "type": "opcion_multiple",
+    "question": "Hilos, botones, cierres y etiquetas se guardan en el almacén de:",
+    "options": [
+      "Insumos",
+      "Materias primas",
+      "Producto en proceso",
+      "Refacciones"
+    ],
+    "answer": "Insumos",
+    "explicacion": "Los insumos son los avíos que se incorporan a la prenda sin ser la fibra base."
+  },
+  {
+    "id": 3,
+    "type": "verdadero_falso",
+    "statement": "En una empresa textil pueden coexistir varios almacenes especializados con condiciones ambientales y de estiba estrictamente diferenciadas.",
+    "answer": true,
+    "explicacion": "Cada familia de material exige condiciones distintas, por eso se separan los almacenes."
+  },
+  {
+    "id": 4,
+    "type": "opcion_multiple",
+    "question": "Los rollos de tela y las piezas ya cortadas pertenecen al almacén de:",
+    "options": [
+      "Producto en proceso",
+      "Producto terminado",
+      "Materias primas",
+      "Insumos"
+    ],
+    "answer": "Producto en proceso",
+    "explicacion": "Ya se transformaron (hay tela y piezas cortadas), pero todavía no son una prenda terminada."
+  },
+  {
+    "id": 5,
+    "type": "completar_oracion",
+    "question": "El almacén de colorantes y productos químicos guarda colorantes, _____ y _____.",
+    "wordBank": [
+      "auxiliares",
+      "suavizantes",
+      "cierres",
+      "tarimas"
+    ],
+    "answer": [
+      "auxiliares",
+      "suavizantes"
+    ],
+    "explicacion": "Son los químicos del área de tintorería y acabados; exigen condiciones ambientales controladas."
+  },
+  {
+    "id": 6,
+    "type": "opcion_multiple",
+    "question": "¿Qué se almacena en el almacén de refacciones?",
+    "options": [
+      "Componentes de la maquinaria textil",
+      "Prendas listas para distribución",
+      "Colorantes y auxiliares",
+      "Algodón y poliéster"
+    ],
+    "answer": "Componentes de la maquinaria textil",
+    "explicacion": "Las refacciones mantienen operando telares, máquinas de coser y equipo de tintorería."
+  },
+  {
+    "id": 7,
+    "type": "opcion_multiple",
+    "question": "Las prendas listas para su distribución corresponden al almacén de:",
+    "options": [
+      "Producto terminado",
+      "Producto en proceso",
+      "Insumos",
+      "Materias primas"
+    ],
+    "answer": "Producto terminado",
+    "explicacion": "El producto terminado ya pasó confección y control de calidad; solo espera su distribución."
+  },
+  {
+    "id": 8,
+    "type": "opcion_multiple",
+    "question": "Según el tema, ¿qué puede provocar una administración deficiente de los almacenes textiles?",
+    "options": [
+      "Pérdidas económicas por deterioro, humedad, contaminación o errores en el surtido.",
+      "Un aumento automático del precio de venta de las prendas.",
+      "La desaparición de la necesidad de inspeccionar la calidad.",
+      "Una reducción garantizada de los tiempos de entrega."
+    ],
+    "answer": "Pérdidas económicas por deterioro, humedad, contaminación o errores en el surtido.",
+    "explicacion": "El daño es económico y llega por cuatro vías: deterioro, humedad, contaminación y errores de surtido."
+  },
+  {
+    "id": 9,
+    "type": "verdadero_falso",
+    "statement": "Los colorantes y productos químicos pueden guardarse junto con el producto terminado sin ningún riesgo.",
+    "answer": false,
+    "explicacion": "Un derrame o una emanación química contamina y mancha las prendas; por eso se separan los almacenes."
+  },
+  {
+    "id": 10,
+    "type": "ordenar_oracion",
+    "question": "Ordena los almacenes textiles según el avance del material dentro del proceso productivo.",
+    "segments": [
+      "Materias primas",
+      "Insumos",
+      "Producto en proceso",
+      "Producto terminado"
+    ],
+    "answer": [
+      "Materias primas",
+      "Insumos",
+      "Producto en proceso",
+      "Producto terminado"
+    ],
+    "explicacion": "La fibra entra como materia prima, se le suman los insumos, se vuelve producto en proceso y termina como prenda."
+  },
+  {
+    "id": 11,
+    "type": "completar_oracion",
+    "question": "El almacén de _____ guarda rollos de tela y piezas cortadas, mientras que el de _____ guarda prendas listas para distribución.",
+    "wordBank": [
+      "producto en proceso",
+      "producto terminado",
+      "refacciones",
+      "insumos"
+    ],
+    "answer": [
+      "producto en proceso",
+      "producto terminado"
+    ],
+    "explicacion": "La diferencia está en el grado de avance: piezas cortadas frente a prenda lista."
+  },
+  {
+    "id": 12,
+    "type": "opcion_multiple",
+    "question": "Una empresa guarda sus telas importadas en una bodega con filtraciones de agua. ¿Qué consecuencia es la más probable?",
+    "options": [
+      "Pérdida económica por deterioro de la tela a causa de la humedad.",
+      "Una mejora en la suavidad del tejido.",
+      "Ninguna: las fibras naturales son impermeables.",
+      "Un aumento del valor de inventario registrado."
+    ],
+    "answer": "Pérdida económica por deterioro de la tela a causa de la humedad.",
+    "explicacion": "La humedad mancha, pudre y favorece hongos en las fibras: es una de las pérdidas que advierte el tema."
+  }
+]
