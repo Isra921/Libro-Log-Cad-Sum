@@ -2509,4 +2509,4 @@ body.activity-page {
         /* Botón arriba */
         .scroll-to-top { position: fixed; bottom: 20px; right: 20px; background: var(--accent); color: var(--white); width: 50px; height: 50px; border-radius: 50%; border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease; opacity: 0; visibility: hidden; z-index: 999; }
         .scroll-to-top.visible { opacity: 1; visibility: visible; }
-        .scroll-to-top:hover { background: var(--danger); transform: translateY(-3px); }
+        .scroll-to-top:hover { background: var(--danger); transform: translateY(-3px); }
