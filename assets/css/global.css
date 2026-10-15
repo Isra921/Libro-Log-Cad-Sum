@@ -1,5 +1,5 @@
 /* ==========================================================================
-   ESTILOS GLOBALES DEL POLILIBRO (Comunicaciones en Red)
+   ESTILOS GLOBALES DEL POLILIBRO (Logística y cadena de suministro)
    Asegura tipografía, esquemas de color, scrollbars y reseteos globales.
    ========================================================================== */
 
@@ -116,8 +116,8 @@ a:hover {
 }
 
 :root {
-  --nav-logo-escom: 26px;
-  --nav-logo-ipn: calc(var(--nav-logo-escom) * 1.5);
+  --nav-logo-esit: 26px;
+  --nav-logo-ipn: calc(var(--nav-logo-esit) * 1.5);
 }
 
 .site-nav .brand {
@@ -140,8 +140,8 @@ a:hover {
   width: auto;
 }
 
-.site-nav .brand .brand-logo--escom {
-  height: var(--nav-logo-escom);
+.site-nav .brand .brand-logo--esit {
+  height: var(--nav-logo-esit);
   width: auto;
 }
 

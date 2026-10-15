@@ -1,6 +1,6 @@
 /* ==========================================================================
    ESTILOS GENERALES DE TEMAS DE APRENDIZAJE
-   Polilibro Académico: Aplicaciones para Comunicaciones en Red
+   Polilibro Académico: Logística y cadena de suministro
    ========================================================================== */
 
 @import url("variables.css");
@@ -1757,4 +1757,4 @@ svg {
 /* Efecto de foco al pasar el ratón por la imagen */
 .figura:hover .icono-expandir {
   opacity: 1;
-}
+}
