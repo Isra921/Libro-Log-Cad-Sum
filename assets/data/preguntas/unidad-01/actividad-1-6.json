@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "type": "opcion_multiple",
+    "question": "¿Qué permiten los KPI (indicadores clave de desempeño)?",
+    "options": [
+      "Cuantificar el desempeño de una operación logística.",
+      "Diseñar el layout del almacén.",
+      "Elegir el color de las prendas de la temporada.",
+      "Sustituir al área de compras."
+    ],
+    "answer": "Cuantificar el desempeño de una operación logística.",
+    "explicacion": "Los KPI convierten el desempeño en números para poder evaluarlo y compararlo."
+  },
+  {
+    "id": 2,
+    "type": "opcion_multiple",
+    "question": "¿Cómo se calcula el nivel de servicio?",
+    "options": [
+      "Pedidos entregados correctamente / pedidos totales × 100",
+      "Costo de ventas / inventario promedio",
+      "Inventario correcto / inventario total × 100",
+      "Entregas puntuales / entregas totales × 100"
+    ],
+    "answer": "Pedidos entregados correctamente / pedidos totales × 100",
+    "explicacion": "El nivel de servicio mide qué porcentaje de los pedidos se entregó correctamente."
+  },
+  {
+    "id": 3,
+    "type": "opcion_multiple",
+    "question": "¿Qué fórmula corresponde a la rotación de inventarios?",
+    "options": [
+      "Costo de ventas / inventario promedio",
+      "Pedidos entregados correctamente / pedidos totales × 100",
+      "Entregas puntuales / entregas totales × 100",
+      "Inventario correcto / inventario total × 100"
+    ],
+    "answer": "Costo de ventas / inventario promedio",
+    "explicacion": "La rotación indica cuántas veces se renueva el inventario en un periodo."
+  },
+  {
+    "id": 4,
+    "type": "verdadero_falso",
+    "statement": "El tiempo de ciclo es el tiempo transcurrido desde el pedido hasta la entrega al cliente.",
+    "answer": true,
+    "explicacion": "Así se define el tiempo de ciclo en la tabla de KPI."
+  },
+  {
+    "id": 5,
+    "type": "opcion_multiple",
+    "question": "Una empresa entregó correctamente 90 de 100 pedidos. ¿Cuál es su nivel de servicio?",
+    "options": [
+      "90 %",
+      "10 %",
+      "100 %",
+      "0.9 %"
+    ],
+    "answer": "90 %",
+    "explicacion": "90 / 100 × 100 = 90 %."
+  },
+  {
+    "id": 6,
+    "type": "opcion_multiple",
+    "question": "De 200 entregas, 170 llegaron puntuales. ¿Cuál es el indicador de entregas a tiempo?",
+    "options": [
+      "85 %",
+      "70 %",
+      "117 %",
+      "30 %"
+    ],
+    "answer": "85 %",
+    "explicacion": "170 / 200 × 100 = 85 %."
+  },
+  {
+    "id": 7,
+    "type": "completar_oracion",
+    "question": "La exactitud del inventario se calcula como inventario _____ entre inventario _____ por 100.",
+    "wordBank": [
+      "correcto",
+      "total",
+      "promedio",
+      "vendido"
+    ],
+    "answer": [
+      "correcto",
+      "total"
+    ],
+    "explicacion": "Compara lo que el registro dice que hay con lo que realmente hay."
+  },
+  {
+    "id": 8,
+    "type": "opcion_multiple",
+    "question": "El costo de ventas de una empresa es de $600,000 y su inventario promedio, de $150,000. ¿Cuál es su rotación de inventarios?",
+    "options": [
+      "4 veces",
+      "0.25 veces",
+      "450,000",
+      "40 %"
+    ],
+    "answer": "4 veces",
+    "explicacion": "600,000 / 150,000 = 4: el inventario se renovó cuatro veces en el periodo."
+  },
+  {
+    "id": 9,
+    "type": "verdadero_falso",
+    "statement": "Un porcentaje bajo en entregas a tiempo indica un buen desempeño logístico.",
+    "answer": false,
+    "explicacion": "Mientras más alto es el porcentaje de entregas puntuales, mejor es el desempeño."
+  },
+  {
+    "id": 10,
+    "type": "opcion_multiple",
+    "question": "¿Qué KPI usarías para evaluar si lo que dice el sistema coincide con lo que hay físicamente en el almacén?",
+    "options": [
+      "Exactitud del inventario",
+      "Tiempo de ciclo",
+      "Nivel de servicio",
+      "Entregas a tiempo"
+    ],
+    "answer": "Exactitud del inventario",
+    "explicacion": "La exactitud del inventario compara el inventario correcto con el total registrado."
+  }
+]

@@ -1,0 +1,126 @@
+[
+  {
+    "id": 1,
+    "type": "verdadero_falso",
+    "statement": "Logística y cadena de suministro son sinónimos.",
+    "answer": false,
+    "explicacion": "Muchos estudiantes lo creen, pero existe una diferencia importante: la logística es una parte del proceso; la cadena de suministro, el proceso completo."
+  },
+  {
+    "id": 2,
+    "type": "opcion_multiple",
+    "question": "¿Cuál de las siguientes características corresponde a la cadena de suministro?",
+    "options": [
+      "Administra toda la red.",
+      "Administra operaciones.",
+      "Se enfoca en transporte e inventarios.",
+      "Tiene una visión interna."
+    ],
+    "answer": "Administra toda la red.",
+    "explicacion": "La cadena de suministro administra toda la red; la logística administra operaciones."
+  },
+  {
+    "id": 3,
+    "type": "opcion_multiple",
+    "question": "¿Qué tipo de visión tiene la logística?",
+    "options": [
+      "Visión interna.",
+      "Visión integral.",
+      "Visión global de toda la red.",
+      "Visión exclusivamente comercial."
+    ],
+    "answer": "Visión interna.",
+    "explicacion": "La logística tiene una visión interna; la cadena de suministro, una visión integral."
+  },
+  {
+    "id": 4,
+    "type": "completar_oracion",
+    "question": "La logística es una _____ del proceso, mientras que la cadena de suministro es el proceso _____.",
+    "wordBank": [
+      "parte",
+      "completo",
+      "copia",
+      "parcial"
+    ],
+    "answer": [
+      "parte",
+      "completo"
+    ],
+    "explicacion": "La cadena de suministro abarca todo el proceso; la logística es una de sus partes."
+  },
+  {
+    "id": 5,
+    "type": "opcion_multiple",
+    "question": "La cadena de suministro integra a:",
+    "options": [
+      "Proveedores, fabricantes y clientes.",
+      "Solo el transporte y los inventarios.",
+      "Únicamente los almacenes de la empresa.",
+      "Solo el área de ventas."
+    ],
+    "answer": "Proveedores, fabricantes y clientes.",
+    "explicacion": "Integrar a proveedores, fabricantes y clientes es lo que le da su visión integral."
+  },
+  {
+    "id": 6,
+    "type": "verdadero_falso",
+    "statement": "La logística se enfoca en el transporte y los inventarios.",
+    "answer": true,
+    "explicacion": "Ese es su enfoque según el cuadro comparativo del tema."
+  },
+  {
+    "id": 7,
+    "type": "opcion_multiple",
+    "question": "En el ejemplo del algodón, ¿qué abarca la cadena de suministro?",
+    "options": [
+      "Desde el cultivo del algodón hasta que una camisa llega al consumidor.",
+      "Solo el traslado del algodón de la bodega a la planta.",
+      "Únicamente la confección de la camisa.",
+      "Solo la venta de la camisa en tienda."
+    ],
+    "answer": "Desde el cultivo del algodón hasta que una camisa llega al consumidor.",
+    "explicacion": "La cadena de suministro cubre el recorrido completo, del cultivo al consumidor."
+  },
+  {
+    "id": 8,
+    "type": "opcion_multiple",
+    "question": "En el mismo ejemplo, ¿qué administra la logística?",
+    "options": [
+      "Cómo mover ese algodón, almacenarlo, transformarlo y distribuir el producto terminado.",
+      "El cultivo del algodón en el campo.",
+      "La publicidad de la camisa.",
+      "La relación con todos los actores de la red."
+    ],
+    "answer": "Cómo mover ese algodón, almacenarlo, transformarlo y distribuir el producto terminado.",
+    "explicacion": "La logística se ocupa de los movimientos y operaciones: mover, almacenar, transformar y distribuir."
+  },
+  {
+    "id": 9,
+    "type": "completar_oracion",
+    "question": "La logística administra _____; la cadena de suministro administra toda la _____.",
+    "wordBank": [
+      "operaciones",
+      "red",
+      "ventas",
+      "planta"
+    ],
+    "answer": [
+      "operaciones",
+      "red"
+    ],
+    "explicacion": "Es la primera fila del cuadro comparativo."
+  },
+  {
+    "id": 10,
+    "type": "opcion_multiple",
+    "question": "Elegir la ruta de transporte para llevar un lote de telas a la planta de confección es una decisión de:",
+    "options": [
+      "Logística, porque se enfoca en el transporte.",
+      "Cadena de suministro, porque integra a toda la red.",
+      "Ninguna de las dos.",
+      "Exclusivamente del cliente."
+    ],
+    "answer": "Logística, porque se enfoca en el transporte.",
+    "explicacion": "Mover el material es una operación logística; decidir con qué proveedores trabajar sería una decisión de cadena de suministro."
+  }
+]

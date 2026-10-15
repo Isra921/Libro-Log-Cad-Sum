@@ -1,0 +1,131 @@
+[
+  {
+    "id": 1,
+    "type": "opcion_multiple",
+    "question": "¿Qué tipo de cadena se caracteriza porque cada empresa trabaja de forma independiente?",
+    "options": [
+      "Cadena tradicional",
+      "Cadena integrada",
+      "Cadena sincronizada",
+      "Cadena digital"
+    ],
+    "answer": "Cadena tradicional",
+    "explicacion": "En la cadena tradicional cada empresa trabaja por su cuenta y la comunicación es limitada."
+  },
+  {
+    "id": 2,
+    "type": "verdadero_falso",
+    "statement": "En la cadena tradicional generalmente existen altos inventarios.",
+    "answer": true,
+    "explicacion": "Como la comunicación es limitada, las empresas acumulan inventario para protegerse."
+  },
+  {
+    "id": 3,
+    "type": "opcion_multiple",
+    "question": "En la cadena integrada:",
+    "options": [
+      "Existe intercambio permanente de información.",
+      "La comunicación es limitada.",
+      "Generalmente existen altos inventarios.",
+      "Cada empresa trabaja de forma independiente."
+    ],
+    "answer": "Existe intercambio permanente de información.",
+    "explicacion": "Gracias a ese intercambio se reducen inventarios y mejoran los tiempos de respuesta."
+  },
+  {
+    "id": 4,
+    "type": "completar_oracion",
+    "question": "En la cadena integrada se _____ los inventarios y mejoran los tiempos de _____.",
+    "wordBank": [
+      "reducen",
+      "respuesta",
+      "duplican",
+      "vacaciones"
+    ],
+    "answer": [
+      "reducen",
+      "respuesta"
+    ],
+    "explicacion": "Compartir información permite trabajar con menos inventario y responder más rápido."
+  },
+  {
+    "id": 5,
+    "type": "opcion_multiple",
+    "question": "¿Qué tipo de cadena coordina toda la producción prácticamente en tiempo real?",
+    "options": [
+      "Cadena sincronizada",
+      "Cadena tradicional",
+      "Cadena integrada",
+      "Ninguna, eso no es posible"
+    ],
+    "answer": "Cadena sincronizada",
+    "explicacion": "La cadena sincronizada coordina la producción casi en tiempo real."
+  },
+  {
+    "id": 6,
+    "type": "opcion_multiple",
+    "question": "Toyota y Zara son ejemplos de empresas que utilizan una cadena:",
+    "options": [
+      "Sincronizada",
+      "Tradicional",
+      "Integrada",
+      "Independiente"
+    ],
+    "answer": "Sincronizada",
+    "explicacion": "Ambas ajustan su producción a la demanda real, el rasgo de la cadena sincronizada."
+  },
+  {
+    "id": 7,
+    "type": "verdadero_falso",
+    "statement": "La cadena digital utiliza tecnologías como inteligencia artificial, Big Data, IoT, RFID, ERP y Blockchain.",
+    "answer": true,
+    "explicacion": "Esas son las tecnologías que menciona el tema para la cadena digital."
+  },
+  {
+    "id": 8,
+    "type": "opcion_multiple",
+    "question": "¿Cuál de estas tecnologías es propia de la cadena digital?",
+    "options": [
+      "RFID",
+      "Comunicación limitada",
+      "Altos inventarios",
+      "Trabajo independiente"
+    ],
+    "answer": "RFID",
+    "explicacion": "RFID es una de las tecnologías de la cadena digital; las demás opciones describen la cadena tradicional."
+  },
+  {
+    "id": 9,
+    "type": "completar_oracion",
+    "question": "En la cadena tradicional cada empresa trabaja de forma _____ y la comunicación es _____.",
+    "wordBank": [
+      "independiente",
+      "limitada",
+      "integrada",
+      "permanente"
+    ],
+    "answer": [
+      "independiente",
+      "limitada"
+    ],
+    "explicacion": "Esas dos características definen a la cadena tradicional."
+  },
+  {
+    "id": 10,
+    "type": "ordenar_oracion",
+    "question": "Ordena los tipos de cadena de suministro como se presentan en el tema, del más básico al más avanzado.",
+    "segments": [
+      "Cadena tradicional",
+      "Cadena integrada",
+      "Cadena sincronizada",
+      "Cadena digital"
+    ],
+    "answer": [
+      "Cadena tradicional",
+      "Cadena integrada",
+      "Cadena sincronizada",
+      "Cadena digital"
+    ],
+    "explicacion": "Se pasa de empresas aisladas (tradicional) a compartir información (integrada), coordinarse en tiempo real (sincronizada) y apoyarse en tecnología (digital)."
+  }
+]

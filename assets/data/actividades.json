@@ -10,6 +10,60 @@
       "nota": "Aplica los criterios de ingeniería para diagnosticar fallas operativas y optimizar el costo total.",
       "items": [
         {
+          "tag": "Actividad formativa",
+          "reactivos": "10 reactivos",
+          "tiempo": "10 min",
+          "titulo": "Actividad 1.1: Objetivos de la logística",
+          "descripcion": "Identifica la finalidad de la logística y los objetivos que persigue en una empresa textil.",
+          "url": "unidades/unidad-01/actividades/actividad-1-1.html",
+          "icono": "fa-bullseye"
+        },
+        {
+          "tag": "Actividad formativa",
+          "reactivos": "10 reactivos",
+          "tiempo": "10 min",
+          "titulo": "Actividad 1.2: Importancia de la logística",
+          "descripcion": "Relaciona lo que permite la logística con los beneficios y resultados que obtiene la empresa.",
+          "url": "unidades/unidad-01/actividades/actividad-1-2.html",
+          "icono": "fa-chart-line"
+        },
+        {
+          "tag": "Actividad formativa",
+          "reactivos": "10 reactivos",
+          "tiempo": "10 min",
+          "titulo": "Actividad 1.3: Logística y cadena de suministro",
+          "descripcion": "Distingue la logística de la cadena de suministro por su alcance, su enfoque y su visión.",
+          "url": "unidades/unidad-01/actividades/actividad-1-3.html",
+          "icono": "fa-code-compare"
+        },
+        {
+          "tag": "Actividad formativa",
+          "reactivos": "10 reactivos",
+          "tiempo": "10 min",
+          "titulo": "Actividad 1.4: Componentes de la cadena de suministro",
+          "descripcion": "Reconoce los eslabones de la cadena de suministro textil y la función de cada uno.",
+          "url": "unidades/unidad-01/actividades/actividad-1-4.html",
+          "icono": "fa-link"
+        },
+        {
+          "tag": "Actividad formativa",
+          "reactivos": "10 reactivos",
+          "tiempo": "10 min",
+          "titulo": "Actividad 1.5: Tipos de cadena de suministro",
+          "descripcion": "Diferencia las cadenas tradicional, integrada, sincronizada y digital por sus características.",
+          "url": "unidades/unidad-01/actividades/actividad-1-5.html",
+          "icono": "fa-diagram-project"
+        },
+        {
+          "tag": "Actividad formativa",
+          "reactivos": "10 reactivos",
+          "tiempo": "10 min",
+          "titulo": "Actividad 1.6: Indicadores logísticos (KPI)",
+          "descripcion": "Aplica las fórmulas de los principales KPI logísticos e interpreta sus resultados.",
+          "url": "unidades/unidad-01/actividades/actividad-1-6.html",
+          "icono": "fa-gauge-high"
+        },
+        {
           "tag": "Simulador y Laboratorio ESIT",
           "reactivos": "Simulador interactivo + 4 Fases",
           "tiempo": "35 min",

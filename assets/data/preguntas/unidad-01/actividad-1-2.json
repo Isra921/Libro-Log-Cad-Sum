@@ -1,0 +1,120 @@
+[
+  {
+    "id": 1,
+    "type": "opcion_multiple",
+    "question": "Según el tema 1.2, una empresa que fabrica la mejor tela del mercado pero tarda semanas en entregarla:",
+    "options": [
+      "Perderá clientes frente a otra empresa que entregue el mismo producto en pocos días.",
+      "Conservará a todos sus clientes porque la calidad es lo único que importa.",
+      "Reducirá sus costos de transporte.",
+      "Aumentará su competitividad."
+    ],
+    "answer": "Perderá clientes frente a otra empresa que entregue el mismo producto en pocos días.",
+    "explicacion": "La calidad no basta: sin una logística que entregue a tiempo, la empresa pierde clientes."
+  },
+  {
+    "id": 2,
+    "type": "verdadero_falso",
+    "statement": "Para ser competitiva, a una empresa le basta con fabricar productos de muy buena calidad.",
+    "answer": false,
+    "explicacion": "Además de la calidad, necesita cadenas de suministro que permitan distribuir adecuadamente sus productos."
+  },
+  {
+    "id": 3,
+    "type": "opcion_multiple",
+    "question": "¿Qué resultado se obtiene de tener menores inventarios?",
+    "options": [
+      "Menor capital inmovilizado.",
+      "Clientes satisfechos.",
+      "Mayor productividad.",
+      "Mejor toma de decisiones."
+    ],
+    "answer": "Menor capital inmovilizado.",
+    "explicacion": "Con menos inventario hay menos dinero detenido en mercancía que todavía no se vende."
+  },
+  {
+    "id": 4,
+    "type": "opcion_multiple",
+    "question": "En la tabla de beneficios, la planeación adecuada se traduce en:",
+    "options": [
+      "Mayor productividad.",
+      "Reducción de costos.",
+      "Menor capital inmovilizado.",
+      "Clientes satisfechos."
+    ],
+    "answer": "Mayor productividad.",
+    "explicacion": "Planear bien evita tiempos muertos y reprocesos, lo que aumenta la productividad."
+  },
+  {
+    "id": 5,
+    "type": "completar_oracion",
+    "question": "Un mejor _____ da como resultado una reducción de _____.",
+    "wordBank": [
+      "transporte",
+      "costos",
+      "inventario",
+      "clientes"
+    ],
+    "answer": [
+      "transporte",
+      "costos"
+    ],
+    "explicacion": "En la tabla de beneficios, mejor transporte → reducción de costos."
+  },
+  {
+    "id": 6,
+    "type": "verdadero_falso",
+    "statement": "La información oportuna permite una mejor toma de decisiones.",
+    "answer": true,
+    "explicacion": "Contar con información a tiempo es el beneficio que lleva a decidir mejor."
+  },
+  {
+    "id": 7,
+    "type": "opcion_multiple",
+    "question": "¿Cuál de las siguientes NO es algo que la logística permite, según el tema 1.2?",
+    "options": [
+      "Aumentar los costos de transporte.",
+      "Reducir inventarios.",
+      "Evitar desperdicios.",
+      "Incrementar la productividad."
+    ],
+    "answer": "Aumentar los costos de transporte.",
+    "explicacion": "La logística permite disminuir —no aumentar— los costos de transporte."
+  },
+  {
+    "id": 8,
+    "type": "opcion_multiple",
+    "question": "Una empresa mejora su servicio y entrega lo que el cliente pide, cuando lo pide. ¿Qué resultado obtiene?",
+    "options": [
+      "Clientes satisfechos.",
+      "Menor capital inmovilizado.",
+      "Reducción de costos de transporte.",
+      "Mayor inventario disponible."
+    ],
+    "answer": "Clientes satisfechos.",
+    "explicacion": "En la tabla de beneficios, mejor servicio → clientes satisfechos."
+  },
+  {
+    "id": 9,
+    "type": "completar_oracion",
+    "question": "La logística permite lograr mayor _____ entre los distribuidores de las _____.",
+    "wordBank": [
+      "competitividad",
+      "mercancías",
+      "burocracia",
+      "oficinas"
+    ],
+    "answer": [
+      "competitividad",
+      "mercancías"
+    ],
+    "explicacion": "Es uno de los aportes de la logística listados en el tema."
+  },
+  {
+    "id": 10,
+    "type": "verdadero_falso",
+    "statement": "Reducir inventarios y disminuir costos de transporte son aportes de la logística.",
+    "answer": true,
+    "explicacion": "Ambos aparecen en la lista de lo que la logística permite."
+  }
+]

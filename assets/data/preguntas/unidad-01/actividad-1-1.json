@@ -1,0 +1,120 @@
+[
+  {
+    "id": 1,
+    "type": "opcion_multiple",
+    "question": "¿Cuál es la finalidad de la logística según el tema 1.1?",
+    "options": [
+      "Administrar de manera eficaz la línea de materiales, productos, datos y medios financieros en todo el recorrido del proceso.",
+      "Transportar mercancías de un punto a otro al menor precio posible.",
+      "Diseñar las prendas que se fabricarán en la siguiente temporada.",
+      "Negociar los precios de venta con las tiendas departamentales."
+    ],
+    "answer": "Administrar de manera eficaz la línea de materiales, productos, datos y medios financieros en todo el recorrido del proceso.",
+    "explicacion": "La logística no se limita a mover mercancía: administra materiales, productos, datos y medios financieros a lo largo de todo el proceso."
+  },
+  {
+    "id": 2,
+    "type": "verdadero_falso",
+    "statement": "El propósito principal de la logística es únicamente transportar mercancías.",
+    "answer": false,
+    "explicacion": "Su propósito es coordinar cada una de las actividades necesarias para que el cliente reciba exactamente lo que necesita; el transporte es solo una parte."
+  },
+  {
+    "id": 3,
+    "type": "completar_oracion",
+    "question": "La logística coordina las actividades necesarias para que el _____ reciba _____ lo que necesita.",
+    "wordBank": [
+      "cliente",
+      "exactamente",
+      "proveedor",
+      "aproximadamente"
+    ],
+    "answer": [
+      "cliente",
+      "exactamente"
+    ],
+    "explicacion": "El centro de la logística es el cliente: recibir justo lo que pidió, ni más ni menos."
+  },
+  {
+    "id": 4,
+    "type": "opcion_multiple",
+    "question": "¿Cuál de los siguientes NO es un objetivo de la logística?",
+    "options": [
+      "Aumentar los inventarios para tener siempre material de sobra.",
+      "Minimizar costos operativos.",
+      "Reducir tiempos de entrega.",
+      "Reducir desperdicios."
+    ],
+    "answer": "Aumentar los inventarios para tener siempre material de sobra.",
+    "explicacion": "Entre los objetivos están minimizar costos, reducir tiempos de entrega y reducir desperdicios; acumular inventario de más va en sentido contrario."
+  },
+  {
+    "id": 5,
+    "type": "opcion_multiple",
+    "question": "Una empresa textil revisa sus procesos cada mes para corregir fallas y hacerlos más eficientes. ¿Qué objetivo logístico está atendiendo?",
+    "options": [
+      "Favorecer la mejora continua.",
+      "Incrementar rentabilidad.",
+      "Satisfacer las necesidades del cliente.",
+      "Reducir tiempos de entrega."
+    ],
+    "answer": "Favorecer la mejora continua.",
+    "explicacion": "Revisar y corregir de forma constante los procesos es la esencia de la mejora continua."
+  },
+  {
+    "id": 6,
+    "type": "verdadero_falso",
+    "statement": "Incrementar la rentabilidad es uno de los objetivos de la logística.",
+    "answer": true,
+    "explicacion": "Al usar bien los recursos y reducir costos y desperdicios, la logística contribuye a incrementar la rentabilidad."
+  },
+  {
+    "id": 7,
+    "type": "opcion_multiple",
+    "question": "Una empresa entrega un pedido de uniformes escolares completos antes del inicio del ciclo escolar, en la cantidad solicitada y sin defectos. ¿Qué está logrando?",
+    "options": [
+      "Cumplir los objetivos logísticos.",
+      "Solo reducir sus costos de transporte.",
+      "Aumentar sus inventarios de producto terminado.",
+      "Cambiar su cadena tradicional por una digital."
+    ],
+    "answer": "Cumplir los objetivos logísticos.",
+    "explicacion": "Es el ejemplo textil del tema: entregar a tiempo, en la cantidad pedida y sin defectos es cumplir los objetivos logísticos."
+  },
+  {
+    "id": 8,
+    "type": "completar_oracion",
+    "question": "Dos objetivos de la logística son minimizar costos _____ y utilizar bien los _____.",
+    "wordBank": [
+      "operativos",
+      "recursos",
+      "publicitarios",
+      "clientes"
+    ],
+    "answer": [
+      "operativos",
+      "recursos"
+    ],
+    "explicacion": "Minimizar costos operativos y utilizar bien los recursos son dos de los ocho objetivos del tema."
+  },
+  {
+    "id": 9,
+    "type": "opcion_multiple",
+    "question": "Si una empresa logra que sus pedidos lleguen en tres días en lugar de diez, ¿qué objetivo logístico cumple de forma directa?",
+    "options": [
+      "Reducir tiempos de entrega.",
+      "Reducir desperdicios.",
+      "Favorecer la mejora continua.",
+      "Minimizar costos operativos."
+    ],
+    "answer": "Reducir tiempos de entrega.",
+    "explicacion": "Acortar el tiempo entre el pedido y la entrega es justamente reducir tiempos de entrega."
+  },
+  {
+    "id": 10,
+    "type": "verdadero_falso",
+    "statement": "Eficientizar el nivel de servicio forma parte de los objetivos de la logística.",
+    "answer": true,
+    "explicacion": "Eficientizar el nivel de servicio es uno de los objetivos listados en el tema 1.1."
+  }
+]

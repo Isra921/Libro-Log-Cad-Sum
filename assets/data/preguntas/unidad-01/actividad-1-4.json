@@ -1,0 +1,135 @@
+[
+  {
+    "id": 1,
+    "type": "ordenar_oracion",
+    "question": "Ordena los componentes de la cadena de suministro, del primero al último eslabón.",
+    "segments": [
+      "Proveedores",
+      "Compras",
+      "Producción",
+      "Almacenes",
+      "Distribución",
+      "Cliente"
+    ],
+    "answer": [
+      "Proveedores",
+      "Compras",
+      "Producción",
+      "Almacenes",
+      "Distribución",
+      "Cliente"
+    ],
+    "explicacion": "Los proveedores suministran, compras selecciona, producción transforma, almacenes custodian, distribución entrega y el cliente es el último eslabón."
+  },
+  {
+    "id": 2,
+    "type": "verdadero_falso",
+    "statement": "En la cadena de suministro, si un proveedor entrega tarde, toda la producción se retrasa.",
+    "answer": true,
+    "explicacion": "Cada elemento depende del anterior, por eso un retraso al inicio afecta a todos los eslabones siguientes."
+  },
+  {
+    "id": 3,
+    "type": "opcion_multiple",
+    "question": "¿Qué componente suministra las materias primas?",
+    "options": [
+      "Proveedores",
+      "Compras",
+      "Producción",
+      "Distribución"
+    ],
+    "answer": "Proveedores",
+    "explicacion": "Los proveedores entregan materias primas como algodón, poliéster, colorantes, botones, cierres e hilo."
+  },
+  {
+    "id": 4,
+    "type": "opcion_multiple",
+    "question": "¿Cuál de los siguientes NO es un criterio de compras para seleccionar proveedores?",
+    "options": [
+      "El color favorito del comprador.",
+      "Costo.",
+      "Periodo de entrega del producto.",
+      "Certificaciones."
+    ],
+    "answer": "El color favorito del comprador.",
+    "explicacion": "Compras considera costo, excelencia en el producto, periodo de entrega, certificaciones y capacidad de producción."
+  },
+  {
+    "id": 5,
+    "type": "opcion_multiple",
+    "question": "En una empresa textil, la producción incluye:",
+    "options": [
+      "Hilatura, tejeduría, tintorería, acabados y confección.",
+      "Transporte terrestre, marítimo y aéreo.",
+      "Costo, certificaciones y capacidad de producción.",
+      "Algodón, poliéster y colorantes."
+    ],
+    "answer": "Hilatura, tejeduría, tintorería, acabados y confección.",
+    "explicacion": "Producción transforma la materia prima a través de esos procesos."
+  },
+  {
+    "id": 6,
+    "type": "completar_oracion",
+    "question": "Los almacenes custodian el recurso primario, el proceso y la finalización del producto, con la intención de que exista _____ a bajo _____.",
+    "wordBank": [
+      "disponibilidad",
+      "costo",
+      "escasez",
+      "riesgo"
+    ],
+    "answer": [
+      "disponibilidad",
+      "costo"
+    ],
+    "explicacion": "La meta de los almacenes es tener el material disponible sin elevar los costos."
+  },
+  {
+    "id": 7,
+    "type": "opcion_multiple",
+    "question": "¿Qué componente hace llegar el producto terminado al cliente?",
+    "options": [
+      "Distribución",
+      "Almacenes",
+      "Compras",
+      "Producción"
+    ],
+    "answer": "Distribución",
+    "explicacion": "La distribución puede hacerse por transporte terrestre, marítimo, aéreo, ferroviario o multimodal."
+  },
+  {
+    "id": 8,
+    "type": "verdadero_falso",
+    "statement": "El cliente representa el primer eslabón de la cadena de suministro.",
+    "answer": false,
+    "explicacion": "El cliente es el último eslabón, y toda la cadena trabaja para satisfacer sus necesidades."
+  },
+  {
+    "id": 9,
+    "type": "opcion_multiple",
+    "question": "¿Cuál de los siguientes es un ejemplo de materia prima que suministran los proveedores en el ramo textil?",
+    "options": [
+      "Cierres",
+      "Tejeduría",
+      "Transporte multimodal",
+      "Certificaciones"
+    ],
+    "answer": "Cierres",
+    "explicacion": "Los ejemplos del tema son algodón, poliéster, colorantes, botones, cierres e hilo."
+  },
+  {
+    "id": 10,
+    "type": "completar_oracion",
+    "question": "La distribución puede ser terrestre, marítima, aérea, _____ o _____.",
+    "wordBank": [
+      "ferroviaria",
+      "multimodal",
+      "manual",
+      "telefónica"
+    ],
+    "answer": [
+      "ferroviaria",
+      "multimodal"
+    ],
+    "explicacion": "Son los cinco medios de distribución del tema 1.4."
+  }
+]
