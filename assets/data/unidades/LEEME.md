@@ -63,7 +63,8 @@ El **contenido** del tema se escribe en el HTML; el **índice lateral** de la un
 
 ## Crear o editar una actividad de aprendizaje
 
-Todas las actividades usan la misma plantilla (ver `unidades/unidad-03/actividades/actividad-3-1.html`,
+Todas las actividades usan la misma plantilla, adaptada de `Libro-Apli-Com-Red` (ver `unidades/unidad-02/actividades/actividad-2-1.html`
+o `unidades/unidad-03/actividades/actividad-3-1.html`; lógica en `assets/js/paginas/actividad-plantilla.js`,
 estilos en `assets/css/actividad.css`). **Las preguntas viven en un JSON**; el ejercicio, "Otras actividades"
 y la navegación se generan solos.
 
@@ -72,7 +73,7 @@ y la navegación se generan solos.
    - `data-unidad` y `data-tema` (el tema al que pertenece la actividad).
    - `data-preguntas`: banco de preguntas, escrito desde la raíz. Los bancos van en
      `assets/data/preguntas/unidad-XX/` (ej. `assets/data/preguntas/unidad-01/actividad-1-5.json`).
-   - `data-cantidad`: cuántas preguntas se toman al azar en cada intento (las de U3 y U4 usan 8 de un banco de 12).
+   - `data-cantidad`: cuántas preguntas se toman al azar en cada intento (las de U2, U3 y U4 usan 8 de un banco de 12; las de U1 y U5 usan las 10 preguntas de su banco).
 3. Cambia las migas de pan, el `<title>`, el `<h1>` y el texto del propósito.
 4. En `assets/data/unidades/unidad-XX.json` llena la `url` de la actividad del tema
    (ej. `"url": "unidades/unidad-01/actividades/actividad-1-5.html"`); mientras esté vacía aparece con candado.

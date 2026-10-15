@@ -24,7 +24,7 @@ Estado del proyecto y reparto de tareas del equipo: **Aranza, Diego y Uriblue**.
 ## 👥 Reparto (~25-30 h por persona)
 
 ### 🎨 Aranza — Unidades I y V + Diseño visual
-- [ ] Copiar y adaptar la plantilla de actividades (tomada de `Libro-App-Com-Red`) para que sirva de referencia al equipo.
+- [x] Copiar y adaptar la plantilla de actividades (tomada de `Libro-App-Com-Red`) para que sirva de referencia al equipo. *(La plantilla ya es la que usan las unidades II–IV — `actividad-plantilla.js` + `actividad.css` — y está documentada en `assets/data/unidades/LEEME.md`, sección "Crear o editar una actividad de aprendizaje".)*
 - [ ] Crear/poblar las actividades formativas de los temas de la **Unidad I** (1.1 a 1.6).
 - [ ] Crear/poblar las actividades formativas de los temas de la **Unidad V** (5.1 a 5.3).
 - [ ] Unificar estilos de figuras e imágenes (uso de clase `t-figure`) y limpiar CSS residual.
