@@ -551,6 +551,44 @@ body:has(.t-viewer[open]) { overflow: hidden; }
 .t-callout--example .t-callout__icon { color: var(--accent); }
 .t-callout--example .t-callout__label { color: var(--text-label); }
 
+/* Variantes con color semántico: barra lateral + fondo suave del mismo tono.
+   La etiqueta conserva el color de texto para mantener el contraste; solo el ícono toma el color. */
+.t-callout--tip,
+.t-callout--alert,
+.t-callout--important,
+.t-callout--info,
+.t-callout--accent {
+  --callout-color: var(--accent);
+  background: color-mix(in srgb, var(--callout-color) 10%, transparent);
+  border-color: color-mix(in srgb, var(--callout-color) 35%, transparent);
+  border-left: 4px solid var(--callout-color);
+}
+.t-callout--tip       { --callout-color: var(--success); } /* Dato útil, ejemplo destacado o "¿Sabías que...?" */
+.t-callout--alert     { --callout-color: var(--warning); } /* Riesgo o consecuencia a evitar */
+.t-callout--important { --callout-color: var(--danger); }  /* Punto clave que no debe pasarse por alto */
+.t-callout--info      { --callout-color: var(--primary); } /* Información complementaria */
+.t-callout--accent    { --callout-color: var(--accent); }  /* Dato de interés o curiosidad */
+
+.t-callout--tip .t-callout__icon,
+.t-callout--alert .t-callout__icon,
+.t-callout--important .t-callout__icon,
+.t-callout--info .t-callout__icon,
+.t-callout--accent .t-callout__icon,
+.t-callout--tip h3 > i,
+.t-callout--alert h3 > i,
+.t-callout--important h3 > i,
+.t-callout--info h3 > i,
+.t-callout--accent h3 > i { color: var(--callout-color); }
+
+.t-callout--tip .t-callout__label,
+.t-callout--alert .t-callout__label,
+.t-callout--important .t-callout__label,
+.t-callout--info .t-callout__label,
+.t-callout--accent .t-callout__label { color: var(--text-label, var(--primary)); }
+
+/* Recuadros escritos con <h3> + contenido (sin ícono lateral): se apilan en columna */
+.t-callout:not(:has(> .t-callout__icon)) { flex-direction: column; gap: 0; }
+
 /* Video del tema (lo arma tema-plantilla.js): título, video de YouTube incrustado y fuente */
 .t-video {
   display: flex;

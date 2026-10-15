@@ -28,7 +28,7 @@ Estado del proyecto y reparto de tareas del equipo: **Aranza, Diego y Uriblue**.
 - [ ] Crear/poblar las actividades formativas de los temas de la **Unidad I** (1.1 a 1.6).
 - [ ] Crear/poblar las actividades formativas de los temas de la **Unidad V** (5.1 a 5.3).
 - [ ] Unificar estilos de figuras e imágenes (uso de clase `t-figure`) y limpiar CSS residual.
-  - Hay **5 variantes de `t-callout` que se usan pero no están definidas** en `assets/css/tema.css` (solo existen `--note` y `--example`), así que se ven sin color distintivo: `--alert` (temas 2.2, 3.2, 3.3), `--tip` (1.5, 3.2, 3.5, 4.4), `--info` y `--accent` (5.2, 5.3) e `--important` (4.4).
+- [x] *Resuelto:* las 5 variantes de `t-callout` ya están definidas en `tema.css` con su color. Antes: hay **5 variantes de `t-callout` que se usan pero no estaban definidas** en `assets/css/tema.css` (solo existen `--note` y `--example`), así que se ven sin color distintivo: `--alert` (temas 2.2, 3.2, 3.3), `--tip` (1.5, 3.2, 3.5, 4.4), `--info` y `--accent` (5.2, 5.3) e `--important` (4.4).
 - [ ] Reemplazar las clases CSS con nombre `escom` por `esit`.
 - [ ] Revisar y ajustar el diseño en dispositivos móviles y tabletas.
 
