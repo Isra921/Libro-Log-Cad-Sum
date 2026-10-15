@@ -1,1 +1,209 @@
-<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Pendiente | Logística y cadena de suministro</title><link rel="stylesheet" href="assets/css/comun.css?v=paleta4"></head><body data-root=""><header class="site-nav" data-componente="navegacion"></header><main style="max-width:900px;margin:140px auto;padding:24px"><h1>Próximamente · Pendiente de contenido</h1><p>Integración pendiente de resolver las discrepancias entre el programa y el documento de contenido.</p><a href="unidades.html">Volver a unidades</a></main><script src="assets/js/data-manager.js"></script><script src="assets/js/componentes.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página no encontrada (404) | Logística y cadena de suministro</title>
+  <meta name="description" content="La página solicitada no existe o cambió de dirección. Vuelve a la portada, al catálogo de unidades o a cualquiera de las cinco unidades del polilibro.">
+  <meta name="robots" content="noindex">
+
+  <!--
+    GitHub Pages entrega este archivo en la dirección que falló, no en la raíz.
+    Si una ruta rota es profunda (…/unidades/unidad-02/algo.html), las rutas
+    relativas apuntarían al lugar equivocado, así que se fija un <base> con la
+    raíz real del sitio antes de que el navegador lea el primer <link>.
+    En un sitio de proyecto de GitHub Pages la raíz es el primer tramo de la
+    ruta (/Libro-Log-Cad-Sum/); en cualquier otro servidor (local o dominio
+    propio) es "/". Con el <base> puesto, data-root queda vacío y el resto del
+    sitio resuelve igual que en las demás páginas.
+  -->
+  <script>
+    (function () {
+      var raiz = '/';
+      if (location.hostname.slice(-10) === '.github.io') {
+        var tramos = location.pathname.split('/').filter(Boolean);
+        if (tramos.length) raiz = '/' + tramos[0] + '/';
+      }
+      var base = document.createElement('base');
+      base.href = raiz;
+      document.head.appendChild(base);
+    })();
+  </script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/comun.css">
+  <link rel="stylesheet" href="assets/css/unidades-base.css">
+  <link rel="stylesheet" href="assets/css/actividad.css">
+
+  <link rel="icon" type="image/png" href="assets/img/esit.png">
+
+  <style>
+    /* Pieza propia del 404: el número grande y la rejilla de unidades. */
+    .e-code {
+      font-size: clamp(3.5rem, 12vw, 6rem);
+      font-weight: 800;
+      line-height: 1;
+      letter-spacing: -0.03em;
+      margin: 0 0 0.25rem;
+      color: var(--accent, #1d4ed8);
+    }
+
+    .e-path {
+      display: block;
+      margin-top: 0.75rem;
+      padding: 10px 14px;
+      border-radius: 8px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 0.9rem;
+      word-break: break-all;
+      background: rgba(127, 127, 127, 0.12);
+    }
+
+    .e-units {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 12px;
+      margin-top: 1rem;
+      padding: 0;
+      list-style: none;
+    }
+
+    .e-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 1.5rem;
+    }
+  </style>
+</head>
+
+<body class="u-body" data-root="">
+
+  <header class="site-nav" data-componente="navegacion"></header>
+
+  <main class="u-page">
+    <div class="a-layout">
+      <div class="a-main">
+        <section class="a-card a-head" aria-labelledby="errorTitulo">
+          <div class="a-head__top">
+            <span class="a-badge">Error 404</span>
+            <span class="a-head__where">Polilibro · ESIT-IPN</span>
+          </div>
+          <p class="e-code" aria-hidden="true">404</p>
+          <h1 class="a-title" id="errorTitulo">No encontramos esta página</h1>
+          <p class="a-purpose">
+            La dirección que abriste no existe, cambió de nombre o el contenido todavía no se publica.
+            No perdiste tu avance: desde aquí puedes volver al polilibro.
+          </p>
+          <code class="e-path" id="rutaSolicitada" hidden></code>
+          <div class="e-actions">
+            <a class="u-btn u-btn--primary" href="index.html">
+              <i class="fas fa-house" aria-hidden="true"></i> Ir a la portada
+            </a>
+            <a class="u-btn" href="unidades.html">
+              <i class="fas fa-book-open" aria-hidden="true"></i> Ver las unidades
+            </a>
+            <button class="u-btn" type="button" id="botonRegresar">
+              <i class="fas fa-arrow-left" aria-hidden="true"></i> Volver atrás
+            </button>
+          </div>
+        </section>
+
+        <section class="a-card" aria-labelledby="unidadesTitulo">
+          <h2 class="a-card__title" id="unidadesTitulo">Ir directo a una unidad</h2>
+          <ul class="e-units">
+            <li>
+              <a class="a-side-link" href="unidades/unidad-01/index.html">
+                <i class="fas fa-1" aria-hidden="true"></i>
+                <span>Unidad I · Introducción a la logística y cadena de suministro</span>
+              </a>
+            </li>
+            <li>
+              <a class="a-side-link" href="unidades/unidad-02/index.html">
+                <i class="fas fa-2" aria-hidden="true"></i>
+                <span>Unidad II · Almacenaje, señalización, codificación y tecnología de empaque</span>
+              </a>
+            </li>
+            <li>
+              <a class="a-side-link" href="unidades/unidad-03/index.html">
+                <i class="fas fa-3" aria-hidden="true"></i>
+                <span>Unidad III · Cadenas de suministro en la industria textil y del vestido</span>
+              </a>
+            </li>
+            <li>
+              <a class="a-side-link" href="unidades/unidad-04/index.html">
+                <i class="fas fa-4" aria-hidden="true"></i>
+                <span>Unidad IV · Transportación y régimen aduanero</span>
+              </a>
+            </li>
+            <li>
+              <a class="a-side-link" href="unidades/unidad-05/index.html">
+                <i class="fas fa-5" aria-hidden="true"></i>
+                <span>Unidad V · Tecnología de la información y configuración de la red de distribución</span>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </div>
+
+      <aside class="a-sidebar" aria-label="Otras secciones">
+        <section class="a-side-card a-side-card--dark" aria-labelledby="ayudaTitulo">
+          <h2 class="a-side-title" id="ayudaTitulo">¿Llegaste desde un enlace?</h2>
+          <p class="a-side-text">
+            Si el enlace venía de otra página del polilibro, avísale al equipo para corregirlo.
+            Mientras tanto, usa el menú superior o alguno de estos accesos.
+          </p>
+        </section>
+        <nav class="a-side-card" aria-labelledby="atajosTitulo">
+          <h2 class="a-side-title" id="atajosTitulo">Accesos rápidos</h2>
+          <a class="a-side-link" href="unidades.html">
+            <i class="fas fa-layer-group" aria-hidden="true"></i><span>Catálogo de unidades</span>
+          </a>
+          <a class="a-side-link" href="unidades/unidad-01/referencias.html">
+            <i class="fas fa-bookmark" aria-hidden="true"></i><span>Referencias</span>
+          </a>
+          <a class="a-side-link" href="index.html" data-modal="glosario">
+            <i class="fas fa-book" aria-hidden="true"></i><span>Glosario</span>
+          </a>
+          <a class="a-side-link" href="index.html" data-modal="autores">
+            <i class="fas fa-users" aria-hidden="true"></i><span>Autores</span>
+          </a>
+        </nav>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="u-footer">
+    <div class="u-footer__inner">
+      <p>Logística y cadena de suministro · Polilibro académico · ESIT-IPN</p>
+      <p>Desarrollado con fines educativos · © 2026</p>
+    </div>
+  </footer>
+
+  <script>
+    // Muestra la ruta que falló, para que quien reporte el error sepa cuál citar.
+    (function () {
+      var salida = document.getElementById('rutaSolicitada');
+      if (salida) {
+        salida.textContent = location.pathname + location.search;
+        salida.hidden = false;
+      }
+
+      // "Volver atrás" solo sirve si hay historial previo dentro del sitio.
+      var boton = document.getElementById('botonRegresar');
+      if (boton) {
+        if (history.length > 1) {
+          boton.addEventListener('click', function () { history.back(); });
+        } else {
+          boton.hidden = true;
+        }
+      }
+    })();
+  </script>
+
+  <script src="assets/js/data-manager.js"></script>
+  <script src="assets/js/componentes.js"></script>
+</body>
+
+</html>
