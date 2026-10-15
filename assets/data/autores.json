@@ -10,10 +10,28 @@
     {
       "id": "docentes",
       "pestana": "Autores",
-      "titulo": "Autor Académico",
-      "descripcion": "Docente e investigador del Instituto Politécnico Nacional responsable de la autoría académica del polilibro.",
+      "titulo": "Autores Académicos",
+      "descripcion": "Docentes e investigadores del Instituto Politécnico Nacional responsables de la autoría académica del polilibro.",
       "tipo": "docente",
       "personas": [
+        {
+          "grado": "Prof. Ing.",
+          "nombre": "Javier Morales Rosas",
+          "correo": "jmoralesro@ipn.mx",
+          "foto": "assets/img/Javier_Morales_Rosas.png",
+          "semblanza": [
+            "El Prof. Ing. Javier Morales Rosas es un académico y especialista en ingeniería textil, educación tecnológica, gestión académica y vinculación industrial, con más de 23 años de trayectoria docente en la Escuela Superior de Ingeniería Textil (ESIT) del Instituto Politécnico Nacional (IPN). Se ha desempeñado como Subdirector Académico interino de la ESIT y Presidente del Colegio Nacional de Ingenieros Textiles, impulsando el fortalecimiento de la educación superior, la innovación tecnológica y la colaboración entre los sectores académico e industrial. Su experiencia comprende la enseñanza de mecánica de fluidos, diseño de mecanismos por computadora y programación, así como actividades de investigación relacionadas con la tecnología textil, la sustentabilidad ambiental y la innovación educativa. Asimismo, cuenta con más de 15 años de experiencia en gestión pública educativa, destacando su labor durante una década como responsable de Tecnologías de la Información, desde donde contribuyó al desarrollo de infraestructura tecnológica y a la mejora de los procesos institucionales. Su trayectoria refleja un compromiso con la formación de profesionales, el desarrollo tecnológico y el fortalecimiento de la competitividad de la industria textil mexicana."
+          ]
+        },
+        {
+          "grado": "Dr.",
+          "nombre": "Edgardo Adrián Franco Martínez",
+          "correo": "edfrancom@ipn.mx",
+          "foto": "assets/img/Edgardo_Adrian_Franco_Martinez.png",
+          "semblanza": [
+            "Doctor en Educación por el Centro Universitario de España y México, maestro en Ciencias de la Computación por el CINVESTAV-IPN e ingeniero en Sistemas Computacionales por la ESCOM-IPN, cuenta con experiencia en docencia, consultoría y gestión de sistemas. Desde 2010 se desempeña como profesor de Ciencias de la Computación en la ESCOM-IPN, donde ha dirigido más de 35 trabajos terminales y ocupado cargos de coordinación académica y jefaturas departamentales. Su trayectoria incluye la coordinación del club de algoritmia, la organización de concursos y la formación de más de 100 equipos para el International Collegiate Programming Contest (ICPC), con participación en finales mundiales y reconocimientos como entrenador en México y Centroamérica. Asimismo, ha sido mentor de proyectos estudiantiles premiados, entre ellos el ganador nacional de Imagine Cup 2015 en la categoría Ciudadanía Global, y coordina el proyecto Aprende ESCOM IPN desde 2022."
+          ]
+        },
         {
           "grado": "D. en E.",
           "nombre": "Israel Salas Ramírez",
