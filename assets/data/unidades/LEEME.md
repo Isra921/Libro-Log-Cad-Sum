@@ -55,6 +55,18 @@ El **contenido** del tema se escribe en el HTML; el **índice lateral** de la un
    - `<p class="t-lead">`: entradilla (idea central del tema).
    - `<section id="..." data-toc="1.2.1 Nombre">` con un `<h2>`: subtema.
    - `<figure class="t-figure">`: figura o simulador, con `<figcaption>`.
+     Sin `style="..."`; el tamaño se controla con `t-figure--narrow` (480 px) o `t-figure--small` (340 px):
+     ```html
+     <figure class="t-figure" data-ampliable>
+       <figcaption>
+         <strong class="t-figure__num">Figura 1</strong>
+         <span class="t-figure__titulo">Título de la figura</span>
+       </figcaption>
+       <div class="t-figure__media"><img src="../../../assets/img/archivo.jpg" alt="Descripción"></div>
+       <p class="t-figure__nota"><em>Nota.</em> Elaboración propia con base en …</p>
+     </figure>
+     ```
+     `data-ampliable` permite abrir la imagen en el visor con zoom; el número y la nota son opcionales.
    - `<aside class="t-callout t-callout--note">` / `t-callout--example`: nota o ejemplo.
    - `<div class="t-table"><table>…</table></div>`: tabla.
    - `<section class="t-video">`: video; su botón lleva `data-video="https://www.youtube.com/embed/..."` (vacío = "Próximamente").

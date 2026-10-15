@@ -282,6 +282,8 @@ a.t-index__link:hover { background: var(--primary-soft); color: var(--text-light
 .t-figure__media img { display: block; max-width: 100%; border-radius: 8px; }
 .t-figure--narrow .t-figure__media img,
 .t-figure--narrow .t-figure__open { max-width: min(100%, 480px); }
+.t-figure--small .t-figure__media img,
+.t-figure--small .t-figure__open { max-width: min(100%, 340px); }
 
 /* Figura ampliable (data-ampliable): visor-figuras.js envuelve la imagen en este botón */
 .t-figure__open {
