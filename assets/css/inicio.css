@@ -2432,3 +2432,14 @@ a:focus-visible, button:focus-visible, [tabindex]:focus-visible { outline: 3px s
     box-shadow: 0 2px 8px color-mix(in srgb, var(--primary) 35%, transparent);
 }
 
+
+/* "Instituto Politécnico Nacional" siempre en una sola línea, y la escuela
+   debajo, también en una línea y un poco más pequeña. En lugar de partir el texto, el tamaño se reduce
+   con el ancho disponible del encabezado (unidades cqi). */
+.hero-title-ipn,
+.hero-title-esit {
+    white-space: nowrap !important;
+    overflow-wrap: normal !important;
+}
+.hero-title-ipn  { font-size: min(calc(var(--hero-title-base) * 3), 6.8cqi); }
+.hero-title-esit { font-size: min(calc(var(--hero-title-base) * 2.5), 5.2cqi); }
