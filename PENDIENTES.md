@@ -6,14 +6,14 @@ Estado del proyecto y reparto de tareas del equipo: **Aranza, Diego y Uriblue**.
 - **Contenido temático:** los 25 temas de las 5 unidades.
 - **Evaluación final por unidad:** la actividad final de cada unidad (`actividad-final.html`) funge como la evaluación final y laboratorio práctico integrador.
 - **Estructura base:** Portada, programa académico oficial (modal), examen diagnóstico interactivo y autores.
-- **Actividades formativas por tema:** completas en las unidades **I, II, III y IV** (22 actividades con banco de preguntas al azar).
+- **Actividades formativas por tema:** completas en las **5 unidades** (25 actividades con banco de preguntas al azar).
 - **Publicación:** GitHub Pages ya está activado.
 
 ---
 
 ## ⏳ Lo que falta y aclaraciones clave
 
-1. **Actividades por tema (formativas):** Falta la **Unidad V (5.1 a 5.3)**. Las unidades I, II, III y IV ya están completas. **Nota:** No hay que diseñar una plantilla desde cero; se copia la plantilla estándar (ver `unidades/unidad-02/actividades/actividad-2-1.html` o `unidad-03/actividades/actividad-3-1.html`) y se documenta en `assets/data/unidades/LEEME.md`.
+1. **Actividades por tema (formativas):** ✅ Hecho: las 5 unidades ya tienen sus actividades. **Nota:** No hay que diseñar una plantilla desde cero; se copia la plantilla estándar (ver `unidades/unidad-02/actividades/actividad-2-1.html` o `unidad-03/actividades/actividad-3-1.html`) y se documenta en `assets/data/unidades/LEEME.md`.
 2. **Glosario pendiente:** El glosario actual no es el autorizado por el docente; queda pendiente sustituirlo o validarlo con los términos oficiales.
 3. **Limpieza de archivos del libro anterior (Algoritmos / ESCOM):** ✅ Hecho. El árbol de trabajo bajó de ~20 MB a 9 MB y `assets/img/` de 11 MB a 1.6 MB. **Pendiente aparte:** los ~62 MB corresponden al historial de Git (`.git/`), que no se reduce al borrar archivos; haría falta reescribir el historial (`git filter-repo` o BFG) y forzar el push, algo que debe acordar todo el equipo porque invalida los clones existentes.
 4. **Correcciones y detalles puntuales:** ✅ `404.html` ya es una página funcional con navegación de retorno. El contador de la portada y la ortografía de Bienvenida, Introducción y Metodología ya los corrigió Uriblue.
@@ -26,7 +26,7 @@ Estado del proyecto y reparto de tareas del equipo: **Aranza, Diego y Uriblue**.
 ### 🎨 Aranza — Unidades I y V + Diseño visual
 - [x] Copiar y adaptar la plantilla de actividades (tomada de `Libro-App-Com-Red`) para que sirva de referencia al equipo. *(La plantilla ya es la que usan las unidades II–IV — `actividad-plantilla.js` + `actividad.css` — y está documentada en `assets/data/unidades/LEEME.md`, sección "Crear o editar una actividad de aprendizaje".)*
 - [x] Crear/poblar las actividades formativas de los temas de la **Unidad I** (1.1 a 1.6). *(6 actividades con bancos de 10 preguntas en `assets/data/preguntas/unidad-01/`; registradas en `unidad-01.json` y en la ventana de Actividades de la portada.)*
-- [ ] Crear/poblar las actividades formativas de los temas de la **Unidad V** (5.1 a 5.3).
+- [x] Crear/poblar las actividades formativas de los temas de la **Unidad V** (5.1 a 5.3). *(3 actividades con bancos de 10 preguntas en `assets/data/preguntas/unidad-05/`; cada una cubre los temas del DOCX que agrupa su página: 5.1–5.5, 5.6–5.9 y 5.10–5.12.)*
 - [x] Unificar estilos de figuras e imágenes (uso de clase `t-figure`) y limpiar CSS residual. *(Las 12 figuras usan `t-figure` y se numeran solas por unidad (Figura 1.1, 1.2…). Los temas ya no tienen estilos en línea: tablas con `t-table` y tarjetas, listas y colores con clases de `tema.css`.)*
 - [x] *Resuelto:* las 5 variantes de `t-callout` ya están definidas en `tema.css` con su color. Antes: hay **5 variantes de `t-callout` que se usan pero no estaban definidas** en `assets/css/tema.css` (solo existen `--note` y `--example`), así que se ven sin color distintivo: `--alert` (temas 2.2, 3.2, 3.3), `--tip` (1.5, 3.2, 3.5, 4.4), `--info` y `--accent` (5.2, 5.3) e `--important` (4.4).
 - [x] Reemplazar las clases CSS con nombre `escom` por `esit`.

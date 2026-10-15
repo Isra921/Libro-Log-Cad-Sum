@@ -16,21 +16,21 @@
       "nombre": "Sistemas de información logística: ERP, MRP, WMS y TMS",
       "sintesis": "Automatización e integración de áreas de la empresa; roles clave de la planeación de materiales, gestión de bodegas y transporte, con tabla comparativa de sistemas.",
       "url": "unidades/unidad-05/temas/tema-05-01.html",
-      "actividad": { "nombre": "Actividad 5.1", "url": "" }
+      "actividad": { "nombre": "Actividad de aprendizaje 5.1", "url": "unidades/unidad-05/actividades/actividad-5-1.html" }
     },
     {
       "numero": "5.2",
       "nombre": "Tecnologías emergentes: RFID, IoT, Big Data e inteligencia artificial",
       "sintesis": "Captura automática por radiofrecuencia, sensores de tintorería y transporte inteligente, análisis predictivo de ventas y mantenimiento preventivo mediante algoritmos.",
       "url": "unidades/unidad-05/temas/tema-05-02.html",
-      "actividad": { "nombre": "Actividad 5.2", "url": "" }
+      "actividad": { "nombre": "Actividad de aprendizaje 5.2", "url": "unidades/unidad-05/actividades/actividad-5-2.html" }
     },
     {
       "numero": "5.3",
       "nombre": "Blockchain, redes de distribución e Industria 4.0",
       "sintesis": "Cadena de custodia y trazabilidad digital; esquemas de red directa, indirecta y omnicanal; producción flexible y manufactura inteligente en el ramo textil.",
       "url": "unidades/unidad-05/temas/tema-05-03.html",
-      "actividad": { "nombre": "Actividad 5.3", "url": "" }
+      "actividad": { "nombre": "Actividad de aprendizaje 5.3", "url": "unidades/unidad-05/actividades/actividad-5-3.html" }
     }
   ],
   "actividad_final": {

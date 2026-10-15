@@ -284,6 +284,33 @@
       "nota": "Formula proyectos de consultoría tecnológica e innovación omnicanal para empresas textiles.",
       "items": [
         {
+          "tag": "Actividad formativa",
+          "reactivos": "10 reactivos",
+          "tiempo": "10 min",
+          "titulo": "Actividad 5.1: Sistemas de información logística",
+          "descripcion": "Distingue qué hace cada sistema de información logística —ERP, MRP, WMS y TMS— y cuándo conviene usarlo.",
+          "url": "unidades/unidad-05/actividades/actividad-5-1.html",
+          "icono": "fa-server"
+        },
+        {
+          "tag": "Actividad formativa",
+          "reactivos": "10 reactivos",
+          "tiempo": "10 min",
+          "titulo": "Actividad 5.2: Tecnologías emergentes",
+          "descripcion": "Reconoce cómo RFID, IoT, Big Data e inteligencia artificial mejoran la operación logística textil.",
+          "url": "unidades/unidad-05/actividades/actividad-5-2.html",
+          "icono": "fa-microchip"
+        },
+        {
+          "tag": "Actividad formativa",
+          "reactivos": "10 reactivos",
+          "tiempo": "10 min",
+          "titulo": "Actividad 5.3: Blockchain, redes de distribución e Industria 4.0",
+          "descripcion": "Identifica los usos del blockchain, los tipos de red de distribución y los beneficios de la Industria 4.0.",
+          "url": "unidades/unidad-05/actividades/actividad-5-3.html",
+          "icono": "fa-network-wired"
+        },
+        {
           "tag": "Simulador y Laboratorio ESIT",
           "reactivos": "Simulador interactivo + 4 Fases",
           "tiempo": "40 min",
