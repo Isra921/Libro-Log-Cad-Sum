@@ -44,6 +44,11 @@
     "Aplica tecnologías de conectividad y análisis avanzado (IoT, RFID, IA y Big Data) para optimizar procesos en hilatura, teñido y confección.",
     "Modela redes de distribución modernas, evaluando canales directos, mayoristas y estrategias omnicanal adaptadas al mercado global de la moda."
   ],
+  "video": {
+    "titulo": "Tecnologías de la información y redes de distribución",
+    "url": "https://www.youtube.com/embed/LNu0dUdSU-Q",
+    "creditos": "Dr. Israel Salas Ramírez · Escuela Superior de Ingeniería Textil (ESIT - IPN)"
+  },
   "material_apoyo": [
     {
       "nombre": "Referencias oficiales de la Unidad V",

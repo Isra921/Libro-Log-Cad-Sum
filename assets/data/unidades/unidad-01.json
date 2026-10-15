@@ -83,6 +83,11 @@
     "Distingue con precisión la logística respecto a la cadena de suministro global y sus componentes esenciales.",
     "Aplica indicadores clave de desempeño (KPI) para evaluar la eficiencia operativa y proponer soluciones a fallas en la cadena de valor."
   ],
+  "video": {
+    "titulo": "Introducción a la Logística y Cadena de Suministro",
+    "url": "https://www.youtube.com/embed/E_NW0S4kFBY",
+    "creditos": "Dr. Israel Salas Ramírez · Escuela Superior de Ingeniería Textil (ESIT - IPN)"
+  },
   "material_apoyo": [
     {
       "nombre": "Referencias oficiales de la Unidad I",
