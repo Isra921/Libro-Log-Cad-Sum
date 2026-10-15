@@ -264,6 +264,57 @@ a.t-index__link:hover { background: var(--primary-soft); color: var(--text-light
   color: var(--text-heading);
 }
 .t-table tr:last-child td { border-bottom: 0; }
+.t-table td.t-key { font-weight: 600; }
+
+/* Colores de texto con significado (celdas, íconos de listas). Contraste AA sobre fondo claro. */
+.t-article .t-ok     { color: #15803d; } /* positivo / verde */
+.t-article .t-bad    { color: #dc2626; } /* negativo / rojo */
+.t-article .t-warn   { color: #b45309; } /* precaución / ámbar */
+.t-article .t-info   { color: #2563eb; } /* informativo / azul */
+.t-article .t-accent { color: var(--accent); }
+
+/* Lista con ícono al inicio de cada punto: <ul class="t-icon-list"><li><i class="fas …"></i> Texto</li></ul> */
+.t-icon-list { list-style: none; padding-left: 0; line-height: 1.8; }
+.t-icon-list li > i:first-child { margin-right: 8px; }
+.t-icon-list i { color: var(--accent); } /* .t-ok, .t-bad… lo cambian */
+
+/* Frase destacada centrada bajo una figura o esquema */
+.t-destacado { text-align: center; font-weight: 500; color: var(--accent); }
+
+/* Tarjetas de contenido: <div class="t-grid"><div class="t-card">…</div></div>
+   - t-grid: columnas automáticas (mín. 280 px); t-grid--sm: mín. 220 px. t-stack: una debajo de otra.
+   - t-card--top / t-card--side: barra de color arriba o a la izquierda.
+   - t-card--ok / --bad / --warn / --info: cambian el color de la barra y del título. */
+.t-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+  gap: 16px;
+  margin: 24px 0;
+}
+.t-grid--sm { grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); }
+.t-stack { display: flex; flex-direction: column; gap: 14px; margin: 24px 0; }
+.t-card {
+  --tone: var(--accent);
+  padding: 18px;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  background: var(--surface);
+}
+.t-card > h3:first-child,
+.t-card > h4:first-child { margin: 0 0 8px; color: var(--tone); }
+.t-card p { margin: 0 0 8px; }
+.t-card > :last-child { margin-bottom: 0; }
+.t-card--top  { border-top: 4px solid var(--tone); }
+.t-card--side { border: 0; border-left: 4px solid var(--tone); border-radius: 6px; }
+.t-card--ok   { --tone: #15803d; }
+.t-card--bad  { --tone: #dc2626; }
+.t-card--warn { --tone: #b45309; }
+.t-card--info { --tone: #2563eb; }
+.t-card__ejemplo { font-size: .9rem; color: var(--text-muted-light); }
+/* En columnas angostas el texto justificado abre huecos: tarjetas y listas con ícono van a la izquierda */
+.u-page .t-card p,
+.u-page .t-card li,
+.u-page .t-icon-list li { text-align: left; hyphens: manual; }
 
 /* Figura, diagrama o simulador */
 .t-figure {

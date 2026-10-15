@@ -70,26 +70,26 @@
               Método de gestión de inventarios que divide los productos de un almacén en tres categorías (A, B y C). Su base se establece en el principio de Pareto (80/20).
             </p>
 
-            <div class="table-responsive" style="overflow-x: auto; margin: 1.5rem 0;">
-              <table style="width: 100%; border-collapse: collapse; text-align: left;">
+            <div class="t-table">
+              <table>
                 <thead>
-                  <tr style="background: var(--surface-hover); border-bottom: 2px solid var(--accent);">
-                    <th style="padding: 14px 18px; width: 30%;">Categoría</th>
-                    <th style="padding: 14px 18px; width: 70%;">Participación</th>
+                  <tr>
+                    <th>Categoría</th>
+                    <th>Participación</th>
                   </tr>
                 </thead>
                 <tbody>
-                  <tr style="border-bottom: 1px solid var(--border-color);">
-                    <td style="padding: 12px 18px; font-weight: 700; color: #dc2626;">A</td>
-                    <td style="padding: 12px 18px;">Productos de mayor valor (≈20 % de artículos, ≈80 % del valor total inmovilizado)</td>
-                  </tr>
-                  <tr style="border-bottom: 1px solid var(--border-color);">
-                    <td style="padding: 12px 18px; font-weight: 700; color: #b45309;">B</td>
-                    <td style="padding: 12px 18px;">Valor intermedio (control moderado de existencias)</td>
+                  <tr>
+                    <td class="t-key t-bad">A</td>
+                    <td>Productos de mayor valor (≈20 % de artículos, ≈80 % del valor total inmovilizado)</td>
                   </tr>
                   <tr>
-                    <td style="padding: 12px 18px; font-weight: 700; color: #15803d;">C</td>
-                    <td style="padding: 12px 18px;">Gran cantidad de artículos con bajo valor unitario</td>
+                    <td class="t-key t-warn">B</td>
+                    <td>Valor intermedio (control moderado de existencias)</td>
+                  </tr>
+                  <tr>
+                    <td class="t-key t-ok">C</td>
+                    <td>Gran cantidad de artículos con bajo valor unitario</td>
                   </tr>
                 </tbody>
               </table>
@@ -99,23 +99,23 @@
 
           <section id="ejemplo-textil-abc" data-toc="Ejemplo de aplicación textil ABC">
             <h2>Ejemplo textil</h2>
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin: 1.5rem 0;">
-              <div style="background: var(--surface); border: 1px solid var(--border-color); border-top: 4px solid #dc2626; border-radius: 8px; padding: 16px;">
-                <h3 style="margin-top: 0; color: #dc2626;">Categoría A</h3>
+            <div class="t-grid t-grid--sm">
+              <div class="t-card t-card--top t-card--bad">
+                <h3>Categoría A</h3>
                 <ul>
                   <li>Colorantes especiales.</li>
                   <li>Telas importadas.</li>
                 </ul>
               </div>
-              <div style="background: var(--surface); border: 1px solid var(--border-color); border-top: 4px solid #d97706; border-radius: 8px; padding: 16px;">
-                <h3 style="margin-top: 0; color: #b45309;">Categoría B</h3>
+              <div class="t-card t-card--top t-card--warn">
+                <h3>Categoría B</h3>
                 <ul>
                   <li>Botones.</li>
                   <li>Cierres.</li>
                 </ul>
               </div>
-              <div style="background: var(--surface); border: 1px solid var(--border-color); border-top: 4px solid #16a34a; border-radius: 8px; padding: 16px;">
-                <h3 style="margin-top: 0; color: #15803d;">Categoría C</h3>
+              <div class="t-card t-card--top t-card--ok">
+                <h3>Categoría C</h3>
                 <ul>
                   <li>Bolsas.</li>
                   <li>Etiquetas.</li>

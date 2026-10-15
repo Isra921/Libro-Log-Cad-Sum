@@ -68,6 +68,11 @@ El **contenido** del tema se escribe en el HTML; el **índice lateral** de la un
      - `data-ampliable` permite abrir la imagen en el visor con zoom. La nota (`t-figure__nota`) es opcional.
    - `<aside class="t-callout t-callout--note">` / `t-callout--example`: nota o ejemplo.
    - `<div class="t-table"><table>…</table></div>`: tabla.
+     En una celda: `class="t-key"` la pone en negritas; `t-ok`, `t-bad`, `t-warn`, `t-info` o `t-accent` le dan color.
+   - `<div class="t-grid">` con `<div class="t-card">` adentro: tarjetas en columnas (`t-grid--sm` para columnas más angostas,
+     `t-stack` para apilarlas). Variantes: `t-card--top` / `t-card--side` (barra de color) y `t-card--ok` / `--bad` / `--warn` / `--info`.
+   - `<ul class="t-icon-list">`: lista con un ícono al inicio de cada punto (el ícono puede llevar `t-ok`, `t-bad`…).
+   - **No uses `style="..."`**: si hace falta un estilo nuevo, agrégalo como clase en `assets/css/tema.css`.
    - `<section class="t-video">`: video; su botón lleva `data-video="https://www.youtube.com/embed/..."` (vacío = "Próximamente").
 5. Todo elemento con `id` y `data-toc="Texto"` aparece en **"En esta página"**.
 6. En el JSON de la unidad pon la `url` del tema (ej. `"unidades/unidad-01/temas/tema-01-02.html"`) para desbloquearlo.
