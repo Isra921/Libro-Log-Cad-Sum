@@ -5,10 +5,10 @@
 // script solo dibuja lo que se repite en todos los temas:
 //   - Desde assets/data/unidades/unidad-XX.json: índice lateral de la unidad
 //     y navegación "Tema anterior" / siguiente paso.
-//   - Desde el propio HTML: "En esta página" (elementos con data-toc),
+//   - Desde el propio HTML: "En esta página" (elementos con data-toc), número de las figuras,
 //     progreso de lectura y botones de video (data-video).
 //   - Desde referencias.json de la unidad + referencias-config.json:
-//     número y nota de las figuras (data-fuentes), citas en el texto (data-citas)
+//     nota de las figuras (data-fuentes), citas en el texto (data-citas)
 //     y tarjeta del video del tema (data-referencia).
 // Si el JSON no carga, el tema se sigue leyendo con los enlaces de respaldo del HTML.
 // Depende de: data-manager.js, unidades-ui.js
@@ -214,17 +214,20 @@
         });
     }
 
-    // ---------- Figuras: número, título y nota (APA 7) ----------
-    // Cada figura del tema se marca así (las fuentes son los "id" de referencias.json):
-    //   <figure class="t-figure" data-fuentes="kotler-2017 middleton-2009">
-    //     <figcaption>Título de la figura</figcaption>
+    // ---------- Figuras: número automático y nota (APA 7) ----------
+    // Cada figura del tema se marca así:
+    //   <figure class="t-figure" data-ampliable>
+    //     <figcaption><span class="t-figure__titulo">Título de la figura</span></figcaption>
     //     <div class="t-figure__media"><img …></div>
     //   </figure>
-    // Arriba queda "Figura 1.1" + título en cursiva; abajo, "Nota. Elaboración propia
-    // con base en Kotler et al. (2017) y Middleton et al. (2009)."
-    // La numeración es continua en la unidad: se cuentan las figuras de los temas
-    // anteriores (en el orden de la lista "temas" del JSON de la unidad).
+    // El número ("Figura 1.1", "Figura 1.2"…) se escribe solo arriba del título. La numeración
+    // es continua en la unidad: se cuentan las figuras de los temas anteriores (en el orden de
+    // la lista "temas" del JSON de la unidad). Para que una figura no lleve número: data-sin-numero.
+    // Opcional: data-fuentes="id1 id2" (ids de referencias.json) agrega abajo la nota
+    // "Nota. Elaboración propia con base en …" cuando la unidad tenga su archivo de referencias.
 
+    const ETIQUETA_FIGURA = 'Figura';
+    const SELECTOR_NUMERADA = 'figure.t-figure:not([data-sin-numero])';
     const SELECTOR_FIGURA = 'figure.t-figure[data-fuentes]';
 
     /** Une una lista con comas y el conector final: "A, B y C". */
@@ -233,16 +236,42 @@
         return `${lista.slice(0, -1).join(', ')} ${conector} ${lista[lista.length - 1]}`;
     }
 
-    /** Cuenta las figuras de los temas anteriores al actual (null si alguno no se pudo leer). */
+    /** Cuenta las figuras numeradas de los temas anteriores al actual (falla si alguno no se pudo leer). */
     async function figurasPrevias(temas, temaActual) {
         const anteriores = temas.slice(0, temas.indexOf(temaActual)).filter(t => t.url);
         const conteos = await Promise.all(anteriores.map(async t => {
             const respuesta = await fetch(DataManager.ruta(t.url));
             if (!respuesta.ok) throw new Error(`No se pudo leer ${t.url} para numerar las figuras.`);
             const html = new DOMParser().parseFromString(await respuesta.text(), 'text/html');
-            return html.querySelectorAll(SELECTOR_FIGURA).length;
+            return html.querySelectorAll(`.t-article ${SELECTOR_NUMERADA}`).length;
         }));
         return conteos.reduce((total, n) => total + n, 0);
+    }
+
+    /** Escribe "Figura <unidad>.<n>" en el pie de cada figura del tema. */
+    async function numerarFiguras(unidad, temaActual) {
+        const figuras = [...document.querySelectorAll(`.t-article ${SELECTOR_NUMERADA}`)];
+        if (!figuras.length) return;
+
+        const previas = await figurasPrevias(UI.lista(unidad.temas), temaActual);
+        figuras.forEach((figura, indice) => {
+            let pie = figura.querySelector('figcaption');
+            if (!pie) {
+                pie = document.createElement('figcaption');
+                figura.prepend(pie);
+            }
+            if (!pie.querySelector('.t-figure__titulo') && pie.textContent.trim()) {
+                const titulo = document.createElement('span');
+                titulo.className = 't-figure__titulo';
+                titulo.append(...pie.childNodes);
+                pie.append(titulo);
+            }
+            pie.querySelector('.t-figure__num')?.remove();
+            const numero = document.createElement('strong');
+            numero.className = 't-figure__num';
+            numero.textContent = `${ETIQUETA_FIGURA} ${unidad.numero}.${previas + indice + 1}`;
+            pie.prepend(numero);
+        });
     }
 
     /** Busca una referencia por id; avisa en consola si no existe. */
@@ -257,36 +286,15 @@
         return atributo.split(/\s+/).filter(Boolean);
     }
 
-    async function prepararFiguras(unidad, temaActual, config, referencias) {
-        const figuras = [...document.querySelectorAll(`.t-article ${SELECTOR_FIGURA}`)];
-        if (!figuras.length) return;
-
-        const previas = await figurasPrevias(UI.lista(unidad.temas), temaActual).catch(error => {
-            console.error(error);
-            return null; // sin conteo confiable no se numera, pero sí se pone la nota
-        });
+    /** Nota APA de las figuras con data-fuentes (el número lo pone numerarFiguras). */
+    function prepararFiguras(config, referencias) {
         const notas = config.notas;
-
-        figuras.forEach((figura, indice) => {
-            const pie = figura.querySelector('figcaption');
-            if (pie) {
-                const titulo = document.createElement('span');
-                titulo.className = 't-figure__titulo';
-                titulo.textContent = pie.textContent.trim();
-                pie.replaceChildren(titulo);
-                if (previas !== null) {
-                    const numero = document.createElement('strong');
-                    numero.className = 't-figure__num';
-                    numero.textContent = `${notas.figura} ${unidad.numero}.${previas + indice + 1}`;
-                    pie.prepend(numero);
-                }
-            }
-
+        document.querySelectorAll(`.t-article ${SELECTOR_FIGURA}`).forEach(figura => {
             const citas = ids(figura.dataset.fuentes)
                 .map(id => buscarReferencia(referencias, id, 'Figura'))
                 .filter(Boolean)
                 .map(ref => ref.cita);
-            if (!citas.length) return;
+            if (!citas.length || figura.querySelector('.t-figure__nota')) return;
 
             const nota = document.createElement('p');
             nota.className = 't-figure__nota';
@@ -427,7 +435,7 @@
         ]);
         prepararCitas(config, datos.referencias, unidad.id, tema.numero);
         prepararVideos(config, datos.referencias, tema, DataManager.urlReferencias(unidad.id, tema.numero));
-        await prepararFiguras(unidad, tema, config, datos.referencias);
+        prepararFiguras(config, datos.referencias);
     }
 
     // ---------- Arranque ----------
@@ -458,6 +466,7 @@
                 iniciarIndiceDesplegable(contenedorIndice);
             }
             if (contenedorNavegacion) contenedorNavegacion.innerHTML = navegacion(unidad, tema);
+            await numerarFiguras(unidad, tema).catch(error => console.error(error)); // sin conteo confiable no se numera
             await prepararReferencias(unidad, tema);
         } catch (error) {
             // Se conservan los enlaces de respaldo escritos en el HTML.

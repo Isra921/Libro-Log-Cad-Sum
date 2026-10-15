@@ -58,15 +58,14 @@ El **contenido** del tema se escribe en el HTML; el **índice lateral** de la un
      Sin `style="..."`; el tamaño se controla con `t-figure--narrow` (480 px) o `t-figure--small` (340 px):
      ```html
      <figure class="t-figure" data-ampliable>
-       <figcaption>
-         <strong class="t-figure__num">Figura 1</strong>
-         <span class="t-figure__titulo">Título de la figura</span>
-       </figcaption>
+       <figcaption><span class="t-figure__titulo">Título de la figura</span></figcaption>
        <div class="t-figure__media"><img src="../../../assets/img/archivo.jpg" alt="Descripción"></div>
        <p class="t-figure__nota"><em>Nota.</em> Elaboración propia con base en …</p>
      </figure>
      ```
-     `data-ampliable` permite abrir la imagen en el visor con zoom; el número y la nota son opcionales.
+     - El número (**Figura 1.1, 1.2…**) se pone solo: `tema-plantilla.js` cuenta las figuras de los temas
+       anteriores de la unidad. **No lo escribas a mano.** Para una figura sin número: `data-sin-numero`.
+     - `data-ampliable` permite abrir la imagen en el visor con zoom. La nota (`t-figure__nota`) es opcional.
    - `<aside class="t-callout t-callout--note">` / `t-callout--example`: nota o ejemplo.
    - `<div class="t-table"><table>…</table></div>`: tabla.
    - `<section class="t-video">`: video; su botón lleva `data-video="https://www.youtube.com/embed/..."` (vacío = "Próximamente").
